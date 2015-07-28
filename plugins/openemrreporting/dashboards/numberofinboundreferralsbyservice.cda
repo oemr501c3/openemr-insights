@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="providers_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="false" cacheDuration="3600" connection="providers_ds"
+               id="providers_ds"
+               type="sql">
+      <Columns/>
+      <Parameters/>
+      <Query>select '' as referred_by, '- All Providers' as name
+union all
+select 
+    distinct a.referred_by,
+    concat_ws(' ', b.first_name, b.last_name) as name
+    
+from dim_referral as a
+
+join dim_user as b on (a.referred_by = b.user_id)
+
+order by 2</Query>
+   </DataAccess>
+</CDADescriptor>

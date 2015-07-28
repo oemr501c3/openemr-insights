@@ -1,0 +1,55 @@
+In the `test` database, run the following:
+
+#——————————————————————————
+# Run this statement to get a client_key to test
+#——————————————————————————
+
+#query fact table
+
+select distinct client_key from fact_client_services
+
+#——————————————————————————
+# Take the client_key from "#query fact table”  and plug 
+# it into the subquery where a.client_key = _integer_, 
+# then run the query
+#——————————————————————————
+
+#query fact, dim_client and dim_service tables
+
+select 
+	b.client_id, a.encounter_id, c.billing_code, c.code_text
+
+from fact_client_services as a
+
+left join dim_client as b on (a.client_key = b.client_key)
+left join dim_service as c on (c.service_key = a.service_key)
+
+where b.client_id = 
+(
+	select distinct client_id
+
+	from fact_client_services as a
+
+	join dim_client as b on (b.client_key = a.client_key)
+
+	where a.client_key = 31
+)
+
+order by c.billing_code
+
+In the `ippf_test3` database, run the following:
+
+#——————————————————————————
+# Use the client_id returned in 
+# "#query fact, dim_client and dim_service tables”
+# plug it in to the query below where b.pid = _integer_
+#——————————————————————————
+
+select 
+	b.pid, b.encounter, b.code, b.code_text#, c.code, c.code_text
+	
+from billing b 
+
+left join codes as c on (b.code = c.code) where b.pid = 45
+
+order by b.code

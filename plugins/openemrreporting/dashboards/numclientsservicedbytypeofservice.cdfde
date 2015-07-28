@@ -1,0 +1,968 @@
+{
+ "layout": {
+  "title": "numclientsservicedbytypeofservice",
+  "rows": [
+   {
+    "id": "7b88c080-92f1-b9fd-ccd5-e39062ac569f",
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "initialize_dates",
+      "type": "Id"
+     },
+     {
+      "name": "resourceFile",
+      "value": "${system:../static/custom/js/common.js}",
+      "type": "ResourceFile"
+     },
+     {
+      "name": "resourceType",
+      "value": "Javascript",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "b4617da9-ae54-7cdd-cb58-972896dac8bf",
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "css_file",
+      "type": "Id"
+     },
+     {
+      "name": "resourceFile",
+      "value": "${system:../static/custom/css/common.css}",
+      "type": "ResourceFile"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "cef02e0c-003f-9db6-3c07-dba0a85c8c18",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "css_snippet",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": "\n#date_range_div {\n    width:230px;\n    margin:0 auto 0 auto;\n}\n\n#date_range_div input {\n    background-color:#f9f9f9 !important;\n    border:1px solid #e1e1e1 !important;\n    text-align:center;\n}\n ",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "1d0c55b9-d232-9ad8-ce73-49bf23effb1f",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "de3bd897-302d-f871-873f-fd240c59a34e",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "1d0c55b9-d232-9ad8-ce73-49bf23effb1f",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div id=\"home\">\n    <a href=\"home\">home</a>\n</div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "05f14984-78ac-81ab-b070-0e97996943da",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "b2d4b956-4572-21df-c1dc-81cd3fbadfab",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "05f14984-78ac-81ab-b070-0e97996943da",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h1>Number of Clients Served and Services by Type of Service</h1> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "d8ea178d-43e8-1979-48c8-12e2e9ed6310",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "date_range_div",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "293c7967-9c86-9a9f-dae3-101ff1c7d1e5",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "btable_div",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "btable",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e77be205-476f-1914-207f-901daf0ccfba",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "export_div",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "export",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "aa2360da-580a-3ccb-6e77-ed0ab596a9ed",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "636de8ec-d124-7b95-60c5-701acad50cf6",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "no_results_found_div",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "037cdd37-13cf-281d-4383-f4d21464ba27",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "636de8ec-d124-7b95-60c5-701acad50cf6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "No result returned with the provided inputs. ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": [
+   {
+    "id": "COMMUNITYCOMPONENTS",
+    "name": "Community Contributions",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Community Contributions",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "68fe7290-75d6-2007-3482-fc30ecd38743",
+    "type": "ComponentsBTableComponent",
+    "typeDesc": "BTable (by Biz Tech)",
+    "parent": "COMMUNITYCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "btable_comp",
+      "type": "Id"
+     },
+     {
+      "name": "expandContainerObject",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "pivotSubTotals",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "pivotGrandTotal",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "file",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "tableSettingsFromFile",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "catalog",
+      "value": "mondrian:/OpenEMR",
+      "type": "MondrianCatalog"
+     },
+     {
+      "name": "jndi",
+      "value": "test",
+      "type": "Jndi"
+     },
+     {
+      "name": "cube",
+      "value": "Client Services",
+      "type": "String"
+     },
+     {
+      "name": "dimensions",
+      "value": "[[\"[Billing Code].[Service - Code]\",\"\"],[\"[Billing Code].[Service - Description]\",\"\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "measures",
+      "value": "[[\"[Measures].[Clients]\",\"\"],[\"[Measures].[Services Count]\",\"\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "pivotDimensions",
+      "value": "[[\"[Year].[Year]\",\"\"],[\"[Client.Gender].[Gender]\",\"\"],[\"[Client.Age Category (0-24, 25+)].[Age Category (0-24, 25+)]\",\"\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "filters",
+      "value": "[[\"[Date].[Date]\",\"between:date_range_param\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "orderBy",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "measuresOnColumns",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "nonEmptyRows",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "nonEmptyColumns",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "grandTotal",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "subTotals",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "fixedHeader",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "showFilters",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "hideSpans",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:date_range_param}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "expandParameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "expandOnClick",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "drawCallback",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:btable_div}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "\nfunction f() {\n    \n    this.orderBy= [[\"D\", \"[Measures].[Clients]::DESC\"]];\n\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "function f( object ) {\n \n    toggleBTableDiv( object.queryInfo.totalRows, '#btable_div, #export_div' );\n    \n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     },
+     {
+      "name": "extraOptions",
+      "value": "[]",
+      "type": "OptionArray"
+     },
+     {
+      "name": "clickAction",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "SELECTORS",
+    "name": "Selects",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Selects",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "b6be0457-f8eb-7f40-3ca7-6fc2376bcbb4",
+    "type": "ComponentsDateRangeInput",
+    "typeDesc": "Date range input Component",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "date_range_comp",
+      "type": "Id"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:start_date_param}','${p:end_date_param}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "earliestDate",
+      "value": "-1years",
+      "type": "String"
+     },
+     {
+      "name": "latestDate",
+      "value": "+1years",
+      "type": "String"
+     },
+     {
+      "name": "leftOffset",
+      "value": 0,
+      "type": "Integer"
+     },
+     {
+      "name": "topOffset",
+      "value": 15,
+      "type": "Integer"
+     },
+     {
+      "name": "parameter",
+      "value": "['${p:start_date_param}','${p:end_date_param}']",
+      "type": "ArrayParameter"
+     },
+     {
+      "name": "singleInput",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "inputSeparator",
+      "value": "&nbsp;&nbsp;To:&nbsp;",
+      "type": "String"
+     },
+     {
+      "name": "canClickOutsidePopup",
+      "value": false,
+      "type": "Boolean"
+     },
+     {
+      "name": "priority",
+      "value": "1",
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:date_range_div}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "onOpenEvent",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "onCloseEvent",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "function(){\n    \n    fireDateRange();\n    \n    console.log(date_range_param)\n    \n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "GENERIC",
+    "name": "Generic",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Generic",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "d020e3bb-60e2-a321-1184-6c80a1627262",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "start_date_param",
+      "type": "Id"
+     },
+     {
+      "name": "propertyValue",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "a1c0a608-4e21-efcc-8614-9c707bd25430",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "end_date_param",
+      "type": "Id"
+     },
+     {
+      "name": "propertyValue",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "e80ad85d-06ef-25e3-51f2-354292db70d4",
+    "type": "ComponentsJavascriptParameter",
+    "typeDesc": "Custom parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "date_range_param",
+      "type": "Id"
+     },
+     {
+      "name": "javaScript",
+      "value": "[start_date_param,end_date_param]; ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "OTHERCOMPONENTS",
+    "name": "Others",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Others",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "dc5c2426-79d7-d58b-98a3-464d28bca6d6",
+    "type": "ComponentsexportButton",
+    "typeDesc": "Export Button Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "export_comp",
+      "type": "Id"
+     },
+     {
+      "name": "label",
+      "value": "Export This Dashboard",
+      "type": "String"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "componentName",
+      "value": "btable_comp",
+      "type": "String"
+     },
+     {
+      "name": "outputType",
+      "value": "xls",
+      "type": "String"
+     },
+     {
+      "name": "htmlObject",
+      "value": "export_div",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   }
+  ]
+ },
+ "datasources": {
+  "rows": []
+ },
+ "filename": "/system/openemrreporting/dashboards/numclientsservicedbytypeofservice.cdfde"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="get_providers_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="charting_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="charting_by_month_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="false" cacheDuration="3600"
+               connection="get_providers_ds"
+               id="get_providers_ds"
+               type="sql">
+      <Columns/>
+      <Parameters/>
+      <Query>select '' as provider_id, '' as name 
+union all
+select 
+    distinct a.provider_id,
+    concat_ws(' ', b.first_name, b.last_name) as name
+    
+from fact_client_services as a
+
+join dim_user as b on (a.provider_id = b.user_id)
+
+order by 2</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="false" cacheDuration="3600" connection="charting_ds"
+               id="charting_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-10-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-10-31" name="end_date_param" type="String"/>
+         <Parameter default="1" name="providers_param" type="Integer"/>
+      </Parameters>
+      <Query>select 
+    e.age_category_2, e.gender, count(d.code) as "Services Count", count(distinct a.client_key) as "Clients"
+
+from fact_client_services as a
+
+join dim_service as b on (b.service_key = a.service_key)
+join dim_date as c on (c.date_key = a.date_key)
+join dim_code as d on (d.code_key = a.code_key)
+join dim_client_vw as e on (e.client_key = a.client_key)
+
+where 
+    c.date between ${start_date_param} and ${end_date_param}
+    and
+    provider_id = ${providers_param}
+
+group by e.age_category_2, e.gender</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="false" cacheDuration="3600"
+               connection="charting_by_month_ds"
+               id="charting_by_month_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-10-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-10-31" name="end_date_param" type="String"/>
+         <Parameter default="1" name="providers_param" type="Integer"/>
+      </Parameters>
+      <Query>select 
+    concat(c.month_long_label_eng, ' (', c.year, ')') as "Date", count(distinct a.encounter_id) as "Visits"
+    
+from fact_client_services as a
+
+join dim_service as b on (b.service_key = a.service_key)
+join dim_date as c on (c.date_key = a.date_key)
+join dim_code as d on (d.code_key = a.code_key)
+join dim_client_vw as e on (e.client_key = a.client_key)
+
+where 
+    c.date between ${start_date_param} and ${end_date_param}
+    and
+    provider_id = ${providers_param}
+
+group by c.year, c.month_long_label_eng, e.age_category_2, e.gender
+
+order by c.year, c.month</Query>
+   </DataAccess>
+</CDADescriptor>

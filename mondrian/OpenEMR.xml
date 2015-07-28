@@ -1,0 +1,1408 @@
+<Schema name="OpenEMR">
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Client">
+    <Hierarchy name="Gender" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client_vw">
+      </Table>
+      <Level name="Gender" visible="true" column="gender" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Age" visible="true" hasAll="true" allMemberName="0-99" primaryKey="client_key">
+      <Table name="dim_client_vw">
+      </Table>
+      <Level name="Age Category" visible="true" column="age_category_1" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Age Category (0-24, 25+)" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client_vw">
+      </Table>
+      <Level name="Age Category (0-24, 25+)" visible="true" column="age_category_2" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Age Category (0-9 thru 35+)" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client_vw">
+      </Table>
+      <Level name="Age Category (0-9 thru 35+)" visible="true" column="age_category_3" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Postal Code" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Postal Code" visible="true" column="postal_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="City" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="City" visible="true" column="city" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="State" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="State" visible="true" column="state" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Country Code" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Country Code" visible="true" column="country_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Occupation" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Occupation" visible="true" column="occupation" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Marital Status" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Marital Status" visible="true" column="marital_status" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Ethnicity" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Ethnicity" visible="true" column="ethnicity" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Living Children" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Living Children" visible="true" column="living_children" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Family Size" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Family Size" visible="true" column="family_size" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Monthly Income" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Monthly Income" visible="true" column="monthly_income" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Client ID" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Client ID" visible="true" column="client_id" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Userlist1" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Userlist1" visible="true" column="userlist1" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Education" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Education" visible="true" column="education" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Userlist3" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Userlist3" visible="true" column="userlist3" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Userlist4" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Userlist4" visible="true" column="userlist4" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Religion" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Religion" visible="true" column="religion" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Userlist6" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Userlist6" visible="true" column="userlist6" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Residence" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Residence" visible="true" column="residence" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Referral Source" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Referral Source" visible="true" column="referral_source" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Price Level" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Price Level" visible="true" column="price_level" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Registration Date" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Registration Date" visible="true" column="registration_date" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Contraceptive Date" visible="true" hasAll="true" primaryKey="client_key">
+      <Table name="dim_client">
+      </Table>
+      <Level name="Contraceptive Date" visible="true" column="contraceptive_date" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="Date">
+    <Hierarchy name="Date" visible="true" hasAll="true" primaryKey="date_key">
+      <Table name="dim_date">
+      </Table>
+      <Level name="Year" visible="true" column="year" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+      <Level name="Month" visible="true" column="month_long_label_eng" ordinalColumn="month" type="String" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy].[MMMM]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+      <Level name="Date" visible="true" column="date" ordinalColumn="date" type="String" uniqueMembers="true" levelType="TimeMonths" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy].[MMMM].[yyyy-MM-dd]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Facility">
+    <Hierarchy name="Facility" visible="true" hasAll="true" primaryKey="facility_key">
+      <Table name="dim_facility">
+      </Table>
+      <Level name="Facility" visible="true" column="facility_name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Facility Key" visible="true" column="facility_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Service Code">
+    <Hierarchy name="Service Code" visible="true" hasAll="true" primaryKey="service_key">
+      <Table name="dim_service">
+      </Table>
+      <Level name="Service - Family" visible="true" column="family_desc" ordinalColumn="family_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Sub Family" visible="true" column="sub_family_desc" ordinalColumn="sub_family_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Type Group" visible="true" column="type_group_desc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Type" visible="true" column="type_desc" ordinalColumn="type_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Description" visible="true" column="code_text" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Code" visible="true" column="billing_code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Reporting">
+    <Hierarchy name="Reporting" visible="true" hasAll="true" primaryKey="service_key">
+      <Table name="dim_service">
+      </Table>
+      <Level name="Service - Type Group" visible="true" column="type_group_desc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Referral">
+    <Hierarchy name="Client ID" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Client ID" visible="true" column="client_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Referral Date" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Referral Date" visible="true" column="referral_date" type="Date" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Referred By" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Referred By" visible="true" column="referred_by" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Referred To" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Referred To" visible="true" table="dim_referral" column="referred_to" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Reply Date" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Reply Date" visible="true" column="reply_date" type="Date" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="External Referral" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="External Referral" visible="true" column="external_referral" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Requested Service" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Requested Service" visible="true" column="requested_service" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Create Date" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_referral">
+      </Table>
+      <Level name="Create Date" visible="true" column="create_date" type="Date" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Billing Code">
+    <Hierarchy name="Billing Code" visible="true" hasAll="true" primaryKey="code_key">
+      <Table name="dim_code">
+      </Table>
+      <Level name="Service - Type Group" visible="true" column="code_type" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Code" visible="true" column="code" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Service - Description" visible="true" column="code_text" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="Year">
+    <Hierarchy name="Year" visible="true" hasAll="true" primaryKey="date_key">
+      <Table name="dim_date">
+      </Table>
+      <Level name="Year" visible="true" column="year" type="Integer" uniqueMembers="false" levelType="TimeYears" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+      <Level name="Month" visible="true" column="month_long_label_eng" ordinalColumn="month" type="String" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy].[MMMM]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Year Month" visible="true" hasAll="true" primaryKey="date_key">
+      <Table name="dim_date">
+      </Table>
+      <Level name="Year Month" visible="true" column="date" type="Date" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        <Annotations>
+          <Annotation name="AnalyzerDateFormat">
+            <![CDATA[[yyyy].[M]]]>
+          </Annotation>
+        </Annotations>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="false" highCardinality="false" name="Visits">
+    <Hierarchy name="Encounter ID" visible="false" hasAll="true">
+      <Table name="fact_client_services">
+      </Table>
+      <Level name="Encounter ID" visible="false" column="encounter_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Provider">
+    <Hierarchy name="Provider" visible="true" hasAll="true">
+      <Table name="fact_client_services">
+      </Table>
+      <Level name="Provider" visible="true" column="provider_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="User">
+    <Hierarchy name="Name" visible="true" hasAll="true" primaryKey="referral_key">
+      <Table name="dim_user_vw">
+      </Table>
+      <Level name="Name" visible="true" column="name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Billing">
+    <Hierarchy name="Billing Service Fee" visible="true" hasAll="true" primaryKey="fee">
+      <Table name="fact_client_services">
+      </Table>
+      <Level name="Billing Service Fee" visible="true" column="fee" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Billing Service Unit" visible="true" hasAll="true" primaryKey="units">
+      <Table name="fact_client_services">
+      </Table>
+      <Level name="Billing Service Unit" visible="true" column="units" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Product">
+    <Hierarchy name="Product ID" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product ID" visible="true" column="product_id" type="Integer" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Description" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Description" visible="true" column="product_name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product NDC Number" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product NDC Number" visible="true" column="ndc_number" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Reactions" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Reactions" visible="true" column="reactions" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Form" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Form" visible="true" column="form" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Size" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Size" visible="true" column="size" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Unit" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Unit" visible="true" column="unit" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Route" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Route" visible="true" column="route" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Product Substitute" visible="true" hasAll="true" primaryKey="product_key">
+      <Table name="dim_product">
+      </Table>
+      <Level name="Product Substitute" visible="true" column="substitute" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Encounter">
+    <Hierarchy name="Serivce Keys" visible="true" hasAll="true" primaryKey="service_keys">
+      <Table name="fact_product_sales">
+      </Table>
+      <Level name="Service Keys" visible="true" column="service_keys" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Code Keys" visible="true" hasAll="true">
+      <Table name="fact_product_sales">
+      </Table>
+      <Level name="Code Keys" visible="true" column="code_keys" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Service Codes" visible="true" hasAll="true">
+      <Table name="fact_product_sales">
+      </Table>
+      <Level name="Service Codes" visible="true" column="service_codes" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Service Descriptions" visible="true" hasAll="true">
+      <Table name="fact_product_sales">
+      </Table>
+      <Level name="Service Descriptions" visible="true" column="service_descriptions" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="Client Services" visible="true" cache="true" enabled="true">
+    <Table name="fact_client_services">
+    </Table>
+    <DimensionUsage source="Client" name="Client" visible="true" foreignKey="client_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Facility" name="Facility" visible="true" foreignKey="facility_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Service Code" name="Service Code" visible="true" foreignKey="service_key" highCardinality="false">
+    </DimensionUsage>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="First Encounter">
+      <Hierarchy name="First Encounter" visible="true" hasAll="true">
+        <Level name="First Encounter" visible="true" column="first_encounter" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="Reporting" name="Reporting" visible="true" foreignKey="service_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Referral" name="Referral" visible="true" foreignKey="referral_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Billing Code" name="Billing Code" visible="true" foreignKey="code_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Year" name="Year" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Visits" name="Visits" visible="true" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="User" name="User" visible="true" foreignKey="referral_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Billing" name="Billing" visible="true" foreignKey="fee" highCardinality="false">
+    </DimensionUsage>
+    <Dimension type="StandardDimension" visible="true" foreignKey="provider_id" highCardinality="false" name="Provider">
+      <Hierarchy name="Provider ID" visible="true" hasAll="true" primaryKey="user_id">
+        <Table name="dim_provider_vw">
+        </Table>
+        <Level name="Provider ID" visible="true" column="user_id" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+      <Hierarchy name="Provider Name" visible="true" hasAll="true" primaryKey="user_id">
+        <Table name="dim_provider_vw">
+        </Table>
+        <Level name="Provider Name" visible="true" column="name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Visits" column="encounter_id" datatype="Integer" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Code" column="code_key" datatype="Integer" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Services Count" column="service_key" datatype="Integer" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Distinct Services" column="service_key" datatype="Integer" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Services" column="service_key" datatype="Integer" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Clients" column="client_key" datatype="Integer" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Referrals" column="referral_key" datatype="Integer" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Total Billed Amount" column="fee" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="Total Billed Units" column="units" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="Max Billed Amount" column="fee" aggregator="max" visible="true">
+    </Measure>
+    <Measure name="Min Billed Amount" column="fee" aggregator="min" visible="true">
+    </Measure>
+  </Cube>
+  <Cube name="Contraception Form" visible="false" cache="true" enabled="false">
+    <Table name="fact_contraception">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Contraception ID">
+      <Hierarchy name="Contraception ID0" visible="true" hasAll="true">
+        <Level name="Contraception ID" visible="true" column="contraception_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Client ID">
+      <Hierarchy name="Client ID" visible="true" hasAll="true">
+        <Level name="Client ID" visible="true" column="client_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Encounter ID">
+      <Hierarchy name="Encounter ID" visible="true" hasAll="true">
+        <Level name="Encounter ID" visible="true" column="encounter_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Form Name">
+      <Hierarchy name="Form Name" visible="true" hasAll="true">
+        <Level name="Form Name" visible="true" column="form_name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="First contraceptive At This Clinic">
+      <Hierarchy name="First contraceptive At This Clinic" visible="true" hasAll="true">
+        <Level name="First contraceptive At This Clinic" visible="true" column="newmauser" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Current Method">
+      <Hierarchy name="Current Method" visible="true" hasAll="true">
+        <Level name="Current Method" visible="true" column="curmethod" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Previous Modern Contraceptive Use">
+      <Hierarchy name="Previous Modern Contraceptive Use" visible="true" hasAll="true">
+        <Level name="Previous Modern Contraceptive Use" visible="true" column="pastmodern" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Requested Method">
+      <Hierarchy name="Requested Method" visible="true" hasAll="true">
+        <Level name="Requested Method" visible="true" column="reqmethod" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Adopted Method">
+      <Hierarchy name="Adopted Method" visible="true" hasAll="true">
+        <Level name="Adopted Method" visible="true" column="newmethod" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Service Provider">
+      <Hierarchy name="Service Provider" visible="true" hasAll="true">
+        <Level name="Service Provider" visible="true" column="user_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Reason for Method Change">
+      <Hierarchy name="Reason for Method Change" visible="true" hasAll="true">
+        <Level name="Reason for Method Change" visible="true" column="mcreason" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="user_key" highCardinality="false" name="Provider">
+      <Hierarchy name="Provider" visible="true" hasAll="true" primaryKey="user_key">
+        <Table name="dim_provider_vw">
+        </Table>
+        <Level name="Provider ID" visible="true" column="user_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Provider" visible="true" column="name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="Form Count" column="contraception_id" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Distinct Providers" column="user_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Provider Count" column="user_key" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Clients" column="client_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Encounters" column="encounter_id" aggregator="distinct-count" visible="true">
+    </Measure>
+  </Cube>
+  <Cube name="IPPF GCAC" visible="false" cache="true" enabled="false">
+    <Table name="fact_ippf_gcac">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="IPPF GCAC ID">
+      <Hierarchy name="IPPF GCAC ID" visible="true" hasAll="true">
+        <Level name="IPPF GCAC ID" visible="true" column="ippf_gcac_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Client ID">
+      <Hierarchy name="Client ID" visible="true" hasAll="true">
+        <Level name="Client ID" visible="true" column="client_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Encounter ID">
+      <Hierarchy name="Encounter ID" visible="true" hasAll="true">
+        <Level name="Encounter ID" visible="true" column="encounter_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Form Name">
+      <Hierarchy name="Form Name" visible="true" hasAll="true">
+        <Level name="Form Name" visible="true" column="form_name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Client Status">
+      <Hierarchy name="Client Status" visible="true" hasAll="true">
+        <Level name="Client Status" visible="true" column="client_status" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Type of Visit">
+      <Hierarchy name="Type of Visit" visible="true" hasAll="true">
+        <Level name="Type of Visit" visible="true" column="ab_location" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Associated Induced Procedure">
+      <Hierarchy name="Associated Induced Procedure" visible="true" hasAll="true">
+        <Level name="Associated Induced Procedure" visible="true" column="in_ab_proc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Retention of Product">
+      <Hierarchy name="Retention of Product" visible="true" hasAll="true">
+        <Level name="Retention of Product" visible="true" column="compl_incomp" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Excessive Bleeding/Hemorrhage">
+      <Hierarchy name="Excessive Bleeding/Hemorrhage" visible="true" hasAll="true">
+        <Level name="Excessive Bleeding/Hemorrhage" visible="true" column="compl_bleed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Trauma to Vagina, Cervix, or Uterus">
+      <Hierarchy name="Trauma to Vagina, Cervix, or Uterus" visible="true" hasAll="true">
+        <Level name="Trauma to Vagina, Cervix, or Uterus" visible="true" column="compl_trauma" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Shock">
+      <Hierarchy name="Shock" visible="true" hasAll="true">
+        <Level name="Shock" visible="true" column="compl_shock" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Infection">
+      <Hierarchy name="Infection" visible="true" hasAll="true">
+        <Level name="Infection" visible="true" column="compl_infect" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Ectopic/Molar Pregnancy">
+      <Hierarchy name="Ectopic/Molar Pregnancy" visible="true" hasAll="true">
+        <Level name="Ectopic/Molar Pregnancy" visible="true" column="compl_ectopic" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Continuing Pregnancy (Failed Attempt)">
+      <Hierarchy name="Continuing Pregnancy (Failed Attempt)" visible="true" hasAll="true">
+        <Level name="Continuing Pregnancy (Failed Attempt)" visible="true" column="compl_failed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Other Complications">
+      <Hierarchy name="Other Complications" visible="true" hasAll="true">
+        <Level name="Other Complications" visible="true" column="compl_other" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Main Complication">
+      <Hierarchy name="Main Complication" visible="true" hasAll="true">
+        <Level name="Main Complication" visible="true" column="main_compl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="Form Count" column="ippf_gcac_id" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Clients" column="client_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Encounters" column="encounter_id" aggregator="distinct-count" visible="true">
+    </Measure>
+  </Cube>
+  <Cube name="IPPF SRH" visible="false" cache="true" enabled="true">
+    <Table name="fact_ippf_srh">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="IPPF SRH ID">
+      <Hierarchy name="IPPF SRH ID" visible="true" hasAll="true">
+        <Level name="IPPF SRH ID" visible="true" column="ippf_srh_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Client ID">
+      <Hierarchy name="Client ID" visible="true" hasAll="true">
+        <Level name="Client ID" visible="true" column="client_key" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Encounter ID">
+      <Hierarchy name="Encounter ID" visible="true" hasAll="true">
+        <Level name="Encounter ID" visible="true" column="encounter_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Form Name">
+      <Hierarchy name="Form Name" visible="true" hasAll="true">
+        <Level name="Form Name" visible="true" column="form_name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Menstrual History">
+      <Hierarchy name="Menstrual History" visible="true" hasAll="true">
+        <Level name="Menstrual History" visible="true" column="menstrual_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Recent Menstrual History">
+      <Hierarchy name="Recent Menstrual History" visible="true" hasAll="true">
+        <Level name="Intermenstrual Bleeding" visible="true" column="men_hist_bleed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Discharge" visible="true" column="men_hist_disch" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Dysmenorrhea" visible="true" column="men_hist_dysmen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Flow" visible="true" column="men_hist_norflow" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Length of Menstrual Cycle" visible="true" column="men_hist_norlen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Menarche" visible="true" column="men_hist_normen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="men_hist_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Recent Menstrual History">
+      <Hierarchy name="Menstrual History" visible="true" hasAll="true">
+        <Level name="Intermenstrual Bleeding" visible="true" column="men_hist_bleed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Discharge" visible="true" column="men_hist_disch" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Dysmenorrhea" visible="true" column="men_hist_dysmen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Flow" visible="true" column="men_hist_norflow" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Length of Menstrual Cycle" visible="true" column="men_hist_norlen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal Menarche" visible="true" column="men_hist_normen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="men_hist_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Menstrual Complications">
+      <Hierarchy name="Menstrual Complications" visible="true" hasAll="true">
+        <Level name="Abnormal Menstrual Period" visible="true" column="men_compl_abn" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Heavy Menstrual Bleeding" visible="true" column="men_compl_bleed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Painful Menstruation" visible="true" column="men_compl_menpain" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Absence of Menstruation" visible="true" column="men_compl_nomen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="men_compl_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Painful Periods" visible="true" column="men_compl_perpain" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Pap Smear Recent History">
+      <Hierarchy name="Pap Smear Recent History" visible="true" hasAll="true">
+        <Level name="Date of Last Pap Smear" visible="true" column="pap_hist_dtlast_opt" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="pap_hist_dtlast_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Date of Next Pap Smear" visible="true" column="pap_hist_dtnext_opt" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="pap_hist_dtnext_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Results of Last Pap Smear" visible="true" column="pap_hist_results_opt" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="pap_hist_results_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Treatment for cervical cancer" visible="true" column="pap_hist_treat_opt" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="pap_hist_treat_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Abortion Tests">
+      <Hierarchy name="Abortion Tests" visible="true" hasAll="true">
+        <Level name="Exclusion of Anaemia" visible="true" column="abo_exams_ane_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_ane_val" type="String">
+          </Property>
+        </Level>
+        <Level name="ABO and Rh blood groups" visible="true" column="abo_exams_bgr_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_bgr_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Cervical cytology" visible="true" column="abo_exams_ect_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_ect_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Exclusion of ectopic pregnancy" visible="true" column="abo_exams_cer_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_cer_val" type="String">
+          </Property>
+        </Level>
+        <Level name="HIV testing" visible="true" column="abo_exams_hiv_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_hiv_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Other" visible="true" column="abo_exams_oth_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="abo_exams_oth_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="HIV/AIDS Basic History">
+      <Hierarchy name="HIV/AIDS Basic History" visible="true" hasAll="true">
+        <Level name="HIV/AIDS Basic History" visible="true" column="hiv_aids_basic_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Causes of Infertility">
+      <Hierarchy name="Causes of Infertility" visible="true" hasAll="true">
+        <Level name="Alcohol Abuse and Alcoholism" visible="true" column="fer_causes_alc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Atherosclerosis" visible="true" column="fer_causes_ath" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Depression" visible="true" column="fer_causes_dep" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Diabetes" visible="true" column="fer_causes_dia" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Male erectile dysfunction" visible="true" column="fer_causes_edy" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Female Endometriosis" visible="true" column="fer_causes_end" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="High Blood Pressure" visible="true" column="fer_causes_hyp" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Injuries or Surgery" visible="true" column="fer_causes_ins" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Kidney Failure" visible="true" column="fer_causes_kid" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Medications" visible="true" column="fer_causes_med" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Multiple Sclerosis" visible="true" column="fer_causes_msc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="fer_causes_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Female Polycystic ovarian syndrome" visible="true" column="fer_causes_pos" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Prostate Cancer" visible="true" column="fer_causes_prc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Smoking (How to Quit Smoking)" visible="true" column="fer_causes_smo" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Stress" visible="true" column="fer_causes_str" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Fertility Tests">
+      <Hierarchy name="Fertility Tests" visible="true" hasAll="true">
+        <Level name="Basal Temperature" visible="true" column="fer_exams_bas_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_bas_val" type="String">
+          </Property>
+        </Level>
+        <Level name="CCCT" visible="true" column="fer_exams_ccc_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_ccc_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Endometrial biopsy" visible="true" column="fer_exams_end_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_end_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Fallopian Tube Patency Tests" visible="true" column="fer_exams_end_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_ftp_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Hormonal analysis" visible="true" column="fer_exams_hor_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_hor_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Histerosalpingography" visible="true" column="fer_exams_hsa_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_hsa_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Histeroscopy" visible="true" column="fer_exams_hsc_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_hsc_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Laparoscopy" visible="true" column="fer_exams_lap_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_lap_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Mucose Analysis" visible="true" column="fer_exams_muc_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_muc_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Other" visible="true" column="fer_exams_oth_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_oth_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Ovarian ultrasound" visible="true" column="fer_exams_ova_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_ova_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Post-coital test" visible="true" column="fer_exams_pct_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_pct_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Semen analysis" visible="true" column="fer_exams_sem_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_sem_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Sperm Count" visible="true" column="fer_exams_spc_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_spc_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Spermiogram" visible="true" column="fer_exams_spg_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_spg_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Testicular biopsy" visible="true" column="fer_exams_tes_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_tes_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Transvaginal ecography" visible="true" column="fer_exams_tve_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="fer_exams_tve_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Infertility Treatment">
+      <Hierarchy name="Infertility Treatment" visible="true" hasAll="true">
+        <Level name="Embryo Transfer" visible="true" column="fer_treat_emb" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Fertilization in Vitro" visible="true" column="fer_treat_fer" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Gamete Intrafallopian Transfer" visible="true" column="fer_treat_git" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Oocyte Donation" visible="true" column="fer_treat_ocd" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="fer_treat_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Ovulation Induction" visible="true" column="fer_treat_ovi" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Artificial Insemination" visible="true" column="fer_treat_sem" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Zygote Intrafallopian Transfer" visible="true" column="fer_treat_zit" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Gestational Age Confirmed By">
+      <Hierarchy name="Gestational Age Confirmed By" visible="true" hasAll="true">
+        <Level name="Last Monthly Period" visible="true" column="gest_age_by_lmp" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="gest_age_by_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Sonogram" visible="true" column="gest_age_by_son" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Blood Group">
+      <Hierarchy name="Blood Group" visible="true" hasAll="true">
+        <Level name="Blood Group" visible="true" column="blood_group" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="RH Factor">
+      <Hierarchy name="RH Factor" visible="true" hasAll="true">
+        <Level name="RH Factor" visible="true" column="rh_factor" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Gynecological Tests">
+      <Hierarchy name="Gynecological Tests" visible="true" hasAll="true">
+        <Level name="Dexa, Bone Density Scan" visible="true" column="gyn_exams_bds_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_bds_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Hysterosalpingography" visible="true" column="gyn_exams_hys_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_hys_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Diagnostic Imaging" visible="true" column="gyn_exams_img_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_img_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Mammography" visible="true" column="gyn_exams_mam_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_mam_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Manual exams" visible="true" column="gyn_exams_man_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_man_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Manual Breast Exam" visible="true" column="gyn_exams_mbe_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_mbe_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Manual Pelvic Exam" visible="true" column="gyn_exams_mpe_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_mpe_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Other" visible="true" column="gyn_exams_oth_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_oth_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Pap / Cytology" visible="true" column="gyn_exams_pap_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_pap_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Ultrasonography" visible="true" column="gyn_exams_son_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_son_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Tomography" visible="true" column="gyn_exams_tom_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="gyn_exams_tom_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="HIV/AIDS Tests">
+      <Hierarchy name="HIV/AIDS Tests" visible="true" hasAll="true">
+        <Level name="CD4 count" visible="true" column="hiv_exams_cd4_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_cd4_val" type="String">
+          </Property>
+        </Level>
+        <Level name="ELISA (Blood) Test" visible="true" column="hiv_exams_eli_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_eli_val" type="String">
+          </Property>
+        </Level>
+        <Level name="IFA" visible="true" column="hiv_exams_ifa_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_ifa_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Other" visible="true" column="hiv_exams_oth_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_oth_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Rapid Test" visible="true" column="hiv_exams_rat_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_rat_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Urine Test for HIV" visible="true" column="hiv_exams_uri_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_uri_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Viral Load" visible="true" column="hiv_exams_vil_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_vil_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Western Blot Assay" visible="true" column="hiv_exams_wba_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="hiv_exams_wba_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="ITS/ITR Basic History">
+      <Hierarchy name="ITS/ITR Basic History" visible="true" hasAll="true">
+        <Level name="ITS/ITR Basic History" visible="true" column="its_itr_basic_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="ITS/ITR Tests">
+      <Hierarchy name="ITS/ITR Tests" visible="true" hasAll="true">
+        <Level name="Candidiasis" visible="true" column="its_exams_can_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_can_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Chancroid" visible="true" column="its_exams_cha_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_cha_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Chlamydia" visible="true" column="its_exams_chl_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_chl_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Gonorrhea" visible="true" column="its_exams_gon_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_gon_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Hepatitis B" visible="true" column="its_exams_hep_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_hep_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Human Papillomavirus (HPV)" visible="true" column="its_exams_hpv_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_hpv_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Herpes Simplex (HSV)" visible="true" column="its_exams_hsv_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_hsv_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Other" visible="true" column="its_exams_oth_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_oth_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Syphilis" visible="true" column="its_exams_syp_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_syp_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Trichomoniasis" visible="true" column="its_exams_tri_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_tri_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Bacterial Vaginosis" visible="true" column="its_exams_vag_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="its_exams_vag_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Fertitility Basic History">
+      <Hierarchy name="Fertitility Basic History" visible="true" hasAll="true">
+        <Level name="Fertitility Basic History" visible="true" column="fertitility_basic_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Obstectric Tests">
+      <Hierarchy name="Obstectric Tests" visible="true" hasAll="true">
+        <Level name="Fetal Monitoring" visible="true" column="obs_exams_fem_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_fem_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Fetoscopy" visible="true" column="obs_exams_fet_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_fet_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Pelvimetry" visible="true" column="obs_exams_pel_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_pel_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Placental Function Tests" visible="true" column="obs_exams_pla_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_pla_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Pre natal Care - Immunisations" visible="true" column="obs_exams_pnc_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_pnc_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Ultrasonography, Pre-natal" visible="true" column="obs_exams_son_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_son_val" type="String">
+          </Property>
+        </Level>
+        <Level name="Uterine Monitoring" visible="true" column="obs_exams_utm_num" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+          <Property name="Value" column="obs_exams_utm_val" type="String">
+          </Property>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Obstectric History">
+      <Hierarchy name="Obstectric History" visible="true" hasAll="true">
+        <Level name="Obstectric History" visible="true" column="obstectric_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Pregnancy Complications">
+      <Hierarchy name="Pregnancy Complications" visible="true" hasAll="true">
+        <Level name="Placental Abruption" visible="true" column="pr_compl_abrup" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Placenta Accreta" visible="true" column="pr_compl_accr" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Bleeding During Pregnancy" visible="true" column="pr_compl_bleed" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Blighted Ovum" visible="true" column="pr_compl_bofum" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Cervical Cerclage" visible="true" column="pr_compl_cercl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Cholestasis of Pregnancy" visible="true" column="pr_compl_chol" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Common Pregnancy Complications" visible="true" column="pr_compl_compl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Concerns regarding Early Fetal Development" visible="true" column="pr_compl_confet" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Chicken Pox" visible="true" column="pr_compl_cpox" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Cytomegalovirus (CMV) Infection" visible="true" column="pr_compl_cytomeg" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Gestational Diabetes" visible="true" column="pr_compl_dia" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="D&#38;C procedure after a Miscarriage" visible="true" column="pr_compl_dnc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Ectopic Pregnancy" visible="true" column="pr_compl_ect" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Fetal Alcohol Spectrum Disorders" visible="true" column="pr_compl_fasd" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Fetal Growth Restriction" visible="true" column="pr_compl_fgr" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="High Amniotic Fluid Levels: Polyhydramnios" visible="true" column="pr_compl_hafl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="HIV/AIDS during Pregnancy" visible="true" column="pr_compl_hiv" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Hyperemesis Gravidarum" visible="true" column="pr_compl_hyperm" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Incompetent Cervix" visible="true" column="pr_compl_incerv" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Intrauterine Growth Restriction (IUGR)" visible="true" column="pr_compl_iugr" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Low Amniotic Fluid Levels: Oligohydramnios" visible="true" column="pr_compl_lafl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Listeria" visible="true" column="pr_compl_lafl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Miscarriage" visible="true" column="pr_compl_mis" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Molar Pregnancy" visible="true" column="pr_compl_molar" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Pregnancy Induced Hypertension (PIH)" visible="true" column="pr_compl_pih" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Preeclampsia" visible="true" column="pr_compl_preecl" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Placenta Previa" visible="true" column="pr_compl_prev" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Bed Rest" visible="true" column="pr_compl_rest" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="RH Factor" visible="true" column="pr_compl_rhf" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Small for Gestational Age (SGA)" visible="true" column="pr_compl_sga" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="STDs/STIs During Pregnancy" visible="true" column="pr_compl_sti" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Group B Strep Infection" visible="true" column="pr_compl_strep" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Tipped Uterus" visible="true" column="pr_compl_tip" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Toxoplasmosis" visible="true" column="pr_compl_tox" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Urinary Tract Infection" visible="true" column="pr_compl_uti" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Bacterial Vaginosis" visible="true" column="pr_compl_vag" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Vanishing Twin Syndrome" visible="true" column="pr_compl_vts" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Yeast Infection" visible="true" column="pr_compl_yeast" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Outcome of Last Pregnancy">
+      <Hierarchy name="Outcome of Last Pregnancy" visible="true" hasAll="true">
+        <Level name="Abortion" visible="true" column="pr_outcome_abo" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Ectopic" visible="true" column="pr_outcome_ect" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Live birth" visible="true" column="pr_outcome_live" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="pr_outcome_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Still birth" visible="true" column="pr_outcome_still" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Pregnancy Status Confirmed">
+      <Hierarchy name="Pregnancy Status Confirmed" visible="true" hasAll="true">
+        <Level name="Abnormal - Ectopic Pregnancy" visible="true" column="pr_status_a_ep" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Abnormal - Molar Pregnancy" visible="true" column="pr_status_a_mp" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Discarded" visible="true" column="pr_status_dis" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal - Bimanual Pelvic Exam" visible="true" column="pr_status_n_bpe" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Normal - Urine Test" visible="true" column="pr_status_n_u" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Abortion Basic History">
+      <Hierarchy name="Abortion Basic History" visible="true" hasAll="true">
+        <Level name="Abortion Basic History" visible="true" column="abortion_basic_history" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Male Genitourinary diseases">
+      <Hierarchy name="Male Genitourinary diseases" visible="true" hasAll="true">
+        <Level name="Balanitis" visible="true" column="uro_disease_bal" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Cryptorchidism" visible="true" column="uro_disease_cry" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Ectopia Testis" visible="true" column="uro_disease_ect" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Erectile Dysfunction" visible="true" column="uro_disease_edy" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Epididymitis" visible="true" column="uro_disease_epd" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Epispadias" visible="true" column="uro_disease_eps" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Frenulum Breve" visible="true" column="uro_disease_fre" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Hydrocele" visible="true" column="uro_disease_hyd" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Hypospadias" visible="true" column="uro_disease_hyp" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Micropenis" visible="true" column="uro_disease_mic" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Orchitis" visible="true" column="uro_disease_orc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Paraphimosis" visible="true" column="uro_disease_par" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Penile Cancer" visible="true" column="uro_disease_pec" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Penile Fracture" visible="true" column="uro_disease_pef" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Peyronies Disease" visible="true" column="uro_disease_pey" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Phimosis" visible="true" column="uro_disease_phi" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Prostate Cancer" visible="true" column="uro_disease_prc" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Premature Ejaculation" visible="true" column="uro_disease_pre" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Prostatitis" visible="true" column="uro_disease_prt" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Spermatocele" visible="true" column="uro_disease_spe" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Testicular Cancer" visible="true" column="uro_disease_tec" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Testicular Torsion" visible="true" column="uro_disease_tet" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Varicocele" visible="true" column="uro_disease_var" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Urology Tests">
+      <Hierarchy name="Urology Tests" visible="true" hasAll="true">
+        <Level name="Cystoscopy" visible="true" column="uro_exams_cys" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Other" visible="true" column="uro_exams_oth" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Peniscopy" visible="true" column="uro_exams_pen" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Prostate Cancer Screening" visible="true" column="uro_exams_pro" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Ureteroscopy" visible="true" column="uro_exams_ure" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Urography" visible="true" column="uro_exams_uro" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="Form Count" column="ippf_srh_id" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Clients" column="client_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Encounters" column="encounter_id" aggregator="distinct-count" visible="true">
+    </Measure>
+  </Cube>
+  <Cube name="Product Sales" visible="true" cache="true" enabled="true">
+    <Table name="fact_product_sales">
+    </Table>
+    <DimensionUsage source="Client" name="Client" visible="true" foreignKey="client_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="date_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="User" name="User" visible="true" foreignKey="user_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Billing" name="Billing" visible="true" foreignKey="fee" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Product" name="Product" visible="true" foreignKey="product_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Service Code" name="Service Code" visible="true" foreignKey="service_key" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Encounter" name="Encounter" visible="true" foreignKey="encounter_id" highCardinality="false">
+    </DimensionUsage>
+    <Dimension type="StandardDimension" visible="true" foreignKey="user_key" highCardinality="false" name="Provider">
+      <Hierarchy name="Provider ID" visible="true" hasAll="true" primaryKey="user_key">
+        <Table name="dim_provider_vw">
+        </Table>
+        <Level name="Provider ID" visible="true" column="user_id" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+      <Hierarchy name="Provider Name" visible="true" hasAll="true" primaryKey="user_key">
+        <Table name="dim_provider_vw">
+        </Table>
+        <Level name="Provider Name" visible="true" column="name" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Distinct Visits" column="encounter_id" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Distinct Clients" column="client_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Product Count" column="product_key" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="Distinct Products" column="product_key" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Total Sales" column="fee" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="Total Quantity" column="quantity" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+</Schema>

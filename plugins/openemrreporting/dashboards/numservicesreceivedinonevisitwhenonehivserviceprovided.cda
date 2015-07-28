@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="services_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="get_encounter_ids_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="false" cacheDuration="3600" connection="services_ds"
+               id="services_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-30" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select distinct z.service_key, z.code_text
+
+from fact_client_services as a
+
+join (
+    select 
+		distinct service_key, concat_ws(' - ', billing_code, code_text) as code_text
+
+	from dim_service
+
+	where 
+		ippf2 in ('2121010000800',
+				'2121010112000',
+				'2121010123000',
+				'2121010124000',
+				'2122020000000',
+				'2122020200000',
+				'2123030000000',
+				'2123030000800',
+				'2123030301301',
+				'2123030301501',
+				'2123030301502',
+				'2123030301509',
+				'2124040000000',
+				'2124040401101',
+				'2125050000000',
+				'2125050502000',
+				'2125050503101',
+				'2125050503102',
+				'2125050503103',
+				'2125050503104',
+				'2125050503105',
+				'2125050503106',
+				'2125050503888',
+				'2125050504000')
+
+	order by     
+        billing_code, code_text
+
+) as z
+
+on (a.service_key = z.service_key)
+
+join dim_date as c on (c.date_key = a.date_key)
+
+where 
+	c.date &gt;= ${start_date_param} and c.date &lt;= ${end_date_param}</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="get_encounter_ids_ds"
+               id="get_encounter_ids_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="-1" name="service_keys_param" type="IntegerArray"/>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-31" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select 
+    distinct a.encounter_id, a.date_key
+
+from 
+    fact_client_services as a
+
+join dim_date as b on (b.date_key = a.date_key)
+
+where 
+    a.service_key in (${service_keys_param})
+    and
+    b.date &gt;= ${start_date_param} and b.date &lt;= ${end_date_param}</Query>
+   </DataAccess>
+</CDADescriptor>

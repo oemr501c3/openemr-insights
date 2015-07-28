@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="get_services_a_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="get_services_b_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="get_encounter_ids_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="false" cacheDuration="3600"
+               connection="get_services_a_ds"
+               id="get_services_a_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-30" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select '' as billing_code, '' as code_text
+union all
+select * from 
+(
+    select distinct b.billing_code, concat_ws(' - ', b.billing_code, b.code_text) as code_text
+
+	from fact_client_services as a
+
+		join dim_service as b on (b.service_key = a.service_key)
+
+		join dim_date as c on (c.date_key = a.date_key)
+
+	where 
+
+		c.date between ${start_date_param} and ${end_date_param}
+
+	order by b.billing_code, b.code_text
+
+) as z</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="false" cacheDuration="3600"
+               connection="get_services_b_ds"
+               id="get_services_b_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="MC-002" name="service_a_param" type="String"/>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-31" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select '' as billing_code, '' as code_text
+union all
+select * from 
+(
+    select distinct b.billing_code, concat_ws(' - ', b.billing_code, b.code_text) as code_text
+
+	from fact_client_services as a
+
+	join dim_service as b on (b.service_key = a.service_key)
+
+	join  (
+
+		select distinct a.encounter_id
+
+		from fact_client_services as a
+
+		join dim_service as b on (b.service_key = a.service_key)
+
+		join dim_date as c on (c.date_key = a.date_key)
+
+		where 
+
+		c.date between ${start_date_param} and ${end_date_param}
+		and 
+		b.billing_code = ${service_a_param}
+
+	) as z
+
+	on z.encounter_id = a.encounter_id
+
+	where a.encounter_id = z.encounter_id
+
+	order by b.billing_code, b.code_text
+
+) as x</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="false" cacheDuration="3600"
+               connection="get_encounter_ids_ds"
+               id="get_encounter_ids_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="LS-013" name="service_param" type="String"/>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-30" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select a.encounter_id 
+
+from fact_client_services as a
+
+join dim_date as b on (b.date_key = a.date_key)
+
+join dim_service as c on (c.service_key = a.service_key)
+
+where 
+    c.billing_code = ${service_param}
+    and
+    b.date between ${start_date_param} and ${end_date_param}
+    
+order by 1</Query>
+   </DataAccess>
+</CDADescriptor>

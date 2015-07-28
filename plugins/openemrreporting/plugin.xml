@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title="openemrreporting" loader="DEFAULT">
+<overlays>
+		<overlay id="startup.openemrreporting" resourcebundle="content/openemrreporting/resources/lang/messages">
+			<menubar id="toolsmenu">
+	        	<menuitem id="openemrreporting" label="${Launcher.openemrreporting}" command="mantleXulHandler.openUrl('${Launcher.openemrreporting}','${Launcher.openemrreporting_TOOLTIP}','plugin/openemrreporting/api/home')"/>
+	      	</menubar>
+	    </overlay>
+	</overlays>
+	<lifecycle-listener class="pt.webdetails.cpk.CpkLifecycleListener"/>
+	<static-paths>
+		<static-path url="/openemrreporting/static" localFolder="static"/>
+		<static-path url="/openemrreporting/resources" localFolder="resources"/>
+	</static-paths>
+	<content-types>
+		<content-type>
+			<title>OpenEMR Reporting</title>
+			<description></description>
+			<company name="" url="" logo="@PLUGIN_COMPANY_LOGO@"></company>
+		</content-type>
+	</content-types>
+	<content-generator
+		id="openemrreporting"
+		title="Ippfreporting"
+		type="openemrreporting"
+		class="pt.webdetails.cpk.CpkContentGenerator"/>
+	<!-- Menu entry -->
+	<menu-items>
+		<!--<menu-item id="openemrreporting_main" anchor="tools-submenu" label="Ippfreporting" command="content/openemrreporting/" type="MENU_ITEM" how="LAST_CHILD"/>-->
+	</menu-items>
+</plugin>

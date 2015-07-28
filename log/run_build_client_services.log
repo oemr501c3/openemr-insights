@@ -1,0 +1,1730 @@
+/Applications/data-integration
+WARNING: Using java from path
+DEBUG: _PENTAHO_JAVA_HOME=
+DEBUG: _PENTAHO_JAVA=java
+DEBUG: PENTAHO_INSTALLED_LICENSE_PATH=
+2015/01/08 15:06:33 - Kitchen - Logging is at level : Detailed logging
+2015/01/08 15:06:33 - Kitchen - Start of run.
+2015/01/08 15:06:34 - General - Logging plugin type found with ID: CheckpointLogTable
+2015/01/08 15:06:34 - General - Logging plugin type found with ID: CheckpointLogTable
+2015/01/08 15:06:34 - build_client_services - Start of job execution
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobTransactionExtensionPlugin' and extension point id 'JobStart'
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobBeginProcessingExtensionPointPlugin' and extension point id 'JobBeginProcessing'
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:34 - build_client_services - exec(0, 0, START.0)
+2015/01/08 15:06:34 - START - Starting job entry
+2015/01/08 15:06:34 - build_client_services - Starting entry [dim_code]
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:34 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:34 - build_client_services - exec(1, 0, dim_code.0)
+2015/01/08 15:06:34 - dim_code - Starting job entry
+2015/01/08 15:06:34 - dim_code - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_code.ktr]
+2015/01/08 15:06:34 - dim_code - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_code.ktr]
+2015/01/08 15:06:34 - dim_code - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/dim_code.ktr, name=dim_code, repinfo=null)
+2015/01/08 15:06:34 - dim_code - Transformation is pre-loaded.
+2015/01/08 15:06:34 - dim_code - Dispatching started for transformation [dim_code]
+2015/01/08 15:06:34 - dim_code - Nr of arguments detected:0 
+2015/01/08 15:06:34 - dim_code - This is not a replay transformation
+2015/01/08 15:06:34 - dim_code - I found 2 different steps to launch.
+2015/01/08 15:06:34 - dim_code - Allocating rowsets...
+2015/01/08 15:06:34 - dim_code -  Allocating rowsets for step 0 --> code input
+2015/01/08 15:06:34 - dim_code -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:34 - dim_code - Transformation allocated new rowset [code input.0 - Dimension lookup/update (dim_code).0]
+2015/01/08 15:06:34 - dim_code -  Allocated 1 rowsets for step 0 --> code input  
+2015/01/08 15:06:34 - dim_code -  Allocating rowsets for step 1 --> Dimension lookup/update (dim_code)
+2015/01/08 15:06:34 - dim_code -  Allocated 1 rowsets for step 1 --> Dimension lookup/update (dim_code)  
+2015/01/08 15:06:34 - dim_code - Allocating Steps & StepData...
+2015/01/08 15:06:34 - dim_code -  Transformation is about to allocate step [code input] of type [TableInput]
+2015/01/08 15:06:34 - code input.0 - distribution activated
+2015/01/08 15:06:34 - code input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:34 - code input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:06:34 - code input.0 - output rel. is  1:1
+2015/01/08 15:06:34 - code input.0 - Found output rowset [code input.0 - Dimension lookup/update (dim_code).0]
+2015/01/08 15:06:34 - code input.0 - Finished dispatching
+2015/01/08 15:06:34 - dim_code -  Transformation has allocated a new step: [code input].0
+2015/01/08 15:06:34 - dim_code -  Transformation is about to allocate step [Dimension lookup/update (dim_code)] of type [DimensionLookup]
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - distribution activated
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Got previous step from [Dimension lookup/update (dim_code)] #0 --> code input
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - input rel is 1:1
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Found input rowset [code input.0 - Dimension lookup/update (dim_code).0]
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Finished dispatching
+2015/01/08 15:06:34 - dim_code -  Transformation has allocated a new step: [Dimension lookup/update (dim_code)].0
+2015/01/08 15:06:34 - dim_code - This transformation can be replayed with replay date: 2015/01/08 15:06:34
+2015/01/08 15:06:34 - dim_code - Initialising 2 steps...
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Running on slave server #0/1.
+2015/01/08 15:06:34 - code input.0 - Running on slave server #0/1.
+2015/01/08 15:06:34 - EMR Source - New database connection defined
+2015/01/08 15:06:34 - EMR Target - New database connection defined
+2015/01/08 15:06:34 - EMR Source - Connected to database.
+2015/01/08 15:06:34 - EMR Target - Connected to database.
+2015/01/08 15:06:34 - code input.0 - Connected to database...
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Connected to database...
+2015/01/08 15:06:34 - EMR Target - Auto commit off
+2015/01/08 15:06:34 - dim_code - Step [code input.0] initialized flawlessly.
+2015/01/08 15:06:34 - dim_code - Step [Dimension lookup/update (dim_code).0] initialized flawlessly.
+2015/01/08 15:06:34 - code input.0 - Starting to run...
+2015/01/08 15:06:34 - code input.0 - SQL query : select 
+2015/01/08 15:06:34 - code input.0 - 	distinct code, code_type, code_text
+2015/01/08 15:06:34 - code input.0 - 
+2015/01/08 15:06:34 - code input.0 - from billing 
+2015/01/08 15:06:34 - dim_code - Transformation has allocated 2 threads and 1 rowsets.
+2015/01/08 15:06:34 - Dimension lookup/update (dim_code).0 - Starting to run...
+2015/01/08 15:06:35 - Dimension lookup/update (dim_code).0 - Dimension Lookup setting preparedStatement to [SELECT code_key, version, code_text, code_type, date_from, date_to FROM dim_code WHERE code = ?  AND ? >= date_from
+2015/01/08 15:06:35 - Dimension lookup/update (dim_code).0 -  AND ? < date_to
+2015/01/08 15:06:35 - Dimension lookup/update (dim_code).0 - ]
+2015/01/08 15:06:35 - Dimension lookup/update (dim_code).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:06:35 - code input.0 - Finished reading query, closing connection.
+2015/01/08 15:06:35 - EMR Source - Connection to database closed!
+2015/01/08 15:06:35 - code input.0 - Finished processing (I=1954, O=0, R=0, W=1954, U=0, E=0)
+2015/01/08 15:06:36 - EMR Target - Connection to database closed!
+2015/01/08 15:06:36 - Dimension lookup/update (dim_code).0 - Finished processing (I=1916, O=0, R=1954, W=1954, U=75, E=0)
+2015/01/08 15:06:36 - build_client_services - Starting entry [dim_client]
+2015/01/08 15:06:36 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:36 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:06:36 - build_client_services - exec(2, 0, dim_client.0)
+2015/01/08 15:06:36 - dim_client - Starting job entry
+2015/01/08 15:06:36 - dim_client - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_client.ktr]
+2015/01/08 15:06:36 - dim_client - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_client.ktr]
+2015/01/08 15:06:36 - dim_client - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/dim_client.ktr, name=dim_client, repinfo=null)
+2015/01/08 15:06:36 - dim_client - Transformation is pre-loaded.
+2015/01/08 15:06:36 - dim_client - Dispatching started for transformation [dim_client]
+2015/01/08 15:06:36 - dim_client - Nr of arguments detected:0 
+2015/01/08 15:06:36 - dim_client - This is not a replay transformation
+2015/01/08 15:06:36 - dim_client - I found 12 different steps to launch.
+2015/01/08 15:06:36 - dim_client - Allocating rowsets...
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 0 --> If field value is null
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [If field value is null.0 - Dimension lookup/update (dim_client).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 1 rowsets for step 0 --> If field value is null  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 1 --> Dimension lookup/update (dim_client)
+2015/01/08 15:06:36 - dim_client -  Allocated 1 rowsets for step 1 --> Dimension lookup/update (dim_client)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 2 --> client input
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [client input.0 - Value Mapper (education).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 2 rowsets for step 2 --> client input  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 3 --> Value Mapper (education)
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Value Mapper (education).0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - dim_client -  Allocated 3 rowsets for step 3 --> Value Mapper (education)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 4 --> Value Mapper (occupation)
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Value Mapper (occupation).0 - Value Mapper (marital_status).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 4 rowsets for step 4 --> Value Mapper (occupation)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 5 --> Value Mapper (marital_status)
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Value Mapper (marital_status).0 - Value Mapper (referral_source).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 5 rowsets for step 5 --> Value Mapper (marital_status)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 6 --> Value Mapper (referral_source)
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Value Mapper (referral_source).0 - Value Mapper (price_level).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 6 rowsets for step 6 --> Value Mapper (referral_source)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 7 --> Value Mapper (price_level)
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Value Mapper (price_level).0 - State Stream lookup.0]
+2015/01/08 15:06:36 - dim_client -  Allocated 7 rowsets for step 7 --> Value Mapper (price_level)  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 8 --> State Stream lookup
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [State Stream lookup.0 - If field value is null.0]
+2015/01/08 15:06:36 - dim_client -  Allocated 8 rowsets for step 8 --> State Stream lookup  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 9 --> State lookup
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [State lookup.0 - State Stream lookup.0]
+2015/01/08 15:06:36 - dim_client -  Allocated 9 rowsets for step 9 --> State lookup  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 10 --> Religion lookup
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Religion lookup.0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - dim_client -  Allocated 10 rowsets for step 10 --> Religion lookup  
+2015/01/08 15:06:36 - dim_client -  Allocating rowsets for step 11 --> Religion Stream lookup
+2015/01/08 15:06:36 - dim_client -   prevcopies = 1, nextcopies=1
+2015/01/08 15:06:36 - dim_client - Transformation allocated new rowset [Religion Stream lookup.0 - Value Mapper (occupation).0]
+2015/01/08 15:06:36 - dim_client -  Allocated 11 rowsets for step 11 --> Religion Stream lookup  
+2015/01/08 15:06:36 - dim_client - Allocating Steps & StepData...
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [If field value is null] of type [IfNull]
+2015/01/08 15:06:36 - If field value is null.0 - distribution activated
+2015/01/08 15:06:36 - If field value is null.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - If field value is null.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - If field value is null.0 - Got previous step from [If field value is null] #0 --> State Stream lookup
+2015/01/08 15:06:36 - If field value is null.0 - input rel is 1:1
+2015/01/08 15:06:36 - If field value is null.0 - Found input rowset [State Stream lookup.0 - If field value is null.0]
+2015/01/08 15:06:36 - If field value is null.0 - output rel. is  1:1
+2015/01/08 15:06:36 - If field value is null.0 - Found output rowset [If field value is null.0 - Dimension lookup/update (dim_client).0]
+2015/01/08 15:06:36 - If field value is null.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [If field value is null].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Dimension lookup/update (dim_client)] of type [DimensionLookup]
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - distribution activated
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Got previous step from [Dimension lookup/update (dim_client)] #0 --> If field value is null
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - input rel is 1:1
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Found input rowset [If field value is null.0 - Dimension lookup/update (dim_client).0]
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Dimension lookup/update (dim_client)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [client input] of type [TableInput]
+2015/01/08 15:06:36 - client input.0 - distribution activated
+2015/01/08 15:06:36 - client input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - client input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:06:36 - client input.0 - output rel. is  1:1
+2015/01/08 15:06:36 - client input.0 - Found output rowset [client input.0 - Value Mapper (education).0]
+2015/01/08 15:06:36 - client input.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [client input].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Value Mapper (education)] of type [ValueMapper]
+2015/01/08 15:06:36 - Value Mapper (education).0 - distribution activated
+2015/01/08 15:06:36 - Value Mapper (education).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Value Mapper (education).0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - Value Mapper (education).0 - Got previous step from [Value Mapper (education)] #0 --> client input
+2015/01/08 15:06:36 - Value Mapper (education).0 - input rel is 1:1
+2015/01/08 15:06:36 - Value Mapper (education).0 - Found input rowset [client input.0 - Value Mapper (education).0]
+2015/01/08 15:06:36 - Value Mapper (education).0 - output rel. is  1:1
+2015/01/08 15:06:36 - Value Mapper (education).0 - Found output rowset [Value Mapper (education).0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - Value Mapper (education).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Value Mapper (education)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Value Mapper (occupation)] of type [ValueMapper]
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - distribution activated
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Got previous step from [Value Mapper (occupation)] #0 --> Religion Stream lookup
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - input rel is 1:1
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Found input rowset [Religion Stream lookup.0 - Value Mapper (occupation).0]
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - output rel. is  1:1
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Found output rowset [Value Mapper (occupation).0 - Value Mapper (marital_status).0]
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Value Mapper (occupation)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Value Mapper (marital_status)] of type [ValueMapper]
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - distribution activated
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Got previous step from [Value Mapper (marital_status)] #0 --> Value Mapper (occupation)
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - input rel is 1:1
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Found input rowset [Value Mapper (occupation).0 - Value Mapper (marital_status).0]
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - output rel. is  1:1
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Found output rowset [Value Mapper (marital_status).0 - Value Mapper (referral_source).0]
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Value Mapper (marital_status)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Value Mapper (referral_source)] of type [ValueMapper]
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - distribution activated
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Got previous step from [Value Mapper (referral_source)] #0 --> Value Mapper (marital_status)
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - input rel is 1:1
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Found input rowset [Value Mapper (marital_status).0 - Value Mapper (referral_source).0]
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - output rel. is  1:1
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Found output rowset [Value Mapper (referral_source).0 - Value Mapper (price_level).0]
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Value Mapper (referral_source)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Value Mapper (price_level)] of type [ValueMapper]
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - distribution activated
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Got previous step from [Value Mapper (price_level)] #0 --> Value Mapper (referral_source)
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - input rel is 1:1
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Found input rowset [Value Mapper (referral_source).0 - Value Mapper (price_level).0]
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - output rel. is  1:1
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Found output rowset [Value Mapper (price_level).0 - State Stream lookup.0]
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Value Mapper (price_level)].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [State Stream lookup] of type [StreamLookup]
+2015/01/08 15:06:36 - State Stream lookup.0 - distribution activated
+2015/01/08 15:06:36 - State Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - State Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:06:36 - State Stream lookup.0 - Got previous step from [State Stream lookup] #0 --> Value Mapper (price_level)
+2015/01/08 15:06:36 - State Stream lookup.0 - input rel is 1:1
+2015/01/08 15:06:36 - State Stream lookup.0 - Found input rowset [Value Mapper (price_level).0 - State Stream lookup.0]
+2015/01/08 15:06:36 - State Stream lookup.0 - Got previous step from [State Stream lookup] #1 --> State lookup
+2015/01/08 15:06:36 - State Stream lookup.0 - input rel is 1:1
+2015/01/08 15:06:36 - State Stream lookup.0 - Found input rowset [State lookup.0 - State Stream lookup.0]
+2015/01/08 15:06:36 - State Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:06:36 - State Stream lookup.0 - Found output rowset [State Stream lookup.0 - If field value is null.0]
+2015/01/08 15:06:36 - State Stream lookup.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [State Stream lookup].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [State lookup] of type [TableInput]
+2015/01/08 15:06:36 - State lookup.0 - distribution activated
+2015/01/08 15:06:36 - State lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - State lookup.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:06:36 - State lookup.0 - output rel. is  1:1
+2015/01/08 15:06:36 - State lookup.0 - Found output rowset [State lookup.0 - State Stream lookup.0]
+2015/01/08 15:06:36 - State lookup.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [State lookup].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Religion lookup] of type [TableInput]
+2015/01/08 15:06:36 - Religion lookup.0 - distribution activated
+2015/01/08 15:06:36 - Religion lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Religion lookup.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:06:36 - Religion lookup.0 - output rel. is  1:1
+2015/01/08 15:06:36 - Religion lookup.0 - Found output rowset [Religion lookup.0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - Religion lookup.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Religion lookup].0
+2015/01/08 15:06:36 - dim_client -  Transformation is about to allocate step [Religion Stream lookup] of type [StreamLookup]
+2015/01/08 15:06:36 - Religion Stream lookup.0 - distribution activated
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Got previous step from [Religion Stream lookup] #0 --> Religion lookup
+2015/01/08 15:06:36 - Religion Stream lookup.0 - input rel is 1:1
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Found input rowset [Religion lookup.0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Got previous step from [Religion Stream lookup] #1 --> Value Mapper (education)
+2015/01/08 15:06:36 - Religion Stream lookup.0 - input rel is 1:1
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Found input rowset [Value Mapper (education).0 - Religion Stream lookup.0]
+2015/01/08 15:06:36 - Religion Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Found output rowset [Religion Stream lookup.0 - Value Mapper (occupation).0]
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Finished dispatching
+2015/01/08 15:06:36 - dim_client -  Transformation has allocated a new step: [Religion Stream lookup].0
+2015/01/08 15:06:36 - dim_client - This transformation can be replayed with replay date: 2015/01/08 15:06:36
+2015/01/08 15:06:36 - dim_client - Initialising 12 steps...
+2015/01/08 15:06:36 - If field value is null.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Value Mapper (education).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - State Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - State lookup.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Religion lookup.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - client input.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:06:36 - EMR Target - New database connection defined
+2015/01/08 15:06:36 - EMR Source - New database connection defined
+2015/01/08 15:06:36 - EMR Source - New database connection defined
+2015/01/08 15:06:36 - EMR Source - New database connection defined
+2015/01/08 15:06:36 - EMR Source - Connected to database.
+2015/01/08 15:06:36 - State lookup.0 - Connected to database...
+2015/01/08 15:06:36 - EMR Source - Connected to database.
+2015/01/08 15:06:36 - Religion lookup.0 - Connected to database...
+2015/01/08 15:06:36 - EMR Source - Connected to database.
+2015/01/08 15:06:36 - client input.0 - Connected to database...
+2015/01/08 15:06:36 - EMR Target - Connected to database.
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Connected to database...
+2015/01/08 15:06:36 - EMR Target - Auto commit off
+2015/01/08 15:06:36 - dim_client - Step [If field value is null.0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Dimension lookup/update (dim_client).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [client input.0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Value Mapper (education).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Value Mapper (occupation).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Value Mapper (marital_status).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Value Mapper (referral_source).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Value Mapper (price_level).0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [State Stream lookup.0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [State lookup.0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Religion lookup.0] initialized flawlessly.
+2015/01/08 15:06:36 - dim_client - Step [Religion Stream lookup.0] initialized flawlessly.
+2015/01/08 15:06:36 - If field value is null.0 - Starting to run...
+2015/01/08 15:06:36 - Dimension lookup/update (dim_client).0 - Starting to run...
+2015/01/08 15:06:36 - client input.0 - Starting to run...
+2015/01/08 15:06:36 - Value Mapper (education).0 - Starting to run...
+2015/01/08 15:06:36 - client input.0 - SQL query : select	
+2015/01/08 15:06:36 - client input.0 - 	pid as client_id,
+2015/01/08 15:06:36 - client input.0 - 	id as record_id,
+2015/01/08 15:06:36 - client input.0 - 	fname as first_name,
+2015/01/08 15:06:36 - client input.0 - 	lname as last_name,
+2015/01/08 15:06:36 - client input.0 - 	sex as gender,
+2015/01/08 15:06:36 - client input.0 - 	dob as date_of_birth,
+2015/01/08 15:06:36 - client input.0 - 	street,
+2015/01/08 15:06:36 - client input.0 - 	postal_code,
+2015/01/08 15:06:36 - client input.0 - 	city,
+2015/01/08 15:06:36 - client input.0 - 	state,
+2015/01/08 15:06:36 - client input.0 - 	country_code,
+2015/01/08 15:06:36 - client input.0 - 	drivers_license,
+2015/01/08 15:06:36 - client input.0 - 	ss as social_security,
+2015/01/08 15:06:36 - client input.0 - 	occupation,
+2015/01/08 15:06:36 - client input.0 - 	phone_home,
+2015/01/08 15:06:36 - client input.0 - 	phone_biz,
+2015/01/08 15:06:36 - client input.0 - 	phone_cell,
+2015/01/08 15:06:36 - client input.0 - 	status as marital_status,
+2015/01/08 15:06:36 - client input.0 - 	ethnoracial as ethnicity,
+2015/01/08 15:06:36 - client input.0 - 	interpretter as living_children,
+2015/01/08 15:06:36 - client input.0 - 	family_size,
+2015/01/08 15:06:36 - client input.0 - 	monthly_income,
+2015/01/08 15:06:36 - client input.0 - 	pubpid as external_client_id,
+2015/01/08 15:06:36 - client input.0 - 	userlist1,
+2015/01/08 15:06:36 - client input.0 - 	userlist2 as education,
+2015/01/08 15:06:36 - client input.0 - 	userlist3,
+2015/01/08 15:06:36 - client input.0 - 	userlist4,
+2015/01/08 15:06:36 - client input.0 - 	userlist5 as religion,
+2015/01/08 15:06:36 - client input.0 - 	userlist6,
+2015/01/08 15:06:36 - client input.0 - 	userlist7 as residence,
+2015/01/08 15:06:36 - client input.0 - 	referral_source,
+2015/01/08 15:06:36 - client input.0 - 	pricelevel as price_level,
+2015/01/08 15:06:36 - client input.0 - 	regdate as registration_date,
+2015/01/08 15:06:36 - client input.0 - 	contrastart as contraceptive_date,
+2015/01/08 15:06:36 - client input.0 - 	date as create_date
+2015/01/08 15:06:36 - client input.0 - 
+2015/01/08 15:06:36 - client input.0 - from
+2015/01/08 15:06:36 - client input.0 - 	patient_data
+2015/01/08 15:06:36 - Value Mapper (occupation).0 - Starting to run...
+2015/01/08 15:06:36 - Value Mapper (marital_status).0 - Starting to run...
+2015/01/08 15:06:36 - Value Mapper (referral_source).0 - Starting to run...
+2015/01/08 15:06:36 - Value Mapper (price_level).0 - Starting to run...
+2015/01/08 15:06:36 - State Stream lookup.0 - Starting to run...
+2015/01/08 15:06:36 - State lookup.0 - Starting to run...
+2015/01/08 15:06:36 - State lookup.0 - SQL query : select option_id, title from list_options where list_id in ('state')
+2015/01/08 15:06:36 - dim_client - Transformation has allocated 12 threads and 11 rowsets.
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Starting to run...
+2015/01/08 15:06:36 - Religion lookup.0 - Starting to run...
+2015/01/08 15:06:36 - Religion Stream lookup.0 - Reading from stream [Religion lookup]
+2015/01/08 15:06:36 - State Stream lookup.0 - Reading from stream [State lookup]
+2015/01/08 15:06:36 - Religion lookup.0 - SQL query : select option_id, title from list_options where list_id in ('userlist5')
+2015/01/08 15:06:36 - State lookup.0 - Finished reading query, closing connection.
+2015/01/08 15:06:36 - Religion lookup.0 - Finished reading query, closing connection.
+2015/01/08 15:06:36 - EMR Source - Connection to database closed!
+2015/01/08 15:06:36 - State lookup.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2015/01/08 15:06:36 - EMR Source - Connection to database closed!
+2015/01/08 15:06:36 - Religion lookup.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2015/01/08 15:06:37 - client input.0 - Finished reading query, closing connection.
+2015/01/08 15:06:37 - EMR Source - Connection to database closed!
+2015/01/08 15:06:37 - client input.0 - Finished processing (I=16147, O=0, R=0, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Religion Stream lookup.0 - Field [religion] has nr [27]
+2015/01/08 15:06:37 - State Stream lookup.0 - Field [state] has nr [9]
+2015/01/08 15:06:37 - Dimension lookup/update (dim_client).0 - Dimension Lookup setting preparedStatement to [SELECT client_key, version, record_id, first_name, last_name, gender, date_of_birth, street, postal_code, city, country_code, drivers_license, social_security, occupation, phone_home, phone_biz, phone_cell, create_date, marital_status, ethnicity, living_children, family_size, monthly_income, userlist1, education, userlist3, userlist4, religion AS religion_title, userlist6, residence, referral_source, price_level, registration_date, contraceptive_date, external_client_id, state AS state_title, date_from, date_to FROM dim_client WHERE client_id = ?  AND ? >= date_from
+2015/01/08 15:06:37 - Dimension lookup/update (dim_client).0 -  AND ? < date_to
+2015/01/08 15:06:37 - Dimension lookup/update (dim_client).0 - ]
+2015/01/08 15:06:37 - Dimension lookup/update (dim_client).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:06:37 - Value Mapper (education).0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Religion Stream lookup.0 - Stopped processing with empty row after 16152 rows.
+2015/01/08 15:06:37 - Religion Stream lookup.0 - Finished processing (I=0, O=0, R=16152, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Value Mapper (occupation).0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Value Mapper (marital_status).0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Value Mapper (referral_source).0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - Value Mapper (price_level).0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:06:37 - State Stream lookup.0 - Stopped processing with empty row after 16150 rows.
+2015/01/08 15:06:37 - State Stream lookup.0 - Finished processing (I=0, O=0, R=16150, W=16147, U=0, E=0)
+2015/01/08 15:07:01 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4399 rows.
+2015/01/08 15:07:06 - If field value is null.0 - Finished processing (I=0, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:07:09 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4400 rows.
+2015/01/08 15:07:19 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4032 rows.
+2015/01/08 15:07:34 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 3557 rows.
+2015/01/08 15:07:58 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 3303 rows.
+2015/01/08 15:08:29 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4400 rows.
+2015/01/08 15:08:46 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4399 rows.
+2015/01/08 15:09:05 - Dimension lookup/update (dim_client).0 - Reduced the lookup cache from 5501 to 4400 rows.
+2015/01/08 15:09:16 - EMR Target - Connection to database closed!
+2015/01/08 15:09:16 - Dimension lookup/update (dim_client).0 - Finished processing (I=16147, O=0, R=16147, W=16147, U=0, E=0)
+2015/01/08 15:09:16 - build_client_services - Starting entry [dim_facility]
+2015/01/08 15:09:16 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:16 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:16 - build_client_services - exec(3, 0, dim_facility.0)
+2015/01/08 15:09:16 - dim_facility - Starting job entry
+2015/01/08 15:09:16 - dim_facility - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions//dim_facility.ktr]
+2015/01/08 15:09:16 - dim_facility - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions//dim_facility.ktr]
+2015/01/08 15:09:16 - dim_facility - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions//dim_facility.ktr, name=dim_facility, repinfo=null)
+2015/01/08 15:09:16 - dim_facility - Transformation is pre-loaded.
+2015/01/08 15:09:16 - dim_facility - Dispatching started for transformation [dim_facility]
+2015/01/08 15:09:16 - dim_facility - Nr of arguments detected:0 
+2015/01/08 15:09:16 - dim_facility - This is not a replay transformation
+2015/01/08 15:09:16 - dim_facility - I found 2 different steps to launch.
+2015/01/08 15:09:16 - dim_facility - Allocating rowsets...
+2015/01/08 15:09:16 - dim_facility -  Allocating rowsets for step 0 --> facility input
+2015/01/08 15:09:16 - dim_facility -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_facility - Transformation allocated new rowset [facility input.0 - Dimension lookup/update (dim_facility).0]
+2015/01/08 15:09:16 - dim_facility -  Allocated 1 rowsets for step 0 --> facility input  
+2015/01/08 15:09:16 - dim_facility -  Allocating rowsets for step 1 --> Dimension lookup/update (dim_facility)
+2015/01/08 15:09:16 - dim_facility -  Allocated 1 rowsets for step 1 --> Dimension lookup/update (dim_facility)  
+2015/01/08 15:09:16 - dim_facility - Allocating Steps & StepData...
+2015/01/08 15:09:16 - dim_facility -  Transformation is about to allocate step [facility input] of type [TableInput]
+2015/01/08 15:09:16 - facility input.0 - distribution activated
+2015/01/08 15:09:16 - facility input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - facility input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:16 - facility input.0 - output rel. is  1:1
+2015/01/08 15:09:16 - facility input.0 - Found output rowset [facility input.0 - Dimension lookup/update (dim_facility).0]
+2015/01/08 15:09:16 - facility input.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_facility -  Transformation has allocated a new step: [facility input].0
+2015/01/08 15:09:16 - dim_facility -  Transformation is about to allocate step [Dimension lookup/update (dim_facility)] of type [DimensionLookup]
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - distribution activated
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Got previous step from [Dimension lookup/update (dim_facility)] #0 --> facility input
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - input rel is 1:1
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Found input rowset [facility input.0 - Dimension lookup/update (dim_facility).0]
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Finished dispatching
+2015/01/08 15:09:16 - dim_facility -  Transformation has allocated a new step: [Dimension lookup/update (dim_facility)].0
+2015/01/08 15:09:16 - dim_facility - This transformation can be replayed with replay date: 2015/01/08 15:09:16
+2015/01/08 15:09:16 - dim_facility - Initialising 2 steps...
+2015/01/08 15:09:16 - facility input.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - EMR Source - New database connection defined
+2015/01/08 15:09:16 - EMR Target - New database connection defined
+2015/01/08 15:09:16 - EMR Source - Connected to database.
+2015/01/08 15:09:16 - facility input.0 - Connected to database...
+2015/01/08 15:09:16 - EMR Target - Connected to database.
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Connected to database...
+2015/01/08 15:09:16 - EMR Target - Auto commit off
+2015/01/08 15:09:16 - dim_facility - Step [facility input.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_facility - Step [Dimension lookup/update (dim_facility).0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_facility - Transformation has allocated 2 threads and 1 rowsets.
+2015/01/08 15:09:16 - facility input.0 - Starting to run...
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Starting to run...
+2015/01/08 15:09:16 - facility input.0 - SQL query : select 	dd.id as facility_id,
+2015/01/08 15:09:16 - facility input.0 - 		dd.name as facility_name,
+2015/01/08 15:09:16 - facility input.0 - 		dd.street,
+2015/01/08 15:09:16 - facility input.0 - 		dd.city,
+2015/01/08 15:09:16 - facility input.0 - 		dd.state,
+2015/01/08 15:09:16 - facility input.0 - 		dd.postal_code,
+2015/01/08 15:09:16 - facility input.0 - 		dd.country_code
+2015/01/08 15:09:16 - facility input.0 -   from facility dd
+2015/01/08 15:09:16 - facility input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:16 - EMR Source - Connection to database closed!
+2015/01/08 15:09:16 - facility input.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Dimension Lookup setting preparedStatement to [SELECT facility_key, version, facility_name, street, city, state, postal_code, country_code, date_from, date_to FROM dim_facility WHERE facility_id = ?  AND ? >= date_from
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 -  AND ? < date_to
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - ]
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:09:16 - EMR Target - Connection to database closed!
+2015/01/08 15:09:16 - Dimension lookup/update (dim_facility).0 - Finished processing (I=4, O=0, R=4, W=4, U=0, E=0)
+2015/01/08 15:09:16 - build_client_services - Starting entry [dim_service]
+2015/01/08 15:09:16 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:16 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:16 - build_client_services - exec(4, 0, dim_service.0)
+2015/01/08 15:09:16 - dim_service - Starting job entry
+2015/01/08 15:09:16 - dim_service - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_service.ktr]
+2015/01/08 15:09:16 - dim_service - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_service.ktr]
+2015/01/08 15:09:16 - dim_service - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/dim_service.ktr, name=dim_service, repinfo=null)
+2015/01/08 15:09:16 - dim_service - Transformation is pre-loaded.
+2015/01/08 15:09:16 - dim_service - Dispatching started for transformation [dim_service]
+2015/01/08 15:09:16 - dim_service - Nr of arguments detected:0 
+2015/01/08 15:09:16 - dim_service - This is not a replay transformation
+2015/01/08 15:09:16 - dim_service - I found 17 different steps to launch.
+2015/01/08 15:09:16 - dim_service - Allocating rowsets...
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 0 --> remove original code string
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [remove original code string.0 - Sort by IPPF code.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 1 rowsets for step 0 --> remove original code string  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 1 --> Sort by IPPF code
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Sort by IPPF code.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 2 rowsets for step 1 --> Sort by IPPF code  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 2 --> Split code blocks to type and value
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Split code blocks to type and value.0 - unpivot code blocks to type fields.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 3 rowsets for step 2 --> Split code blocks to type and value  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 3 --> unpivot code blocks to type fields
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [unpivot code blocks to type fields.0 - remove original code string.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 4 rowsets for step 3 --> unpivot code blocks to type fields  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 4 --> Separate code blocks
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Separate code blocks.0 - Split code blocks to type and value.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 5 rowsets for step 4 --> Separate code blocks  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 5 --> service input
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [service input.0 - Separate code blocks.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 6 rowsets for step 5 --> service input  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 6 --> IPPF Stream Lookup
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [IPPF Stream Lookup.0 - Filter lookup failures.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 7 rowsets for step 6 --> IPPF Stream Lookup  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 7 --> IPPF Sertvice lookup table
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [IPPF Sertvice lookup table.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 8 rowsets for step 7 --> IPPF Sertvice lookup table  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 8 --> Filter lookup failures
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Filter lookup failures.0 - remove lookup fields.0]
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Filter lookup failures.0 - Append streams.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 10 rowsets for step 8 --> Filter lookup failures  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 9 --> remove lookup fields
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [remove lookup fields.0 - Strings cut.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 11 rowsets for step 9 --> remove lookup fields  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 10 --> Strings cut
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Strings cut.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 12 rowsets for step 10 --> Strings cut  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 11 --> IPPF Stream Lookup 2
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [IPPF Stream Lookup 2.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 13 rowsets for step 11 --> IPPF Stream Lookup 2  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 12 --> Stream lookup 2
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Stream lookup 2.0 - remove source_ lookup codes.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 14 rowsets for step 12 --> Stream lookup 2  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 13 --> Append streams
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [Append streams.0 - Dimension lookup/update (dim_service).0]
+2015/01/08 15:09:16 - dim_service -  Allocated 15 rowsets for step 13 --> Append streams  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 14 --> remove source_ lookup codes
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [remove source_ lookup codes.0 - We tried and failed, so set to unknown.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 16 rowsets for step 14 --> remove source_ lookup codes  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 15 --> We tried and failed, so set to unknown
+2015/01/08 15:09:16 - dim_service -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:16 - dim_service - Transformation allocated new rowset [We tried and failed, so set to unknown.0 - Append streams.0]
+2015/01/08 15:09:16 - dim_service -  Allocated 17 rowsets for step 15 --> We tried and failed, so set to unknown  
+2015/01/08 15:09:16 - dim_service -  Allocating rowsets for step 16 --> Dimension lookup/update (dim_service)
+2015/01/08 15:09:16 - dim_service -  Allocated 17 rowsets for step 16 --> Dimension lookup/update (dim_service)  
+2015/01/08 15:09:16 - dim_service - Allocating Steps & StepData...
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [remove original code string] of type [SelectValues]
+2015/01/08 15:09:16 - remove original code string.0 - distribution activated
+2015/01/08 15:09:16 - remove original code string.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - remove original code string.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - remove original code string.0 - Got previous step from [remove original code string] #0 --> unpivot code blocks to type fields
+2015/01/08 15:09:16 - remove original code string.0 - input rel is 1:1
+2015/01/08 15:09:16 - remove original code string.0 - Found input rowset [unpivot code blocks to type fields.0 - remove original code string.0]
+2015/01/08 15:09:16 - remove original code string.0 - output rel. is  1:1
+2015/01/08 15:09:16 - remove original code string.0 - Found output rowset [remove original code string.0 - Sort by IPPF code.0]
+2015/01/08 15:09:16 - remove original code string.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [remove original code string].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Sort by IPPF code] of type [SortRows]
+2015/01/08 15:09:16 - Sort by IPPF code.0 - distribution activated
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Got previous step from [Sort by IPPF code] #0 --> remove original code string
+2015/01/08 15:09:16 - Sort by IPPF code.0 - input rel is 1:1
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Found input rowset [remove original code string.0 - Sort by IPPF code.0]
+2015/01/08 15:09:16 - Sort by IPPF code.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Found output rowset [Sort by IPPF code.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Sort by IPPF code].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Split code blocks to type and value] of type [FieldSplitter]
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - distribution activated
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Got previous step from [Split code blocks to type and value] #0 --> Separate code blocks
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - input rel is 1:1
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Found input rowset [Separate code blocks.0 - Split code blocks to type and value.0]
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Found output rowset [Split code blocks to type and value.0 - unpivot code blocks to type fields.0]
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Split code blocks to type and value].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [unpivot code blocks to type fields] of type [Denormaliser]
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - distribution activated
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Got previous step from [unpivot code blocks to type fields] #0 --> Split code blocks to type and value
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - input rel is 1:1
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Found input rowset [Split code blocks to type and value.0 - unpivot code blocks to type fields.0]
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - output rel. is  1:1
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Found output rowset [unpivot code blocks to type fields.0 - remove original code string.0]
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [unpivot code blocks to type fields].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Separate code blocks] of type [SplitFieldToRows3]
+2015/01/08 15:09:16 - Separate code blocks.0 - distribution activated
+2015/01/08 15:09:16 - Separate code blocks.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Separate code blocks.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - Separate code blocks.0 - Got previous step from [Separate code blocks] #0 --> service input
+2015/01/08 15:09:16 - Separate code blocks.0 - input rel is 1:1
+2015/01/08 15:09:16 - Separate code blocks.0 - Found input rowset [service input.0 - Separate code blocks.0]
+2015/01/08 15:09:16 - Separate code blocks.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Separate code blocks.0 - Found output rowset [Separate code blocks.0 - Split code blocks to type and value.0]
+2015/01/08 15:09:16 - Separate code blocks.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Separate code blocks].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [service input] of type [TableInput]
+2015/01/08 15:09:16 - service input.0 - distribution activated
+2015/01/08 15:09:16 - service input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - service input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:16 - service input.0 - output rel. is  1:1
+2015/01/08 15:09:16 - service input.0 - Found output rowset [service input.0 - Separate code blocks.0]
+2015/01/08 15:09:16 - service input.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [service input].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [IPPF Stream Lookup] of type [StreamLookup]
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - distribution activated
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Got previous step from [IPPF Stream Lookup] #0 --> Sort by IPPF code
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - input rel is 1:1
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Found input rowset [Sort by IPPF code.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Got previous step from [IPPF Stream Lookup] #1 --> IPPF Sertvice lookup table
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - input rel is 1:1
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Found input rowset [IPPF Sertvice lookup table.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - output rel. is  1:1
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Found output rowset [IPPF Stream Lookup.0 - Filter lookup failures.0]
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [IPPF Stream Lookup].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [IPPF Sertvice lookup table] of type [TableInput]
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - distribution activated
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - output rel. is  1:1
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Found output rowset [IPPF Sertvice lookup table.0 - IPPF Stream Lookup.0]
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [IPPF Sertvice lookup table].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Filter lookup failures] of type [FilterRows]
+2015/01/08 15:09:16 - Filter lookup failures.0 - distribution activated
+2015/01/08 15:09:16 - Filter lookup failures.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Filter lookup failures.0 - Step info: nrinput=1 nroutput=2
+2015/01/08 15:09:16 - Filter lookup failures.0 - Got previous step from [Filter lookup failures] #0 --> IPPF Stream Lookup
+2015/01/08 15:09:16 - Filter lookup failures.0 - input rel is 1:1
+2015/01/08 15:09:16 - Filter lookup failures.0 - Found input rowset [IPPF Stream Lookup.0 - Filter lookup failures.0]
+2015/01/08 15:09:16 - Filter lookup failures.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Filter lookup failures.0 - Found output rowset [Filter lookup failures.0 - remove lookup fields.0]
+2015/01/08 15:09:16 - Filter lookup failures.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Filter lookup failures.0 - Found output rowset [Filter lookup failures.0 - Append streams.0]
+2015/01/08 15:09:16 - Filter lookup failures.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Filter lookup failures].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [remove lookup fields] of type [SelectValues]
+2015/01/08 15:09:16 - remove lookup fields.0 - distribution activated
+2015/01/08 15:09:16 - remove lookup fields.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - remove lookup fields.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - remove lookup fields.0 - Got previous step from [remove lookup fields] #0 --> Filter lookup failures
+2015/01/08 15:09:16 - remove lookup fields.0 - input rel is 1:1
+2015/01/08 15:09:16 - remove lookup fields.0 - Found input rowset [Filter lookup failures.0 - remove lookup fields.0]
+2015/01/08 15:09:16 - remove lookup fields.0 - output rel. is  1:1
+2015/01/08 15:09:16 - remove lookup fields.0 - Found output rowset [remove lookup fields.0 - Strings cut.0]
+2015/01/08 15:09:16 - remove lookup fields.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [remove lookup fields].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Strings cut] of type [StringCut]
+2015/01/08 15:09:16 - Strings cut.0 - distribution activated
+2015/01/08 15:09:16 - Strings cut.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Strings cut.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - Strings cut.0 - Got previous step from [Strings cut] #0 --> remove lookup fields
+2015/01/08 15:09:16 - Strings cut.0 - input rel is 1:1
+2015/01/08 15:09:16 - Strings cut.0 - Found input rowset [remove lookup fields.0 - Strings cut.0]
+2015/01/08 15:09:16 - Strings cut.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Strings cut.0 - Found output rowset [Strings cut.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - Strings cut.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Strings cut].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [IPPF Stream Lookup 2] of type [TableInput]
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - distribution activated
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - output rel. is  1:1
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Found output rowset [IPPF Stream Lookup 2.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [IPPF Stream Lookup 2].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Stream lookup 2] of type [StreamLookup]
+2015/01/08 15:09:16 - Stream lookup 2.0 - distribution activated
+2015/01/08 15:09:16 - Stream lookup 2.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Stream lookup 2.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:16 - Stream lookup 2.0 - Got previous step from [Stream lookup 2] #0 --> IPPF Stream Lookup 2
+2015/01/08 15:09:16 - Stream lookup 2.0 - input rel is 1:1
+2015/01/08 15:09:16 - Stream lookup 2.0 - Found input rowset [IPPF Stream Lookup 2.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - Stream lookup 2.0 - Got previous step from [Stream lookup 2] #1 --> Strings cut
+2015/01/08 15:09:16 - Stream lookup 2.0 - input rel is 1:1
+2015/01/08 15:09:16 - Stream lookup 2.0 - Found input rowset [Strings cut.0 - Stream lookup 2.0]
+2015/01/08 15:09:16 - Stream lookup 2.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Stream lookup 2.0 - Found output rowset [Stream lookup 2.0 - remove source_ lookup codes.0]
+2015/01/08 15:09:16 - Stream lookup 2.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Stream lookup 2].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Append streams] of type [Append]
+2015/01/08 15:09:16 - Append streams.0 - distribution activated
+2015/01/08 15:09:16 - Append streams.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Append streams.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:16 - Append streams.0 - Got previous step from [Append streams] #0 --> Filter lookup failures
+2015/01/08 15:09:16 - Append streams.0 - input rel is 1:1
+2015/01/08 15:09:16 - Append streams.0 - Found input rowset [Filter lookup failures.0 - Append streams.0]
+2015/01/08 15:09:16 - Append streams.0 - Got previous step from [Append streams] #1 --> We tried and failed, so set to unknown
+2015/01/08 15:09:16 - Append streams.0 - input rel is 1:1
+2015/01/08 15:09:16 - Append streams.0 - Found input rowset [We tried and failed, so set to unknown.0 - Append streams.0]
+2015/01/08 15:09:16 - Append streams.0 - output rel. is  1:1
+2015/01/08 15:09:16 - Append streams.0 - Found output rowset [Append streams.0 - Dimension lookup/update (dim_service).0]
+2015/01/08 15:09:16 - Append streams.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Append streams].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [remove source_ lookup codes] of type [SelectValues]
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - distribution activated
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Got previous step from [remove source_ lookup codes] #0 --> Stream lookup 2
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - input rel is 1:1
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Found input rowset [Stream lookup 2.0 - remove source_ lookup codes.0]
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - output rel. is  1:1
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Found output rowset [remove source_ lookup codes.0 - We tried and failed, so set to unknown.0]
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [remove source_ lookup codes].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [We tried and failed, so set to unknown] of type [IfNull]
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - distribution activated
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Got previous step from [We tried and failed, so set to unknown] #0 --> remove source_ lookup codes
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - input rel is 1:1
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Found input rowset [remove source_ lookup codes.0 - We tried and failed, so set to unknown.0]
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - output rel. is  1:1
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Found output rowset [We tried and failed, so set to unknown.0 - Append streams.0]
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [We tried and failed, so set to unknown].0
+2015/01/08 15:09:16 - dim_service -  Transformation is about to allocate step [Dimension lookup/update (dim_service)] of type [DimensionLookup]
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - distribution activated
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Got previous step from [Dimension lookup/update (dim_service)] #0 --> Append streams
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - input rel is 1:1
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Found input rowset [Append streams.0 - Dimension lookup/update (dim_service).0]
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Finished dispatching
+2015/01/08 15:09:16 - dim_service -  Transformation has allocated a new step: [Dimension lookup/update (dim_service)].0
+2015/01/08 15:09:16 - dim_service - This transformation can be replayed with replay date: 2015/01/08 15:09:16
+2015/01/08 15:09:16 - dim_service - Initialising 17 steps...
+2015/01/08 15:09:16 - remove original code string.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Separate code blocks.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - service input.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Filter lookup failures.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - EMR Source - New database connection defined
+2015/01/08 15:09:16 - Strings cut.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Stream lookup 2.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - remove lookup fields.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - Append streams.0 - Running on slave server #0/1.
+2015/01/08 15:09:16 - EMR Target - New database connection defined
+2015/01/08 15:09:16 - EMR Target - New database connection defined
+2015/01/08 15:09:16 - EMR Target - New database connection defined
+2015/01/08 15:09:16 - EMR Source - Connected to database.
+2015/01/08 15:09:16 - service input.0 - Connected to database...
+2015/01/08 15:09:16 - EMR Target - Connected to database.
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Connected to database...
+2015/01/08 15:09:16 - EMR Target - Auto commit off
+2015/01/08 15:09:16 - EMR Target - Connected to database.
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Connected to database...
+2015/01/08 15:09:16 - EMR Target - Connected to database.
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Connected to database...
+2015/01/08 15:09:16 - dim_service - Step [remove original code string.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Sort by IPPF code.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Split code blocks to type and value.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [unpivot code blocks to type fields.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Separate code blocks.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [service input.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [IPPF Stream Lookup.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [IPPF Sertvice lookup table.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Filter lookup failures.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [remove lookup fields.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Strings cut.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [IPPF Stream Lookup 2.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Stream lookup 2.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Append streams.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [remove source_ lookup codes.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [We tried and failed, so set to unknown.0] initialized flawlessly.
+2015/01/08 15:09:16 - dim_service - Step [Dimension lookup/update (dim_service).0] initialized flawlessly.
+2015/01/08 15:09:16 - remove original code string.0 - Starting to run...
+2015/01/08 15:09:16 - Sort by IPPF code.0 - Starting to run...
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Starting to run...
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Starting to run...
+2015/01/08 15:09:16 - Separate code blocks.0 - Starting to run...
+2015/01/08 15:09:16 - service input.0 - Starting to run...
+2015/01/08 15:09:16 - service input.0 - SQL query : select 
+2015/01/08 15:09:16 - service input.0 - aa.id as code_id, 
+2015/01/08 15:09:16 - service input.0 - aa.code as billing_code, 
+2015/01/08 15:09:16 - service input.0 - aa.code_text, 
+2015/01/08 15:09:16 - service input.0 - aa.code_type,
+2015/01/08 15:09:16 - service input.0 - bb.ct_key as code_type_key,
+2015/01/08 15:09:16 - service input.0 - bb.ct_label as code_type_description,
+2015/01/08 15:09:16 - service input.0 - aa.superbill,
+2015/01/08 15:09:16 - service input.0 - aa.related_code
+2015/01/08 15:09:16 - service input.0 - from codes aa
+2015/01/08 15:09:16 - service input.0 - left join code_types bb on (aa.code_type = bb.ct_id)
+2015/01/08 15:09:16 - service input.0 - where length(related_code) <> 0
+2015/01/08 15:09:16 - service input.0 - and active = 1
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Starting to run...
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Starting to run...
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - SQL query : select * from ippf_service_lookup
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - order by ippf_code
+2015/01/08 15:09:16 - IPPF Stream Lookup.0 - Reading from stream [IPPF Sertvice lookup table]
+2015/01/08 15:09:16 - Filter lookup failures.0 - Starting to run...
+2015/01/08 15:09:16 - remove lookup fields.0 - Starting to run...
+2015/01/08 15:09:16 - Strings cut.0 - Starting to run...
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Starting to run...
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - SQL query : select * from ippf_service_lookup
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - order by ippf_code
+2015/01/08 15:09:16 - Stream lookup 2.0 - Starting to run...
+2015/01/08 15:09:16 - Append streams.0 - Starting to run...
+2015/01/08 15:09:16 - Stream lookup 2.0 - Reading from stream [IPPF Stream Lookup 2]
+2015/01/08 15:09:16 - remove source_ lookup codes.0 - Starting to run...
+2015/01/08 15:09:16 - dim_service - Transformation has allocated 17 threads and 17 rowsets.
+2015/01/08 15:09:16 - We tried and failed, so set to unknown.0 - Starting to run...
+2015/01/08 15:09:16 - Dimension lookup/update (dim_service).0 - Starting to run...
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Finished reading query, closing connection.
+2015/01/08 15:09:16 - service input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Finished reading query, closing connection.
+2015/01/08 15:09:16 - EMR Target - Connection to database closed!
+2015/01/08 15:09:16 - IPPF Sertvice lookup table.0 - Finished processing (I=693, O=0, R=0, W=693, U=0, E=0)
+2015/01/08 15:09:16 - EMR Source - Connection to database closed!
+2015/01/08 15:09:16 - EMR Target - Connection to database closed!
+2015/01/08 15:09:16 - service input.0 - Finished processing (I=334, O=0, R=0, W=334, U=0, E=0)
+2015/01/08 15:09:16 - IPPF Stream Lookup 2.0 - Finished processing (I=693, O=0, R=0, W=693, U=0, E=0)
+2015/01/08 15:09:16 - Separate code blocks.0 - Finished processing (I=0, O=0, R=334, W=687, U=0, E=0)
+2015/01/08 15:09:16 - Split code blocks to type and value.0 - Finished processing (I=0, O=0, R=687, W=687, U=0, E=0)
+2015/01/08 15:09:16 - unpivot code blocks to type fields.0 - Finished processing (I=0, O=0, R=687, W=334, U=0, E=0)
+2015/01/08 15:09:16 - remove original code string.0 - Finished processing (I=0, O=0, R=334, W=334, U=0, E=0)
+2015/01/08 15:09:17 - Sort by IPPF code.0 - The number of binary string to data type conversions done in this sort block is 0
+2015/01/08 15:09:17 - Sort by IPPF code.0 - Finished processing (I=0, O=0, R=334, W=334, U=0, E=0)
+2015/01/08 15:09:17 - IPPF Stream Lookup.0 - Field [IPPF] has nr [7]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_service).0 - Dimension Lookup setting preparedStatement to [SELECT service_key, version, code_text, code_type, code_type_key, code_type_description, superbill, IPPF, IPPF2, IPPFCM, ACCT, ippf_code, family_code, family_desc, sub_family_code, sub_family_desc, type_code, type_group_desc, type_desc, service_detail_code, complete_desc, date_from, date_to FROM dim_service WHERE code_id = ?  AND billing_code = ?  AND ? >= date_from
+2015/01/08 15:09:17 - Dimension lookup/update (dim_service).0 -  AND ? < date_to
+2015/01/08 15:09:17 - Dimension lookup/update (dim_service).0 - ]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_service).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:09:17 - IPPF Stream Lookup.0 - Stopped processing with empty row after 1027 rows.
+2015/01/08 15:09:17 - IPPF Stream Lookup.0 - Finished processing (I=0, O=0, R=1027, W=334, U=0, E=0)
+2015/01/08 15:09:17 - Stream lookup 2.0 - Field [source_family_code] has nr [11]
+2015/01/08 15:09:17 - Stream lookup 2.0 - Field [source_sub_family_code] has nr [12]
+2015/01/08 15:09:17 - Stream lookup 2.0 - Field [source_type_code] has nr [13]
+2015/01/08 15:09:17 - Filter lookup failures.0 - Finished processing (I=0, O=0, R=334, W=334, U=0, E=0)
+2015/01/08 15:09:17 - remove lookup fields.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2015/01/08 15:09:17 - Strings cut.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2015/01/08 15:09:17 - Stream lookup 2.0 - Stopped processing with empty row after 701 rows.
+2015/01/08 15:09:17 - Stream lookup 2.0 - Finished processing (I=0, O=0, R=701, W=8, U=0, E=0)
+2015/01/08 15:09:17 - remove source_ lookup codes.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2015/01/08 15:09:17 - We tried and failed, so set to unknown.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2015/01/08 15:09:17 - Append streams.0 - Finished processing (I=0, O=0, R=334, W=334, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Dimension lookup/update (dim_service).0 - Finished processing (I=334, O=0, R=334, W=334, U=0, E=0)
+2015/01/08 15:09:17 - build_client_services - Starting entry [dim_referral]
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - exec(5, 0, dim_referral.0)
+2015/01/08 15:09:17 - dim_referral - Starting job entry
+2015/01/08 15:09:17 - dim_referral - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_referral.ktr]
+2015/01/08 15:09:17 - dim_referral - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_referral.ktr]
+2015/01/08 15:09:17 - dim_referral - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/dim_referral.ktr, name=dim_referral, repinfo=null)
+2015/01/08 15:09:17 - dim_referral - Transformation is pre-loaded.
+2015/01/08 15:09:17 - dim_referral - Dispatching started for transformation [dim_referral]
+2015/01/08 15:09:17 - dim_referral - Nr of arguments detected:0 
+2015/01/08 15:09:17 - dim_referral - This is not a replay transformation
+2015/01/08 15:09:17 - dim_referral - I found 5 different steps to launch.
+2015/01/08 15:09:17 - dim_referral - Allocating rowsets...
+2015/01/08 15:09:17 - dim_referral -  Allocating rowsets for step 0 --> reftype input
+2015/01/08 15:09:17 - dim_referral -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_referral - Transformation allocated new rowset [reftype input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - dim_referral -  Allocated 1 rowsets for step 0 --> reftype input  
+2015/01/08 15:09:17 - dim_referral -  Allocating rowsets for step 1 --> Stream lookup
+2015/01/08 15:09:17 - dim_referral -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_referral - Transformation allocated new rowset [Stream lookup.0 - If field value is null.0]
+2015/01/08 15:09:17 - dim_referral -  Allocated 2 rowsets for step 1 --> Stream lookup  
+2015/01/08 15:09:17 - dim_referral -  Allocating rowsets for step 2 --> referral input
+2015/01/08 15:09:17 - dim_referral -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_referral - Transformation allocated new rowset [referral input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - dim_referral -  Allocated 3 rowsets for step 2 --> referral input  
+2015/01/08 15:09:17 - dim_referral -  Allocating rowsets for step 3 --> If field value is null
+2015/01/08 15:09:17 - dim_referral -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_referral - Transformation allocated new rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - dim_referral -  Allocated 4 rowsets for step 3 --> If field value is null  
+2015/01/08 15:09:17 - dim_referral -  Allocating rowsets for step 4 --> Dimension lookup/update (dim_referral)
+2015/01/08 15:09:17 - dim_referral -  Allocated 4 rowsets for step 4 --> Dimension lookup/update (dim_referral)  
+2015/01/08 15:09:17 - dim_referral - Allocating Steps & StepData...
+2015/01/08 15:09:17 - dim_referral -  Transformation is about to allocate step [reftype input] of type [TableInput]
+2015/01/08 15:09:17 - reftype input.0 - distribution activated
+2015/01/08 15:09:17 - reftype input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - reftype input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - reftype input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - reftype input.0 - Found output rowset [reftype input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - reftype input.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_referral -  Transformation has allocated a new step: [reftype input].0
+2015/01/08 15:09:17 - dim_referral -  Transformation is about to allocate step [Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Stream lookup.0 - Got previous step from [Stream lookup] #0 --> reftype input
+2015/01/08 15:09:17 - Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Stream lookup.0 - Found input rowset [reftype input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - Stream lookup.0 - Got previous step from [Stream lookup] #1 --> referral input
+2015/01/08 15:09:17 - Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Stream lookup.0 - Found input rowset [referral input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Stream lookup.0 - Found output rowset [Stream lookup.0 - If field value is null.0]
+2015/01/08 15:09:17 - Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_referral -  Transformation has allocated a new step: [Stream lookup].0
+2015/01/08 15:09:17 - dim_referral -  Transformation is about to allocate step [referral input] of type [TableInput]
+2015/01/08 15:09:17 - referral input.0 - distribution activated
+2015/01/08 15:09:17 - referral input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - referral input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - referral input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - referral input.0 - Found output rowset [referral input.0 - Stream lookup.0]
+2015/01/08 15:09:17 - referral input.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_referral -  Transformation has allocated a new step: [referral input].0
+2015/01/08 15:09:17 - dim_referral -  Transformation is about to allocate step [If field value is null] of type [IfNull]
+2015/01/08 15:09:17 - If field value is null.0 - distribution activated
+2015/01/08 15:09:17 - If field value is null.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - If field value is null.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:17 - If field value is null.0 - Got previous step from [If field value is null] #0 --> Stream lookup
+2015/01/08 15:09:17 - If field value is null.0 - input rel is 1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found input rowset [Stream lookup.0 - If field value is null.0]
+2015/01/08 15:09:17 - If field value is null.0 - output rel. is  1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found output rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - If field value is null.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_referral -  Transformation has allocated a new step: [If field value is null].0
+2015/01/08 15:09:17 - dim_referral -  Transformation is about to allocate step [Dimension lookup/update (dim_referral)] of type [DimensionLookup]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - distribution activated
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Got previous step from [Dimension lookup/update (dim_referral)] #0 --> If field value is null
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - input rel is 1:1
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Found input rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished dispatching
+2015/01/08 15:09:17 - dim_referral -  Transformation has allocated a new step: [Dimension lookup/update (dim_referral)].0
+2015/01/08 15:09:17 - dim_referral - This transformation can be replayed with replay date: 2015/01/08 15:09:17
+2015/01/08 15:09:17 - dim_referral - Initialising 5 steps...
+2015/01/08 15:09:17 - reftype input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - referral input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - If field value is null.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Source - New database connection defined
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - EMR Source - New database connection defined
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Auto commit off
+2015/01/08 15:09:17 - EMR Source - Connected to database.
+2015/01/08 15:09:17 - reftype input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Source - Connected to database.
+2015/01/08 15:09:17 - referral input.0 - Connected to database...
+2015/01/08 15:09:17 - dim_referral - Step [reftype input.0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_referral - Step [Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_referral - Step [referral input.0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_referral - Step [If field value is null.0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_referral - Step [Dimension lookup/update (dim_referral).0] initialized flawlessly.
+2015/01/08 15:09:17 - reftype input.0 - Starting to run...
+2015/01/08 15:09:17 - Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - referral input.0 - Starting to run...
+2015/01/08 15:09:17 - Stream lookup.0 - Reading from stream [reftype input]
+2015/01/08 15:09:17 - If field value is null.0 - Starting to run...
+2015/01/08 15:09:17 - reftype input.0 - SQL query : select 
+2015/01/08 15:09:17 - reftype input.0 - 	option_id, 
+2015/01/08 15:09:17 - reftype input.0 - 	title 
+2015/01/08 15:09:17 - reftype input.0 - 
+2015/01/08 15:09:17 - reftype input.0 - from 
+2015/01/08 15:09:17 - reftype input.0 - 	list_options 
+2015/01/08 15:09:17 - reftype input.0 - 	
+2015/01/08 15:09:17 - reftype input.0 - where 
+2015/01/08 15:09:17 - reftype input.0 - 	list_id in ('reftype');
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Starting to run...
+2015/01/08 15:09:17 - dim_referral - Transformation has allocated 5 threads and 4 rowsets.
+2015/01/08 15:09:17 - referral input.0 - SQL query : select	
+2015/01/08 15:09:17 - referral input.0 - 	id as referral_id,
+2015/01/08 15:09:17 - referral input.0 - 	pid as client_id,
+2015/01/08 15:09:17 - referral input.0 - 	refer_date as referral_date,
+2015/01/08 15:09:17 - referral input.0 - 	refer_from as referred_by,
+2015/01/08 15:09:17 - referral input.0 - 	refer_to as referred_to,
+2015/01/08 15:09:17 - referral input.0 - 	reply_date,
+2015/01/08 15:09:17 - referral input.0 - 	cast(refer_external as SIGNED) as external_referral,
+2015/01/08 15:09:17 - referral input.0 - 	refer_related_code as requested_service,
+2015/01/08 15:09:17 - referral input.0 - 	date as create_date
+2015/01/08 15:09:17 - referral input.0 -  
+2015/01/08 15:09:17 - referral input.0 - from
+2015/01/08 15:09:17 - referral input.0 - 	transactions
+2015/01/08 15:09:17 - reftype input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Source - Connection to database closed!
+2015/01/08 15:09:17 - reftype input.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2015/01/08 15:09:17 - referral input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Source - Connection to database closed!
+2015/01/08 15:09:17 - referral input.0 - Finished processing (I=104, O=0, R=0, W=104, U=0, E=0)
+2015/01/08 15:09:17 - Stream lookup.0 - Field [external_referral] has nr [6]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Dimension Lookup setting preparedStatement to [SELECT referral_key, version, client_id, referral_date, referred_by, referred_to, reply_date, requested_service, create_date, external_referral AS title, date_from, date_to FROM dim_referral WHERE referral_id = ?  AND ? >= date_from
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 -  AND ? < date_to
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - ]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:09:17 - Stream lookup.0 - Stopped processing with empty row after 108 rows.
+2015/01/08 15:09:17 - Stream lookup.0 - Finished processing (I=0, O=0, R=108, W=104, U=0, E=0)
+2015/01/08 15:09:17 - If field value is null.0 - Finished processing (I=0, O=0, R=104, W=104, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished processing (I=104, O=0, R=104, W=104, U=1, E=0)
+2015/01/08 15:09:17 - build_client_services - Starting entry [dim_user]
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - exec(6, 0, dim_user.0)
+2015/01/08 15:09:17 - dim_user - Starting job entry
+2015/01/08 15:09:17 - dim_user - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_user.ktr]
+2015/01/08 15:09:17 - dim_user - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/dim_user.ktr]
+2015/01/08 15:09:17 - dim_user - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/dim_user.ktr, name=dim_user, repinfo=null)
+2015/01/08 15:09:17 - dim_user - Transformation is pre-loaded.
+2015/01/08 15:09:17 - dim_user - Dispatching started for transformation [dim_user]
+2015/01/08 15:09:17 - dim_user - Nr of arguments detected:0 
+2015/01/08 15:09:17 - dim_user - This is not a replay transformation
+2015/01/08 15:09:17 - dim_user - I found 3 different steps to launch.
+2015/01/08 15:09:17 - dim_user - Allocating rowsets...
+2015/01/08 15:09:17 - dim_user -  Allocating rowsets for step 0 --> If field value is null
+2015/01/08 15:09:17 - dim_user -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_user - Transformation allocated new rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - dim_user -  Allocated 1 rowsets for step 0 --> If field value is null  
+2015/01/08 15:09:17 - dim_user -  Allocating rowsets for step 1 --> Dimension lookup/update (dim_referral)
+2015/01/08 15:09:17 - dim_user -  Allocated 1 rowsets for step 1 --> Dimension lookup/update (dim_referral)  
+2015/01/08 15:09:17 - dim_user -  Allocating rowsets for step 2 --> referral input
+2015/01/08 15:09:17 - dim_user -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - dim_user - Transformation allocated new rowset [referral input.0 - If field value is null.0]
+2015/01/08 15:09:17 - dim_user -  Allocated 2 rowsets for step 2 --> referral input  
+2015/01/08 15:09:17 - dim_user - Allocating Steps & StepData...
+2015/01/08 15:09:17 - dim_user -  Transformation is about to allocate step [If field value is null] of type [IfNull]
+2015/01/08 15:09:17 - If field value is null.0 - distribution activated
+2015/01/08 15:09:17 - If field value is null.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - If field value is null.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:17 - If field value is null.0 - Got previous step from [If field value is null] #0 --> referral input
+2015/01/08 15:09:17 - If field value is null.0 - input rel is 1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found input rowset [referral input.0 - If field value is null.0]
+2015/01/08 15:09:17 - If field value is null.0 - output rel. is  1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found output rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - If field value is null.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_user -  Transformation has allocated a new step: [If field value is null].0
+2015/01/08 15:09:17 - dim_user -  Transformation is about to allocate step [Dimension lookup/update (dim_referral)] of type [DimensionLookup]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - distribution activated
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Got previous step from [Dimension lookup/update (dim_referral)] #0 --> If field value is null
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - input rel is 1:1
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Found input rowset [If field value is null.0 - Dimension lookup/update (dim_referral).0]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished dispatching
+2015/01/08 15:09:17 - dim_user -  Transformation has allocated a new step: [Dimension lookup/update (dim_referral)].0
+2015/01/08 15:09:17 - dim_user -  Transformation is about to allocate step [referral input] of type [TableInput]
+2015/01/08 15:09:17 - referral input.0 - distribution activated
+2015/01/08 15:09:17 - referral input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - referral input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - referral input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - referral input.0 - Found output rowset [referral input.0 - If field value is null.0]
+2015/01/08 15:09:17 - referral input.0 - Finished dispatching
+2015/01/08 15:09:17 - dim_user -  Transformation has allocated a new step: [referral input].0
+2015/01/08 15:09:17 - dim_user - This transformation can be replayed with replay date: 2015/01/08 15:09:17
+2015/01/08 15:09:17 - dim_user - Initialising 3 steps...
+2015/01/08 15:09:17 - If field value is null.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - referral input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - EMR Source - New database connection defined
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Auto commit off
+2015/01/08 15:09:17 - EMR Source - Connected to database.
+2015/01/08 15:09:17 - referral input.0 - Connected to database...
+2015/01/08 15:09:17 - dim_user - Step [If field value is null.0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_user - Step [Dimension lookup/update (dim_referral).0] initialized flawlessly.
+2015/01/08 15:09:17 - dim_user - Step [referral input.0] initialized flawlessly.
+2015/01/08 15:09:17 - If field value is null.0 - Starting to run...
+2015/01/08 15:09:17 - dim_user - Transformation has allocated 3 threads and 2 rowsets.
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Starting to run...
+2015/01/08 15:09:17 - referral input.0 - Starting to run...
+2015/01/08 15:09:17 - referral input.0 - SQL query : select	
+2015/01/08 15:09:17 - referral input.0 - 	id as user_id,
+2015/01/08 15:09:17 - referral input.0 - 	fname as first_name,
+2015/01/08 15:09:17 - referral input.0 - 	mname as middle_name,
+2015/01/08 15:09:17 - referral input.0 - 	lname as last_name, 
+2015/01/08 15:09:17 - referral input.0 - 	facility_id,
+2015/01/08 15:09:17 - referral input.0 - 	specialty,
+2015/01/08 15:09:17 - referral input.0 - 	organization,
+2015/01/08 15:09:17 - referral input.0 - 	street as address,
+2015/01/08 15:09:17 - referral input.0 - 	city,
+2015/01/08 15:09:17 - referral input.0 - 	state,
+2015/01/08 15:09:17 - referral input.0 - 	zip,
+2015/01/08 15:09:17 - referral input.0 - 	taxonomy
+2015/01/08 15:09:17 - referral input.0 -  
+2015/01/08 15:09:17 - referral input.0 - from
+2015/01/08 15:09:17 - referral input.0 - 	users
+2015/01/08 15:09:17 - referral input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Source - Connection to database closed!
+2015/01/08 15:09:17 - referral input.0 - Finished processing (I=65, O=0, R=0, W=65, U=0, E=0)
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Dimension Lookup setting preparedStatement to [SELECT user_key, version, first_name, middle_name, last_name, facility_id, specialty, organization, address, city, state, zip, taxonomy, date_from, date_to FROM dim_user WHERE user_id = ?  AND ? >= date_from
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 -  AND ? < date_to
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - ]
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished preparing dimension lookup statement.
+2015/01/08 15:09:17 - If field value is null.0 - Finished processing (I=0, O=0, R=65, W=65, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Dimension lookup/update (dim_referral).0 - Finished processing (I=65, O=0, R=65, W=65, U=0, E=0)
+2015/01/08 15:09:17 - build_client_services - Starting entry [fact_client_services]
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:09:17 - build_client_services - exec(7, 0, fact_client_services.0)
+2015/01/08 15:09:17 - fact_client_services - Starting job entry
+2015/01/08 15:09:17 - fact_client_services - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/facts/Client_Services/fact_client_services.ktr]
+2015/01/08 15:09:17 - fact_client_services - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/facts/Client_Services/fact_client_services.ktr]
+2015/01/08 15:09:17 - fact_client_services - Starting transformation...(file=${Internal.Job.Filename.Directory}/facts/Client_Services/fact_client_services.ktr, name=fact_client_services, repinfo=null)
+2015/01/08 15:09:17 - fact_client_services - Transformation is pre-loaded.
+2015/01/08 15:09:17 - fact_client_services - Dispatching started for transformation [fact_client_services]
+2015/01/08 15:09:17 - fact_client_services - Nr of arguments detected:0 
+2015/01/08 15:09:17 - fact_client_services - This is not a replay transformation
+2015/01/08 15:09:17 - fact_client_services - I found 16 different steps to launch.
+2015/01/08 15:09:17 - fact_client_services - Allocating rowsets...
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 0 --> Table input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Table input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 1 rowsets for step 0 --> Table input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 1 --> Date Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Date Stream lookup.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 2 rowsets for step 1 --> Date Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 2 --> Date Input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Date Input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 3 rowsets for step 2 --> Date Input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 3 --> Client input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Client input.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 4 rowsets for step 3 --> Client input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 4 --> Patient Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Patient Stream lookup.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 5 rowsets for step 4 --> Patient Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 5 --> Facility input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Facility input.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 6 rowsets for step 5 --> Facility input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 6 --> Facility Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Facility Stream lookup.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 7 rowsets for step 6 --> Facility Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 7 --> Service Input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Service Input.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 8 rowsets for step 7 --> Service Input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 8 --> Service Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Service Stream lookup.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 9 rowsets for step 8 --> Service Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 9 --> Referral Input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Referral Input.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 10 rowsets for step 9 --> Referral Input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 10 --> Referral Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Referral Stream lookup.0 - trim down unnecessary fields.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 11 rowsets for step 10 --> Referral Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 11 --> If field value is null
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [If field value is null.0 - fact_client_services.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 12 rowsets for step 11 --> If field value is null  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 12 --> fact_client_services
+2015/01/08 15:09:17 - fact_client_services -  Allocated 12 rowsets for step 12 --> fact_client_services  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 13 --> Code Stream lookup
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Code Stream lookup.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 13 rowsets for step 13 --> Code Stream lookup  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 14 --> Code Input
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [Code Input.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 14 rowsets for step 14 --> Code Input  
+2015/01/08 15:09:17 - fact_client_services -  Allocating rowsets for step 15 --> trim down unnecessary fields
+2015/01/08 15:09:17 - fact_client_services -   prevcopies = 1, nextcopies=1
+2015/01/08 15:09:17 - fact_client_services - Transformation allocated new rowset [trim down unnecessary fields.0 - If field value is null.0]
+2015/01/08 15:09:17 - fact_client_services -  Allocated 15 rowsets for step 15 --> trim down unnecessary fields  
+2015/01/08 15:09:17 - fact_client_services - Allocating Steps & StepData...
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Table input] of type [TableInput]
+2015/01/08 15:09:17 - Table input.0 - distribution activated
+2015/01/08 15:09:17 - Table input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Table input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Table input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Table input.0 - Found output rowset [Table input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - Table input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Table input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Date Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Date Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Date Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Date Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Date Stream lookup.0 - Got previous step from [Date Stream lookup] #0 --> Table input
+2015/01/08 15:09:17 - Date Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Date Stream lookup.0 - Found input rowset [Table input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - Date Stream lookup.0 - Got previous step from [Date Stream lookup] #1 --> Date Input
+2015/01/08 15:09:17 - Date Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Date Stream lookup.0 - Found input rowset [Date Input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - Date Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Date Stream lookup.0 - Found output rowset [Date Stream lookup.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - Date Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Date Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Date Input] of type [TableInput]
+2015/01/08 15:09:17 - Date Input.0 - distribution activated
+2015/01/08 15:09:17 - Date Input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Date Input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Date Input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Date Input.0 - Found output rowset [Date Input.0 - Date Stream lookup.0]
+2015/01/08 15:09:17 - Date Input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Date Input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Client input] of type [TableInput]
+2015/01/08 15:09:17 - Client input.0 - distribution activated
+2015/01/08 15:09:17 - Client input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Client input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Client input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Client input.0 - Found output rowset [Client input.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - Client input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Client input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Patient Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Patient Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Got previous step from [Patient Stream lookup] #0 --> Client input
+2015/01/08 15:09:17 - Patient Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Found input rowset [Client input.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Got previous step from [Patient Stream lookup] #1 --> Code Stream lookup
+2015/01/08 15:09:17 - Patient Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Found input rowset [Code Stream lookup.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - Patient Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Found output rowset [Patient Stream lookup.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Patient Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Facility input] of type [TableInput]
+2015/01/08 15:09:17 - Facility input.0 - distribution activated
+2015/01/08 15:09:17 - Facility input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Facility input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Facility input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Facility input.0 - Found output rowset [Facility input.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - Facility input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Facility input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Facility Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Facility Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Got previous step from [Facility Stream lookup] #0 --> Facility input
+2015/01/08 15:09:17 - Facility Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Found input rowset [Facility input.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Got previous step from [Facility Stream lookup] #1 --> Patient Stream lookup
+2015/01/08 15:09:17 - Facility Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Found input rowset [Patient Stream lookup.0 - Facility Stream lookup.0]
+2015/01/08 15:09:17 - Facility Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Found output rowset [Facility Stream lookup.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Facility Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Service Input] of type [TableInput]
+2015/01/08 15:09:17 - Service Input.0 - distribution activated
+2015/01/08 15:09:17 - Service Input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Service Input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Service Input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Service Input.0 - Found output rowset [Service Input.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - Service Input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Service Input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Service Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Service Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Service Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Service Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Service Stream lookup.0 - Got previous step from [Service Stream lookup] #0 --> Service Input
+2015/01/08 15:09:17 - Service Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Service Stream lookup.0 - Found input rowset [Service Input.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - Service Stream lookup.0 - Got previous step from [Service Stream lookup] #1 --> Facility Stream lookup
+2015/01/08 15:09:17 - Service Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Service Stream lookup.0 - Found input rowset [Facility Stream lookup.0 - Service Stream lookup.0]
+2015/01/08 15:09:17 - Service Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Service Stream lookup.0 - Found output rowset [Service Stream lookup.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - Service Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Service Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Referral Input] of type [TableInput]
+2015/01/08 15:09:17 - Referral Input.0 - distribution activated
+2015/01/08 15:09:17 - Referral Input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Referral Input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Referral Input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Referral Input.0 - Found output rowset [Referral Input.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - Referral Input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Referral Input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Referral Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Referral Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Got previous step from [Referral Stream lookup] #0 --> Referral Input
+2015/01/08 15:09:17 - Referral Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Found input rowset [Referral Input.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Got previous step from [Referral Stream lookup] #1 --> Service Stream lookup
+2015/01/08 15:09:17 - Referral Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Found input rowset [Service Stream lookup.0 - Referral Stream lookup.0]
+2015/01/08 15:09:17 - Referral Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Found output rowset [Referral Stream lookup.0 - trim down unnecessary fields.0]
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Referral Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [If field value is null] of type [IfNull]
+2015/01/08 15:09:17 - If field value is null.0 - distribution activated
+2015/01/08 15:09:17 - If field value is null.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - If field value is null.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:17 - If field value is null.0 - Got previous step from [If field value is null] #0 --> trim down unnecessary fields
+2015/01/08 15:09:17 - If field value is null.0 - input rel is 1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found input rowset [trim down unnecessary fields.0 - If field value is null.0]
+2015/01/08 15:09:17 - If field value is null.0 - output rel. is  1:1
+2015/01/08 15:09:17 - If field value is null.0 - Found output rowset [If field value is null.0 - fact_client_services.0]
+2015/01/08 15:09:17 - If field value is null.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [If field value is null].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [fact_client_services] of type [TableOutput]
+2015/01/08 15:09:17 - fact_client_services.0 - distribution activated
+2015/01/08 15:09:17 - fact_client_services.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - fact_client_services.0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:09:17 - fact_client_services.0 - Got previous step from [fact_client_services] #0 --> If field value is null
+2015/01/08 15:09:17 - fact_client_services.0 - input rel is 1:1
+2015/01/08 15:09:17 - fact_client_services.0 - Found input rowset [If field value is null.0 - fact_client_services.0]
+2015/01/08 15:09:17 - fact_client_services.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [fact_client_services].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Code Stream lookup] of type [StreamLookup]
+2015/01/08 15:09:17 - Code Stream lookup.0 - distribution activated
+2015/01/08 15:09:17 - Code Stream lookup.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Code Stream lookup.0 - Step info: nrinput=2 nroutput=1
+2015/01/08 15:09:17 - Code Stream lookup.0 - Got previous step from [Code Stream lookup] #0 --> Date Stream lookup
+2015/01/08 15:09:17 - Code Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Code Stream lookup.0 - Found input rowset [Date Stream lookup.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - Code Stream lookup.0 - Got previous step from [Code Stream lookup] #1 --> Code Input
+2015/01/08 15:09:17 - Code Stream lookup.0 - input rel is 1:1
+2015/01/08 15:09:17 - Code Stream lookup.0 - Found input rowset [Code Input.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - Code Stream lookup.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Code Stream lookup.0 - Found output rowset [Code Stream lookup.0 - Patient Stream lookup.0]
+2015/01/08 15:09:17 - Code Stream lookup.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Code Stream lookup].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [Code Input] of type [TableInput]
+2015/01/08 15:09:17 - Code Input.0 - distribution activated
+2015/01/08 15:09:17 - Code Input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - Code Input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:09:17 - Code Input.0 - output rel. is  1:1
+2015/01/08 15:09:17 - Code Input.0 - Found output rowset [Code Input.0 - Code Stream lookup.0]
+2015/01/08 15:09:17 - Code Input.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [Code Input].0
+2015/01/08 15:09:17 - fact_client_services -  Transformation is about to allocate step [trim down unnecessary fields] of type [SelectValues]
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - distribution activated
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Step info: nrinput=1 nroutput=1
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Got previous step from [trim down unnecessary fields] #0 --> Referral Stream lookup
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - input rel is 1:1
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Found input rowset [Referral Stream lookup.0 - trim down unnecessary fields.0]
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - output rel. is  1:1
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Found output rowset [trim down unnecessary fields.0 - If field value is null.0]
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Finished dispatching
+2015/01/08 15:09:17 - fact_client_services -  Transformation has allocated a new step: [trim down unnecessary fields].0
+2015/01/08 15:09:17 - fact_client_services - This transformation can be replayed with replay date: 2015/01/08 15:09:17
+2015/01/08 15:09:17 - fact_client_services - Initialising 16 steps...
+2015/01/08 15:09:17 - Table input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Date Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Source - New database connection defined
+2015/01/08 15:09:17 - Date Input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Client input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - Facility input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Service Input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - Service Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Referral Input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - If field value is null.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Code Stream lookup.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - Code Input.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - fact_client_services.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Running on slave server #0/1.
+2015/01/08 15:09:17 - EMR Target - New database connection defined
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Date Input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Source - Connected to database.
+2015/01/08 15:09:17 - Table input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Facility input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Client input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Referral Input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Service Input.0 - Connected to database...
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - fact_client_services.0 - Connected to database [EMR Target] (commit=1000)
+2015/01/08 15:09:17 - EMR Target - Auto commit off
+2015/01/08 15:09:17 - EMR Target - Connected to database.
+2015/01/08 15:09:17 - Code Input.0 - Connected to database...
+2015/01/08 15:09:17 - fact_client_services - Step [Table input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Date Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Date Input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Client input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Patient Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Facility input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Facility Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Service Input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Service Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Referral Input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Referral Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [If field value is null.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [fact_client_services.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Code Stream lookup.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [Code Input.0] initialized flawlessly.
+2015/01/08 15:09:17 - fact_client_services - Step [trim down unnecessary fields.0] initialized flawlessly.
+2015/01/08 15:09:17 - Table input.0 - Starting to run...
+2015/01/08 15:09:17 - Date Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Date Input.0 - Starting to run...
+2015/01/08 15:09:17 - Date Stream lookup.0 - Reading from stream [Date Input]
+2015/01/08 15:09:17 - Table input.0 - SQL query : 
+2015/01/08 15:09:17 - Table input.0 - 
+2015/01/08 15:09:17 - Table input.0 - select 	a.encounter as encounter_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.id as other_encounter_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.pid as client_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.facility_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.date as encounter_date,
+2015/01/08 15:09:17 - Table input.0 - 		a.pc_catid,
+2015/01/08 15:09:17 - Table input.0 - 		a.provider_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.supervisor_id,
+2015/01/08 15:09:17 - Table input.0 - 		a.invoice_refno,
+2015/01/08 15:09:17 - Table input.0 - 		b.id as billing_id,
+2015/01/08 15:09:17 - Table input.0 - 		b.bill_date as billing_date,
+2015/01/08 15:09:17 - Table input.0 - 		b.date as other_billing_date,
+2015/01/08 15:09:17 - Table input.0 - 		b.code as activity_code,
+2015/01/08 15:09:17 - Table input.0 - 		b.code_type as activity_type,
+2015/01/08 15:09:17 - Table input.0 - 		b.units,
+2015/01/08 15:09:17 - Table input.0 - 		b.fee as billing_amount
+2015/01/08 15:09:17 - Table input.0 -   from form_encounter a
+2015/01/08 15:09:17 - Table input.0 -   join billing b on (a.encounter = b.encounter)
+2015/01/08 15:09:17 - Table input.0 - 
+2015/01/08 15:09:17 - Table input.0 - where b.code_type <> 'COPAY'
+2015/01/08 15:09:17 - Client input.0 - Starting to run...
+2015/01/08 15:09:17 - Client input.0 - SQL query : select client_id, client_key , first_service_date_key from dim_client
+2015/01/08 15:09:17 - Date Input.0 - SQL query : select date, date_key from dim_date 
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Patient Stream lookup.0 - Reading from stream [Client input]
+2015/01/08 15:09:17 - Facility input.0 - Starting to run...
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Facility input.0 - SQL query : select facility_id, facility_key from dim_facility
+2015/01/08 15:09:17 - Facility Stream lookup.0 - Reading from stream [Facility input]
+2015/01/08 15:09:17 - Service Input.0 - Starting to run...
+2015/01/08 15:09:17 - Service Input.0 - SQL query : select billing_code, service_key from dim_service
+2015/01/08 15:09:17 - Service Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Service Stream lookup.0 - Reading from stream [Service Input]
+2015/01/08 15:09:17 - Referral Input.0 - Starting to run...
+2015/01/08 15:09:17 - If field value is null.0 - Starting to run...
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Referral Input.0 - SQL query : select client_id, referred_by, referral_key from dim_referral
+2015/01/08 15:09:17 - Referral Stream lookup.0 - Reading from stream [Referral Input]
+2015/01/08 15:09:17 - fact_client_services.0 - Starting to run...
+2015/01/08 15:09:17 - Code Stream lookup.0 - Starting to run...
+2015/01/08 15:09:17 - Code Stream lookup.0 - Reading from stream [Code Input]
+2015/01/08 15:09:17 - fact_client_services - Transformation has allocated 16 threads and 15 rowsets.
+2015/01/08 15:09:17 - Code Input.0 - Starting to run...
+2015/01/08 15:09:17 - trim down unnecessary fields.0 - Starting to run...
+2015/01/08 15:09:17 - Code Input.0 - SQL query : select code_key, code from dim_code
+2015/01/08 15:09:17 - Facility input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - Service Input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - Referral Input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - Code Input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Facility input.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Referral Input.0 - Finished processing (I=105, O=0, R=0, W=105, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Service Input.0 - Finished processing (I=335, O=0, R=0, W=335, U=0, E=0)
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Code Input.0 - Finished processing (I=1917, O=0, R=0, W=1917, U=0, E=0)
+2015/01/08 15:09:17 - Date Input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Date Input.0 - Finished processing (I=7672, O=0, R=0, W=7672, U=0, E=0)
+2015/01/08 15:09:17 - Client input.0 - Finished reading query, closing connection.
+2015/01/08 15:09:17 - EMR Target - Connection to database closed!
+2015/01/08 15:09:17 - Client input.0 - Finished processing (I=16148, O=0, R=0, W=16148, U=0, E=0)
+2015/01/08 15:09:18 - Date Stream lookup.0 - Field [encounter_date] has nr [4]
+2015/01/08 15:09:18 - Code Stream lookup.0 - Field [activity_code] has nr [12]
+2015/01/08 15:09:18 - Patient Stream lookup.0 - Field [client_id] has nr [2]
+2015/01/08 15:09:18 - Facility Stream lookup.0 - Field [facility_id] has nr [3]
+2015/01/08 15:09:18 - Service Stream lookup.0 - Field [activity_code] has nr [12]
+2015/01/08 15:09:18 - Referral Stream lookup.0 - Field [client_id] has nr [2]
+2015/01/08 15:09:18 - fact_client_services.0 - Prepared statement : INSERT INTO fact_client_services (client_key, facility_key, service_key, date_key, encounter_id, other_encounter_id, invoice_refno, pc_catid, supervisor_id, billing_id, units, billing_amount, referral_key, code_key, provider_id) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2015/01/08 15:14:09 - Patient Stream lookup.0 - linenr 50000
+2015/01/08 15:14:16 - Date Stream lookup.0 - linenr 50000
+2015/01/08 15:16:30 - Code Stream lookup.0 - linenr 50000
+2015/01/08 15:16:32 - Table input.0 - linenr 50000
+2015/01/08 15:16:32 - Service Stream lookup.0 - linenr 50000
+2015/01/08 15:16:32 - Facility Stream lookup.0 - linenr 50000
+2015/01/08 15:16:32 - Referral Stream lookup.0 - linenr 50000
+2015/01/08 15:16:33 - trim down unnecessary fields.0 - linenr 50000
+2015/01/08 15:16:33 - fact_client_services.0 - linenr 50000
+2015/01/08 15:21:23 - Patient Stream lookup.0 - linenr 100000
+2015/01/08 15:21:30 - Date Stream lookup.0 - linenr 100000
+2015/01/08 15:23:45 - Code Stream lookup.0 - linenr 100000
+2015/01/08 15:23:47 - Table input.0 - linenr 100000
+2015/01/08 15:23:47 - Service Stream lookup.0 - linenr 100000
+2015/01/08 15:23:47 - Facility Stream lookup.0 - linenr 100000
+2015/01/08 15:23:47 - Referral Stream lookup.0 - linenr 100000
+2015/01/08 15:23:47 - trim down unnecessary fields.0 - linenr 100000
+2015/01/08 15:23:48 - fact_client_services.0 - linenr 100000
+2015/01/08 15:27:22 - Patient Stream lookup.0 - linenr 150000
+2015/01/08 15:27:24 - Table input.0 - Finished reading query, closing connection.
+2015/01/08 15:27:24 - EMR Source - Connection to database closed!
+2015/01/08 15:27:24 - Table input.0 - Finished processing (I=140239, O=0, R=0, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Date Stream lookup.0 - Stopped processing with empty row after 147911 rows.
+2015/01/08 15:27:24 - Date Stream lookup.0 - Finished processing (I=0, O=0, R=147911, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Code Stream lookup.0 - Stopped processing with empty row after 142156 rows.
+2015/01/08 15:27:24 - Code Stream lookup.0 - Finished processing (I=0, O=0, R=142156, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Patient Stream lookup.0 - Stopped processing with empty row after 156387 rows.
+2015/01/08 15:27:24 - Patient Stream lookup.0 - Finished processing (I=0, O=0, R=156387, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Facility Stream lookup.0 - Stopped processing with empty row after 140244 rows.
+2015/01/08 15:27:24 - Facility Stream lookup.0 - Finished processing (I=0, O=0, R=140244, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Service Stream lookup.0 - Stopped processing with empty row after 140574 rows.
+2015/01/08 15:27:24 - Service Stream lookup.0 - Finished processing (I=0, O=0, R=140574, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - Referral Stream lookup.0 - Stopped processing with empty row after 140344 rows.
+2015/01/08 15:27:24 - Referral Stream lookup.0 - Finished processing (I=0, O=0, R=140344, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - trim down unnecessary fields.0 - Finished processing (I=0, O=0, R=140239, W=140239, U=0, E=0)
+2015/01/08 15:27:24 - If field value is null.0 - Finished processing (I=0, O=0, R=140239, W=140239, U=0, E=0)
+2015/01/08 15:27:25 - EMR Target - Connection to database closed!
+2015/01/08 15:27:25 - fact_client_services.0 - Finished processing (I=0, O=140239, R=140239, W=140239, U=0, E=0)
+2015/01/08 15:27:25 - build_client_services - Starting entry [update_first_service_date]
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - exec(8, 0, update_first_service_date.0)
+2015/01/08 15:27:25 - update_first_service_date - Starting job entry
+2015/01/08 15:27:25 - update_first_service_date - Opening transformation: [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/update_first_service_date.ktr]
+2015/01/08 15:27:25 - update_first_service_date - Loading transformation from XML file [file:///Users/brianestes/GIT/MI2.Client-OpenEMR-Prototype/dimensions/update_first_service_date.ktr]
+2015/01/08 15:27:25 - update_first_service_date - Starting transformation...(file=${Internal.Job.Filename.Directory}/dimensions/update_first_service_date.ktr, name=update_first_service_date, repinfo=null)
+2015/01/08 15:27:25 - update_first_service_date - Transformation is pre-loaded.
+2015/01/08 15:27:25 - update_first_service_date - Dispatching started for transformation [update_first_service_date]
+2015/01/08 15:27:25 - update_first_service_date - Nr of arguments detected:0 
+2015/01/08 15:27:25 - update_first_service_date - This is not a replay transformation
+2015/01/08 15:27:25 - update_first_service_date - I found 2 different steps to launch.
+2015/01/08 15:27:25 - update_first_service_date - Allocating rowsets...
+2015/01/08 15:27:25 - update_first_service_date -  Allocating rowsets for step 0 --> Table input
+2015/01/08 15:27:25 - update_first_service_date -   prevcopies = 1, nextcopies=1
+2015/01/08 15:27:25 - update_first_service_date - Transformation allocated new rowset [Table input.0 - Execute SQL script.0]
+2015/01/08 15:27:25 - update_first_service_date -  Allocated 1 rowsets for step 0 --> Table input  
+2015/01/08 15:27:25 - update_first_service_date -  Allocating rowsets for step 1 --> Execute SQL script
+2015/01/08 15:27:25 - update_first_service_date -  Allocated 1 rowsets for step 1 --> Execute SQL script  
+2015/01/08 15:27:25 - update_first_service_date - Allocating Steps & StepData...
+2015/01/08 15:27:25 - update_first_service_date -  Transformation is about to allocate step [Table input] of type [TableInput]
+2015/01/08 15:27:25 - Table input.0 - distribution de-activated
+2015/01/08 15:27:25 - Table input.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:27:25 - Table input.0 - Step info: nrinput=0 nroutput=1
+2015/01/08 15:27:25 - Table input.0 - output rel. is  1:1
+2015/01/08 15:27:25 - Table input.0 - Found output rowset [Table input.0 - Execute SQL script.0]
+2015/01/08 15:27:25 - Table input.0 - Finished dispatching
+2015/01/08 15:27:25 - update_first_service_date -  Transformation has allocated a new step: [Table input].0
+2015/01/08 15:27:25 - update_first_service_date -  Transformation is about to allocate step [Execute SQL script] of type [ExecSQL]
+2015/01/08 15:27:25 - Execute SQL script.0 - distribution activated
+2015/01/08 15:27:25 - Execute SQL script.0 - Starting allocation of buffers & new threads...
+2015/01/08 15:27:25 - Execute SQL script.0 - Step info: nrinput=1 nroutput=0
+2015/01/08 15:27:25 - Execute SQL script.0 - Got previous step from [Execute SQL script] #0 --> Table input
+2015/01/08 15:27:25 - Execute SQL script.0 - input rel is 1:1
+2015/01/08 15:27:25 - Execute SQL script.0 - Found input rowset [Table input.0 - Execute SQL script.0]
+2015/01/08 15:27:25 - Execute SQL script.0 - Finished dispatching
+2015/01/08 15:27:25 - update_first_service_date -  Transformation has allocated a new step: [Execute SQL script].0
+2015/01/08 15:27:25 - update_first_service_date - This transformation can be replayed with replay date: 2015/01/08 15:27:25
+2015/01/08 15:27:25 - update_first_service_date - Initialising 2 steps...
+2015/01/08 15:27:25 - Table input.0 - Running on slave server #0/1.
+2015/01/08 15:27:25 - Execute SQL script.0 - Running on slave server #0/1.
+2015/01/08 15:27:25 - EMR Target - New database connection defined
+2015/01/08 15:27:25 - EMR Target - New database connection defined
+2015/01/08 15:27:25 - EMR Target - Connected to database.
+2015/01/08 15:27:25 - Execute SQL script.0 - Connected to database...
+2015/01/08 15:27:25 - EMR Target - Connected to database.
+2015/01/08 15:27:25 - Table input.0 - Connected to database...
+2015/01/08 15:27:25 - update_first_service_date - Step [Table input.0] initialized flawlessly.
+2015/01/08 15:27:25 - update_first_service_date - Step [Execute SQL script.0] initialized flawlessly.
+2015/01/08 15:27:25 - update_first_service_date - Transformation has allocated 2 threads and 1 rowsets.
+2015/01/08 15:27:25 - Execute SQL script.0 - Starting to run...
+2015/01/08 15:27:25 - Table input.0 - Starting to run...
+2015/01/08 15:27:25 - Table input.0 - SQL query : select aa.client_key, min(bb.date_key) as first_service_date_key
+2015/01/08 15:27:25 - Table input.0 -   from dim_client aa
+2015/01/08 15:27:25 - Table input.0 -   join fact_client_services bb on (aa.client_key = bb.client_key)
+2015/01/08 15:27:25 - Table input.0 - where first_service_date_key is null
+2015/01/08 15:27:25 - Table input.0 - group by aa.client_key
+2015/01/08 15:27:25 - Table input.0 - Finished reading query, closing connection.
+2015/01/08 15:27:25 - EMR Target - Connection to database closed!
+2015/01/08 15:27:25 - Table input.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2015/01/08 15:27:25 - Execute SQL script.0 - Finished reading query, closing connection.
+2015/01/08 15:27:25 - EMR Target - Connection to database closed!
+2015/01/08 15:27:25 - Execute SQL script.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2015/01/08 15:27:25 - build_client_services - Starting entry [Create Views]
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - exec(9, 0, Create Views.0)
+2015/01/08 15:27:25 - Create Views - Starting job entry
+2015/01/08 15:27:25 - EMR Target - New database connection defined
+2015/01/08 15:27:25 - EMR Target - Connected to database.
+2015/01/08 15:27:25 - Create Views - Running SQL :
+2015/01/08 15:27:25 - Create Views - create or replace view dim_client_vw as
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - 	select 
+2015/01/08 15:27:25 - Create Views - 		client_key,
+2015/01/08 15:27:25 - Create Views - 		first_service_date,
+2015/01/08 15:27:25 - Create Views - 		gender,
+2015/01/08 15:27:25 - Create Views -   		date_of_birth,
+2015/01/08 15:27:25 - Create Views - 		city,
+2015/01/08 15:27:25 - Create Views - 		state,
+2015/01/08 15:27:25 - Create Views - 		country_code,
+2015/01/08 15:27:25 - Create Views - 		postal_code,
+2015/01/08 15:27:25 - Create Views - 		coalesce(timestampdiff(year, date_of_birth, curdate()),-(1)) as age,
+2015/01/08 15:27:25 - Create Views - 		(case 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 9)) then '< 10' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 10) and (timestampdiff(year, date_of_birth, curdate()) <= 14)) then '10-14' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 15) and (timestampdiff(year, date_of_birth, curdate()) <= 19)) then '15-19' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 20) and (timestampdiff(year, date_of_birth, curdate()) <= 24)) then '20-24' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 24)) then '25+'
+2015/01/08 15:27:25 - Create Views - 			end
+2015/01/08 15:27:25 - Create Views - 		) as age_category_1,
+2015/01/08 15:27:25 - Create Views - 		(case 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 24)) then '0-24'
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 25)) then '25+'
+2015/01/08 15:27:25 - Create Views - 			end
+2015/01/08 15:27:25 - Create Views - 		) as age_category_2,
+2015/01/08 15:27:25 - Create Views - 		(case 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 9)) then '0-9' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 10) and (timestampdiff(year, date_of_birth, curdate()) <= 14)) then '10-14' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 15) and (timestampdiff(year, date_of_birth, curdate()) <= 19)) then '15-19' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 20) and (timestampdiff(year, date_of_birth, curdate()) <= 24)) then '20-24' 
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 24) and (timestampdiff(year, date_of_birth, curdate()) <= 29)) then '24-29'
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 30) and (timestampdiff(year, date_of_birth, curdate()) <= 34)) then '30-34'
+2015/01/08 15:27:25 - Create Views - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 35)) then '35+'
+2015/01/08 15:27:25 - Create Views - 			end
+2015/01/08 15:27:25 - Create Views - 		) as age_category_3
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - from dim_client;
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - create or replace view dim_user_vw as
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - select 
+2015/01/08 15:27:25 - Create Views - 	a.referral_key,
+2015/01/08 15:27:25 - Create Views - 	a.referral_id,
+2015/01/08 15:27:25 - Create Views -     a.referred_by,
+2015/01/08 15:27:25 - Create Views -     concat_ws(' ', b.first_name, b.last_name) as name
+2015/01/08 15:27:25 - Create Views -     
+2015/01/08 15:27:25 - Create Views - from dim_referral as a
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - join dim_user as b on (a.referred_by = b.user_id)
+2015/01/08 15:27:25 - Create Views - 
+2015/01/08 15:27:25 - Create Views - order by name;
+2015/01/08 15:27:25 - EMR Target - launch DDL statement: 
+2015/01/08 15:27:25 - EMR Target - create or replace view dim_client_vw as
+2015/01/08 15:27:25 - EMR Target - 
+2015/01/08 15:27:25 - EMR Target - 	select 
+2015/01/08 15:27:25 - EMR Target - 		client_key,
+2015/01/08 15:27:25 - EMR Target - 		first_service_date,
+2015/01/08 15:27:25 - EMR Target - 		gender,
+2015/01/08 15:27:25 - EMR Target -   		date_of_birth,
+2015/01/08 15:27:25 - EMR Target - 		city,
+2015/01/08 15:27:25 - EMR Target - 		state,
+2015/01/08 15:27:25 - EMR Target - 		country_code,
+2015/01/08 15:27:25 - EMR Target - 		postal_code,
+2015/01/08 15:27:25 - EMR Target - 		coalesce(timestampdiff(year, date_of_birth, curdate()),-(1)) as age,
+2015/01/08 15:27:25 - EMR Target - 		(case 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 9)) then '< 10' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 10) and (timestampdiff(year, date_of_birth, curdate()) <= 14)) then '10-14' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 15) and (timestampdiff(year, date_of_birth, curdate()) <= 19)) then '15-19' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 20) and (timestampdiff(year, date_of_birth, curdate()) <= 24)) then '20-24' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 24)) then '25+'
+2015/01/08 15:27:25 - EMR Target - 			end
+2015/01/08 15:27:25 - EMR Target - 		) as age_category_1,
+2015/01/08 15:27:25 - EMR Target - 		(case 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 24)) then '0-24'
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 25)) then '25+'
+2015/01/08 15:27:25 - EMR Target - 			end
+2015/01/08 15:27:25 - EMR Target - 		) as age_category_2,
+2015/01/08 15:27:25 - EMR Target - 		(case 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) <= 9)) then '0-9' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 10) and (timestampdiff(year, date_of_birth, curdate()) <= 14)) then '10-14' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 15) and (timestampdiff(year, date_of_birth, curdate()) <= 19)) then '15-19' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 20) and (timestampdiff(year, date_of_birth, curdate()) <= 24)) then '20-24' 
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 24) and (timestampdiff(year, date_of_birth, curdate()) <= 29)) then '24-29'
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 30) and (timestampdiff(year, date_of_birth, curdate()) <= 34)) then '30-34'
+2015/01/08 15:27:25 - EMR Target - 			when ((timestampdiff(year, date_of_birth, curdate()) >= 35)) then '35+'
+2015/01/08 15:27:25 - EMR Target - 			end
+2015/01/08 15:27:25 - EMR Target - 		) as age_category_3
+2015/01/08 15:27:25 - EMR Target - 
+2015/01/08 15:27:25 - EMR Target - from dim_client
+2015/01/08 15:27:25 - EMR Target - launch DDL statement: 
+2015/01/08 15:27:25 - EMR Target - create or replace view dim_user_vw as
+2015/01/08 15:27:25 - EMR Target - 
+2015/01/08 15:27:25 - EMR Target - select 
+2015/01/08 15:27:25 - EMR Target - 	a.referral_key,
+2015/01/08 15:27:25 - EMR Target - 	a.referral_id,
+2015/01/08 15:27:25 - EMR Target -     a.referred_by,
+2015/01/08 15:27:25 - EMR Target -     concat_ws(' ', b.first_name, b.last_name) as name
+2015/01/08 15:27:25 - EMR Target -     
+2015/01/08 15:27:25 - EMR Target - from dim_referral as a
+2015/01/08 15:27:25 - EMR Target - 
+2015/01/08 15:27:25 - EMR Target - join dim_user as b on (a.referred_by = b.user_id)
+2015/01/08 15:27:25 - EMR Target - 
+2015/01/08 15:27:25 - EMR Target - order by name
+2015/01/08 15:27:25 - EMR Target - 2 statements executed
+2015/01/08 15:27:25 - EMR Target - Connection to database closed!
+2015/01/08 15:27:25 - build_client_services - Starting entry [Success]
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobBeforeJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - Handling extension point for plugin with id 'JobAfterJobEntryExectionExtensionPointPlugin' and extension point id 'JobBeforeJobEntryExecution'
+2015/01/08 15:27:25 - build_client_services - exec(10, 0, Success.0)
+2015/01/08 15:27:25 - Success - Starting job entry
+2015/01/08 15:27:25 - build_client_services - Finished job entry [Success] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [Create Views] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [update_first_service_date] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [fact_client_services] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_user] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_referral] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_service] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_facility] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_client] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Finished job entry [dim_code] (result=[true])
+2015/01/08 15:27:25 - build_client_services - Job execution finished
+2015/01/08 15:27:25 - Kitchen - Finished!
+2015/01/08 15:27:25 - Kitchen - Start=2015/01/08 15:06:33.454, Stop=2015/01/08 15:27:25.263
+2015/01/08 15:27:25 - Kitchen - Processing ended after 20 minutes and 51 seconds (1251 seconds total).

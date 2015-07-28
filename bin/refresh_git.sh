@@ -1,0 +1,1 @@
+cd /home/solea/etl/; git branch; git pull; cd -;

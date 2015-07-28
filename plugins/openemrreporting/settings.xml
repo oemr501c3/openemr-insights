@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<cde-styles>
+		<path>system/openemrreporting/resources/styles</path>
+	</cde-styles>
+  	<cde-datasources/>
+	<cde-components>
+	  <!-- paths from solution with cde component definitions to be loaded-->
+	  <path>system/openemrreporting/resources/components</path>
+	  <path>openemrreporting/components</path>
+	</cde-components>
+</settings>

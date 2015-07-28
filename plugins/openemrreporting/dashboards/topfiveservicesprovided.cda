@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="get_top_5_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+      <Connection id="get_top_5_for_pie_chart_ds" type="sql.jndi">
+         <Jndi>test</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" cache="true" cacheDuration="3600" connection="get_top_5_ds"
+               id="get_top_5_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-30" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select
+    b.billing_code, count(a.service_key), d.code_text
+
+from fact_client_services as a
+
+join dim_service as b on (b.service_key = a.service_key)
+
+join dim_date as c on (c.date_key = a.date_key)
+
+join dim_code as d on (d.code_key = a.code_key)
+
+where 
+    c.date &gt;= ${start_date_param} and c.date &lt;= ${end_date_param}
+
+group by a.service_key
+
+order by 2 desc
+
+limit 5</Query>
+   </DataAccess>
+   <DataAccess access="public" cache="true" cacheDuration="3600"
+               connection="get_top_5_for_pie_chart_ds"
+               id="get_top_5_for_pie_chart_ds"
+               type="sql">
+      <Columns/>
+      <Parameters>
+         <Parameter default="2014-11-01" name="start_date_param" type="String"/>
+         <Parameter default="2014-11-30" name="end_date_param" type="String"/>
+      </Parameters>
+      <Query>select
+    d.code_text, count(a.service_key) as "Total Services Count"
+
+from fact_client_services as a
+
+join dim_service as b on (b.service_key = a.service_key)
+
+join dim_date as c on (c.date_key = a.date_key)
+
+join dim_code as d on (d.code_key = a.code_key)
+
+where 
+    c.date &gt;= ${start_date_param} and c.date &lt;= ${end_date_param}
+
+group by a.service_key
+
+order by 2 desc
+
+limit 5</Query>
+   </DataAccess>
+</CDADescriptor>

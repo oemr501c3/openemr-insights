@@ -1,0 +1,694 @@
+family_code,family_desc,sub_family_code,sub_family_desc,type_code,type_group_desc,type_desc,service_detail_code,complete_desc,service_desc,ippf_code
+1,SRH - Family Planning,10,Family Planning Methods,0000,Total FP,Total FP,00,ALL FAMILY PLANNING METHODS,Control Account - Total,110000000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1000,Oral Contraceptives,Total Orals,00,CONTRACEPTIVES - ALL ORAL CONTRACEPTIVES,Control Account - Total,111100000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1001,Oral Contraceptives,Total Orals,19,Contraceptives - Oral Contraceptives - OC - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,111100119
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1009,Oral Contraceptives,Total Orals,99,Contraceptives - Oral Contraceptives - OC - Other/Generic Services,Contraceptive Method - Generic Services,111100999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1010,Oral Contraceptives,COCs+POPs,00,CONTRACEPTIVES - ALL COMBINED & PROGESTOGEN-ONLY ORAL CONTRACEPTIVES,Control Account - Total,111101000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1011,Oral Contraceptives,COCs+POPs,10,Contraceptives - Oral Contraceptives - COC & POC - Initial Consultation,Contraceptive Method - Initial Consultation,111101110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1011,Oral Contraceptives,COCs+POPs,11,Contraceptives - Oral Contraceptives - COC & POC - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,111101111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1019,Oral Contraceptives,COCs+POPs,99,Contraceptives - Oral Contraceptives - COC & POC - Other/Generic Services,Contraceptive Method - Generic Services,111101999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1100,Injectables,Total injectables,00,CONTRACEPTIVES - ALL INJECTABLE CONTRACEPTIVES,Control Account - Total,111110000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1101,Injectables,Total injectables,19,Contraceptives - Injectable Contraceptives - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,111110119
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1109,Injectables,Total injectables,99,Contraceptives - Injectable Contraceptives - Other/Generic Services,Contraceptive Method - Generic Services,111110999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1110,Injectables,CICs,00,CONTRACEPTIVES - ALL COMBINED INJECTABLE CONTRACEPTIVES - CIC,Control Account - Total,111111000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1111,Injectables,CICs,10,Contraceptives - Combined Injectable Contraceptives (1 month) -  Initial Consultation,Contraceptive Method - Initial Consultation,111111110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1111,Injectables,CICs,11,Contraceptives - Combined Injectable Contraceptives (1 month) - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,111111111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1119,Injectables,CICs,99,Contraceptives - Combined Injectable Contraceptives (1 month) - Other/Generic Services,Contraceptive Method - Generic Services,111111999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1120,Injectables,POIs - 2 mo,00,CONTRACEPTIVES - ALL PROGESTOGEN ONLY INJECTABLES (2 MONTHS),Control Account - Total,111112000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1121,Injectables,POIs - 2 mo,10,Contraceptives - Progestogen Only Injectables (2 months) - Initial Consultation,Contraceptive Method - Initial Consultation,111112110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1121,Injectables,POIs - 2 mo,11,Contraceptives - Progestogen Only Injectables (2 months) - Follow up/Resupply ,Contraceptive Method - Follow up/Resupply/Training,111112111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1129,Injectables,POIs - 2 mo,99,Contraceptives - Progestogen Only Injectables (2 months) - Other/Generic Services,Contraceptive Method - Generic Services,111112999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1130,Injectables,POIs - 3 mo,00,CONTRACEPTIVES - ALL PROGESTOGEN ONLY INJECTABLES (3 MONTHS),Control Account - Total,111113000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1131,Injectables,POIs - 3 mo,10,Contraceptives - Progestogen Only Injectables (3 months) - Initial Consultation,Contraceptive Method - Initial Consultation,111113110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1131,Injectables,POIs - 3 mo,11,Contraceptives - Progestogen Only Injectables (3 months) - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,111113111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1139,Injectables,POIs - 3 mo,99,Contraceptives - Progestogen Only Injectables (3 months) - Other/Generic Services,Contraceptive Method - Generic Services,111113999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1200,Implants,Total Implants,00,CONTRACEPTIVES - ALL SUBDERMAL IMPLANTS,Control Account - Total,111120000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1201,Implants,Total Implants,12,Contraceptives - Subdermal Implants - Removal,Contraceptive Method - Termination/Removal/Reversal,111120112
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1201,Implants,Total Implants,19,Contraceptives - Subdermal Implants - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,111120119
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1209,Implants,Total Implants,99,Contraceptives - Subdermal Implants - Other/Generic Services,Contraceptive Method - Generic Services,111120999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1220,Implants,Implants 6 rods,00,CONTRACEPTIVES - ALL SUBDERMAL IMPLANTS 6 rods,Control Account - Total,111122000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1221,Implants,Implants 6 rods,10,Contraceptives - Subdermal implants 6 rods - Initial Consultation/Insertion,Contraceptive Method - Initial Consultation,111122110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1221,Implants,Implants 6 rods,11,Contraceptives - Subdermal implants 6 rods - Follow up/Reinsertion,Contraceptive Method - Follow up/Resupply/Training,111122111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1229,Implants,Implants 6 rods,99,Contraceptives - Subdermal implants 6 rods - Other/Generic Services,Contraceptive Method - Generic Services,111122999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1230,Implants,Implants 2 rods,00,CONTRACEPTIVES - ALL SUBDERMAL IMPLANTS 2 rods,Control Account - Total,111123000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1231,Implants,Implants 2 rods,10,Contraceptives - Subdermal implants 2 rods - Initial Consultation/Insertion,Contraceptive Method - Initial Consultation,111123110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1231,Implants,Implants 2 rods,11,Contraceptives - Subdermal implants 2 rods - Follow up/Reinsertion,Contraceptive Method - Follow up/Resupply/Training,111123111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1239,Implants,Implants 2 rods,99,Contraceptives - Subdermal implants 2 rods - Other/Generic Services,Contraceptive Method - Generic Services,111123999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1240,Implants,Implants 1 rod,00,CONTRACEPTIVES - ALL SUBDERMAL IMPLANTS 1 rods,Control Account - Total,111124000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1241,Implants,Implants 1 rod,10,Contraceptives - Subdermal implants 1 rod - Initial Consultation/Insertion,Contraceptive Method - Initial Consultation,111124110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1241,Implants,Implants 1 rod,11,Contraceptives - Subdermal implants 1 rod - Follow up/Reinsertion,Contraceptive Method - Follow up/Resupply/Training,111124111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1249,Implants,Implants 1 rod,99,Contraceptives - Subdermal implants 1 rod - Other/Generic Services,Contraceptive Method - Generic Services,111124999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1300,Other hormonal methods,Total Other Hormonal,00,CONTRACEPTIVES - ALL OTHER HORMONAL METHODS,Control Account - Total,111130000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1309,Other hormonal methods,Total Other Hormonal,99,Contraceptives - Other hormonal methods - Other/Generic Services,Contraceptive Method - Generic Services,111130999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1320,Other hormonal methods,Transdermal Patch,00,CONTRACEPTIVES - OTHER - ALL TRANSDERMAL PATCH (1 month),Control Account - Total,111132000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1321,Other hormonal methods,Transdermal Patch,10,Contraceptives - Other methods - Transdermal Patch (1 month) - Initial Consultation,Contraceptive Method - Initial Consultation,111132110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1321,Other hormonal methods,Transdermal Patch,11,Contraceptives - Other methods - Transdermal Patch (1 month) - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,111132111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1321,Other hormonal methods,Transdermal Patch,19,Contraceptives - Other methods - Transdermal Patch (1 month) - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,111132119
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1329,Other hormonal methods,Transdermal Patch,99,Contraceptives - Other methods - Transdermal Patch (1 month) - Other/Generic Services,Contraceptive Method - Generic Services,111132999
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1330,Other hormonal methods,Vaginal Ring,00,CONTRACEPTIVES - OTHER - ALL VAGINAL RING (1 month),Control Account - Total,111133000
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1331,Other hormonal methods,Vaginal Ring,10,Contraceptives - Other methods - Vaginal Ring (1 month) - Initial Consultation,Contraceptive Method - Initial Consultation,111133110
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1331,Other hormonal methods,Vaginal Ring,11,Contraceptives - Other methods - Vaginal Ring (1 month) - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,111133111
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1331,Other hormonal methods,Vaginal Ring,19,Contraceptives - Other methods - Vaginal Ring (1 month) - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,111133119
+1,SRH - Family Planning,11,Temporary Methods - Hormonal,1339,Other hormonal methods,Vaginal Ring,99,Contraceptives - Other methods - Vaginal Ring (1 month) - Other/Generic Services,Contraceptive Method - Generic Services,111133999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1400,Condoms,Total Condoms,00,CONTRACEPTIVES - ALL CONDOMS,Control Account - Total,112140000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1409,Condoms,Total Condoms,99,Contraceptives - Condoms (Male and Female) - Other/Generic Services,Contraceptive Method - Generic Services,112140999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1410,Condoms,Male condoms,00,CONTRACEPTIVES - ALL MALE CONDOMS,,112141000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1411,Condoms,Male condoms,10,Contraceptives - Condoms - Male Condom - Initial Consultation,Contraceptive Method - Initial Consultation,112141110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1411,Condoms,Male condoms,11,Contraceptives - Condoms - Male Condom - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112141111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1411,Condoms,Male condoms,19,Contraceptives - Condoms - Male Condom - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,112141119
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1419,Condoms,Male condoms,99,Contraceptives - Condoms - Male Condom - Other/Generic Services,Contraceptive Method - Generic Services,112141999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1420,Condoms,Female condoms,00,CONTRACEPTIVES - ALL FEMALE CONDOMS,,112142000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1421,Condoms,Female condoms,10,Contraceptives - Condoms - Female Condom - Initial Consultation,Contraceptive Method - Initial Consultation,112142110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1421,Condoms,Female condoms,11,Contraceptives - Condoms - Female Condom - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112142111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1421,Condoms,Female condoms,19,Contraceptives - Condoms - Female Condom - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,112142119
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1429,Condoms,Female condoms,99,Contraceptives - Condoms - Female Condom - Other/Generic Services,Contraceptive Method - Generic Services,112142999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1500,Other barrier methods,Total Diaphragm/Caps,00,CONTRACEPTIVES - ALL TYPES OF DIAPHRAGMS / CERVICAL CAPS,Control Account - Total,112150000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1501,Other barrier methods,Total Diaphragm/Caps,19,Contraceptives - Diaphragm / Cervical Cap - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,112150119
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1509,Other barrier methods,Total Diaphragm/Caps,99,Contraceptives - Diaphragm / Cervical Cap - Other/Generic Services,Contraceptive Method - Generic Services,112150999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1510,Other barrier methods,Diapraghms,00,CONTRACEPTIVES - ALL DIAPHRAGMS,Control Account - Total,112151000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1511,Other barrier methods,Diapraghms,10,Contraceptives - Diaphragm - Initial Consultation,Contraceptive Method - Initial Consultation,112151110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1511,Other barrier methods,Diapraghms,11,Contraceptives - Diaphragm - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112151111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1519,Other barrier methods,Diapraghms,99,Contraceptives - Diaphragm - Other/Generic Services,Contraceptive Method - Generic Services,112151999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1520,Other barrier methods,Caps,00,CONTRACEPTIVES - ALL CERVICAL CAPS,Control Account - Total,112152000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1521,Other barrier methods,Caps,10,Contraceptives - Cervical Cap - Initial Consultation,Contraceptive Method - Initial Consultation,112152110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1521,Other barrier methods,Caps,11,Contraceptives - Cervical Cap - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112152111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1529,Other barrier methods,Caps,99,Contraceptives - Cervical Cap - Other/Generic Services,Contraceptive Method - Generic Services,112152999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1600,Spermicides,Total Spermicides,00,CONTRACEPTIVES - ALL SPERMICIDES,Control Account - Total,112160000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1601,Spermicides,Total Spermicides,19,Contraceptives - Spermicides - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,112160119
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1609,Spermicides,Total Spermicides,99,Contraceptives - Spermicides - Other/Generic Services,Contraceptive Method - Generic Services,112160999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1610,Spermicides,Foams Tabs,00,CONTRACEPTIVES - SPERMICIDES - ALL FOAM TABS/TUBE/SUPPOSITIORIES,Control Account - Total,112161000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1611,Spermicides,Foams Tabs,10,Contraceptives - Spermicides - Foam Tabs/Tube/Suppositories - Initial Consultation,Contraceptive Method - Initial Consultation,112161110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1611,Spermicides,Foams Tabs,11,Contraceptives - Spermicides - Foam Tabs/Tube/Suppositories - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112161111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1619,Spermicides,Foams Tabs,99,Contraceptives - Spermicides - Foam Tabs/Tube/Suppositories - Other/Generic Services,Contraceptive Method - Generic Services,112161999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1620,Spermicides,Foam Strips,00,CONTRACEPTIVES - SPERMICIDES - ALL FOAM TAB/STRIPS,Control Account - Total,112162000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1621,Spermicides,Foam Strips,10,Contraceptives - Spermicides - Foam Tabs/Strip - Initial Consultation,Contraceptive Method - Initial Consultation,112162110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1621,Spermicides,Foam Strips,11,Contraceptives - Spermicides - Foam Tabs/Strip - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112162111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1629,Spermicides,Foam Strips,99,Contraceptives - Spermicides - Foam Tabs/Strip - Other/Generic Services,Contraceptive Method - Generic Services,112162999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1630,Spermicides,Foam Cans,00,CONTRACEPTIVES - SPERMICIDES - ALL FOAM CANS,Control Account - Total,112163000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1631,Spermicides,Foam Cans,10,Contraceptives - Spermicides - Foam Cans - Initial Consultation,Contraceptive Method - Initial Consultation,112163110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1631,Spermicides,Foam Cans,11,Contraceptives - Spermicides - Foam Cans - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112163111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1639,Spermicides,Foam Cans,99,Contraceptives - Spermicides - Foam Cans - Other/Generic Services,Contraceptive Method - Generic Services,112163999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1640,Spermicides,Creams & Jellies,00,CONTRACEPTIVES - SPERMICIDES - ALL CREAM & JELLY,Control Account - Total,112164000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1641,Spermicides,Creams & Jellies,10,Contraceptives - Spermicides - Cream & Jelly - Initial Consultation,Contraceptive Method - Initial Consultation,112164110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1641,Spermicides,Creams & Jellies,11,Contraceptives - Spermicides - Cream & Jelly - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112164111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1649,Spermicides,Creams & Jellies,99,Contraceptives - Spermicides - Cream & Jelly - Other/Generic Services,Contraceptive Method - Generic Services,112164999
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1650,Spermicides,Pessaries - Film,00,CONTRACEPTIVES - SPERMICIDES - ALL PESSARIES / C-FILM,Control Account - Total,112165000
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1651,Spermicides,Pessaries - Film,10,Contraceptives - Spermicides - Pessaries / C-film - Initial Consultation,Contraceptive Method - Initial Consultation,112165110
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1651,Spermicides,Pessaries - Film,11,Contraceptives - Spermicides - Pessaries / C-film - Follow up/Resupply,Contraceptive Method - Follow up/Resupply/Training,112165111
+1,SRH - Family Planning,12,Temporary Methods - Barrier,1659,Spermicides,Pessaries - Film,99,Contraceptives - Spermicides - Pessaries / C-film - Other/Generic Services,Contraceptive Method - Generic Services,112165999
+1,SRH - Family Planning,13,Temporary Methods - IUD,1700,IUD,Total IUD,00,CONTRACEPTIVES - ALL IUD,Control Account - Total,113170000
+1,SRH - Family Planning,13,Temporary Methods - IUD,1701,IUD,Total IUD,12,Contraceptives - IUD - Removal,Contraceptive Method - Termination/Removal/Reversal,113170112
+1,SRH - Family Planning,13,Temporary Methods - IUD,1701,IUD,Total IUD,19,Contraceptives - IUD - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,113170119
+1,SRH - Family Planning,13,Temporary Methods - IUD,1709,IUD,Total IUD,99,Contraceptives - IUD - Other/Generic Services,Contraceptive Method - Generic Services,113170999
+1,SRH - Family Planning,13,Temporary Methods - IUD,1710,IUD,IUD Hormone 5 yr,00,CONTRACEPTIVES - ALL IUD Hormone releasing IUD (5 years),Control Account - Total,113171000
+1,SRH - Family Planning,13,Temporary Methods - IUD,1711,IUD,IUD Hormone 5 yr,10,Contraceptives - IUD - Hormone releasing IUD (5 years) - Initial Consultation/Insertion,Contraceptive Method - Initial Consultation,113171110
+1,SRH - Family Planning,13,Temporary Methods - IUD,1711,IUD,IUD Hormone 5 yr,11,Contraceptives - IUD - Hormone releasing IUD (5 years) - Follow up/Reinsertion,Contraceptive Method - Follow up/Resupply/Training,113171111
+1,SRH - Family Planning,13,Temporary Methods - IUD,1719,IUD,IUD Hormone 5 yr,99,Contraceptives - IUD - Hormone releasing IUD (5 years) - Other/Generic Services,Contraceptive Method - Generic Services,113171999
+1,SRH - Family Planning,13,Temporary Methods - IUD,1720,IUD,IUD Copper 10 yr,00,CONTRACEPTIVES - ALL IUD Copper releasing IUD (10 years),Control Account - Total,113172000
+1,SRH - Family Planning,13,Temporary Methods - IUD,1721,IUD,IUD Copper 10 yr,10,Contraceptives - IUD - Copper releasing IUD (10 years) - Initial Consultation/Insertion,Contraceptive Method - Initial Consultation,113172110
+1,SRH - Family Planning,13,Temporary Methods - IUD,1721,IUD,IUD Copper 10 yr,11,Contraceptives - IUD - Copper releasing IUD (10 years) - Follow up/Reinsertion,Contraceptive Method - Follow up/Resupply/Training,113172111
+1,SRH - Family Planning,13,Temporary Methods - IUD,1729,IUD,IUD Copper 10 yr,99,Contraceptives - IUD - Copper releasing IUD (10 years) - Other/Generic Services,Contraceptive Method - Generic Services,113172999
+1,SRH - Family Planning,20,Permanent Methods,1800,Voluntary Surgical Contraception,Total VSC,00,CONTRACEPTION - ALL VOLUNTARY SURGICAL CONTRACEPTION (VSC),Control Account - Total,120180000
+1,SRH - Family Planning,20,Permanent Methods,1809,Voluntary Surgical Contraception,Total VSC,99,Contraception - Voluntary Surgical Contraception (VSC) - Other/Generic Services,Contraceptive Method - Generic Services,120180999
+1,SRH - Family Planning,21,Permanent Methods - Female,1810,Voluntary Surgical Contraception,Female VSC,00,CONTRACEPTION - ALL FEMALE VOLUNTARY SURGICAL CONTRACEPTION (FVSC),Control Account - Total,121181000
+1,SRH - Family Planning,21,Permanent Methods - Female,1811,Voluntary Surgical Contraception,Female VSC,12,Contraception Surgical - Female VSC - Reversal,Contraceptive Method - Termination/Removal/Reversal,121181112
+1,SRH - Family Planning,21,Permanent Methods - Female,1811,Voluntary Surgical Contraception,Female VSC,19,Contraception Surgical - Female VSC - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,121181119
+1,SRH - Family Planning,21,Permanent Methods - Female,1812,Voluntary Surgical Contraception,Female VSC,13,Contraception Surgical - Female VSC - Minilaparatomy - Contraceptive Surgery,Contraceptive Surgery,121181213
+1,SRH - Family Planning,21,Permanent Methods - Female,1812,Voluntary Surgical Contraception,Female VSC,11,Contraception Surgical - Female VSC - Minilaparatomy - Follow up,Contraceptive Method - Follow up/Resupply/Training,121181211
+1,SRH - Family Planning,21,Permanent Methods - Female,1813,Voluntary Surgical Contraception,Female VSC,13,Contraception Surgical - Female VSC - Laparoscopy - Contraceptive Surgery,Contraceptive Surgery,121181313
+1,SRH - Family Planning,21,Permanent Methods - Female,1813,Voluntary Surgical Contraception,Female VSC,11,Contraception Surgical - Female VSC - Laparoscopy - Follow up,Contraceptive Method - Follow up/Resupply/Training,121181311
+1,SRH - Family Planning,21,Permanent Methods - Female,1814,Voluntary Surgical Contraception,Female VSC,13,Contraception Surgical - Female VSC - Laparotomy - Contraceptive Surgery,Contraceptive Surgery,121181413
+1,SRH - Family Planning,21,Permanent Methods - Female,1814,Voluntary Surgical Contraception,Female VSC,11,Contraception Surgical - Female VSC - Laparotomy - Follow up,Contraceptive Method - Follow up/Resupply/Training,121181411
+1,SRH - Family Planning,21,Permanent Methods - Female,1819,Voluntary Surgical Contraception,Female VSC,99,Contraception Surgical - Female VSC - Other/Generic Services,Contraceptive Method - Generic Services,121181999
+1,SRH - Family Planning,22,Permanent Methods - Male,1820,Voluntary Surgical Contraception,Male VSC,00,CONTRACEPTION - ALL MALE VOLUNTARY SURGICAL CONTRACEPTION (MVSC),Control Account - Total,122182000
+1,SRH - Family Planning,22,Permanent Methods - Male,1821,Voluntary Surgical Contraception,Male VSC,12,Contraception Surgical - Male VSC - Reversal,Contraceptive Method - Termination/Removal/Reversal,122182112
+1,SRH - Family Planning,22,Permanent Methods - Male,1821,Voluntary Surgical Contraception,Male VSC,19,Contraception Surgical - Male VSC - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,122182119
+1,SRH - Family Planning,22,Permanent Methods - Male,1822,Voluntary Surgical Contraception,Male VSC,13,Contraception Surgical - Male VSC - Incisional vasectomy - Contraceptive Surgery,Contraceptive Surgery,122182213
+1,SRH - Family Planning,22,Permanent Methods - Male,1822,Voluntary Surgical Contraception,Male VSC,11,Contraception Surgical - Male VSC - Incisional vasectomy - Follow up (Sperm count),Contraceptive Method - Follow up/Resupply/Training,122182211
+1,SRH - Family Planning,22,Permanent Methods - Male,1823,Voluntary Surgical Contraception,Male VSC,13,Contraception Surgical - Male VSC - No-scalpel Vasectomy - Contraceptive Surgery,Contraceptive Surgery,122182313
+1,SRH - Family Planning,22,Permanent Methods - Male,1823,Voluntary Surgical Contraception,Male VSC,11,Contraception Surgical - Male VSC - No-scalpel Vasectomy - Follow up  (Sperm count),Contraceptive Method - Follow up/Resupply/Training,122182311
+1,SRH - Family Planning,22,Permanent Methods - Male,1829,Voluntary Surgical Contraception,Male VSC,99,Contraception Surgical - Male VSC - Other/Generic Services,Contraceptive Method - Generic Services,122182999
+1,SRH - Family Planning,30,Fertility awareness-based methods,1900,Awareness-Based Methods,Total ABM (natural),00,CONTRACEPTION - ALL AWARENESS-BASED METHODS,Control Account - Total,130190000
+1,SRH - Family Planning,30,Fertility awareness-based methods,1909,Awareness-Based Methods,Total ABM (natural),99,Contraception -  Awareness-Based Methods - Other/Generic Services,Contraceptive Method - Generic Services,130190999
+1,SRH - Family Planning,31,Fertility awareness-based methods,1910,Awareness-Based Methods,Total FABM,00,CONTRACEPTION - ALL FERTILITY AWARENESS-BASED METHODS (FABM),Control Account - Total,131191000
+1,SRH - Family Planning,31,Fertility awareness-based methods,1911,Awareness-Based Methods,Total FABM,19,Contraception FAB Methods - Method Specific Counselling,Contraceptive Method - Method Specific Counselling,131191119
+1,SRH - Family Planning,31,Fertility awareness-based methods,1912,Awareness-Based Methods,FABM - CMM,10,Contraception FAB Methods - Cervical Mucous Method (CMM) - Initial Consultation/Training,Contraceptive Method - Initial Consultation,131191210
+1,SRH - Family Planning,31,Fertility awareness-based methods,1912,Awareness-Based Methods,FABM - CMM,11,Contraception FAB Methods - Cervical Mucous Method (CMM) - Follow up/Training,Contraceptive Method - Follow up/Resupply/Training,131191211
+1,SRH - Family Planning,31,Fertility awareness-based methods,1913,Awareness-Based Methods,FABM - CBM,10,Contraception FAB Methods - Calendar Based Method (CBM) - Initial Consultation/Training,Contraceptive Method - Initial Consultation,131191310
+1,SRH - Family Planning,31,Fertility awareness-based methods,1913,Awareness-Based Methods,FABM - CBM,11,Contraception FAB Methods - Calendar Based Method (CBM) - Follow up/Training,Contraceptive Method - Follow up/Resupply/Training,131191311
+1,SRH - Family Planning,31,Fertility awareness-based methods,1914,Awareness-Based Methods,FABM - STM,10,Contraception FAB Methods - Sympto-thermal method - Initial Consultation/Training,Contraceptive Method - Initial Consultation,131191410
+1,SRH - Family Planning,31,Fertility awareness-based methods,1914,Awareness-Based Methods,FABM - STM,11,Contraception FAB Methods - Sympto-thermal method - Follow up/Training,Contraceptive Method - Follow up/Resupply/Training,131191411
+1,SRH - Family Planning,31,Fertility awareness-based methods,1915,Awareness-Based Methods,FABM - SDM,10,Contraception FAB Methods - Standard days method - Initial Consultation/Training,Contraceptive Method - Initial Consultation,131191510
+1,SRH - Family Planning,31,Fertility awareness-based methods,1915,Awareness-Based Methods,FABM - SDM,11,Contraception FAB Methods - Standard days method - Follow up/Training,Contraceptive Method - Follow up/Resupply/Training,131191511
+1,SRH - Family Planning,31,Fertility awareness-based methods,1916,Awareness-Based Methods,FABM - BBT,10,Contraception FAB Methods - Basal Body Temperature (BBT) - Initial Consultation/Training,Contraceptive Method - Initial Consultation,131191610
+1,SRH - Family Planning,31,Fertility awareness-based methods,1916,Awareness-Based Methods,FABM - BBT,11,Contraception FAB Methods - Basal Body Temperature (BBT) - Follow up/Training,Contraceptive Method - Follow up/Resupply/Training,131191611
+1,SRH - Family Planning,31,Fertility awareness-based methods,1919,Awareness-Based Methods,FABM - BBT,99,Contraception - FAB Methods - Other/Generic Services,Contraceptive Method - Generic Services,131191999
+1,SRH - Family Planning,41,Family Planning Counselling,2000,Contraceptive counseling,Total FP Counselling,00,ALL FAMILY PLANNING GENERAL COUNSELLING,Control Account - Total,141200000
+1,SRH - Family Planning,41,Family Planning Counselling,2001,Contraceptive counseling,Total FP Counselling,18,Contraception - FP General Counselling,Contraceptive General Counselling,141200118
+1,SRH - Family Planning,41,Family Planning Counselling,2002,Contraceptive counseling,Total FP Counselling,18,"Contraception - FP General Counselling - Combined Counselling (FP - HIV/AIDS) , including Dual Protection",Contraceptive General Counselling,141200218
+1,SRH - Family Planning,41,Family Planning Counselling,2009,Contraceptive counseling,Total FP Counselling,99,Contraception - FP General Counselling - Other/Generic Services,Contraceptive Method - Generic Services,141200999
+1,SRH - Family Planning,45,Emergency Contraception,2100,Emergency Contraception,Total EC,00,ALL EMERGENCY CONTRACEPTION SERVICES,Control Account - Total,145210000
+1,SRH - Family Planning,45,Emergency Contraception,2109,Emergency Contraception,Total EC,99,Emergency Contraception Services - Other/Generic Services,Contraceptive Method - Generic Services,145210999
+1,SRH - Family Planning,45,Emergency Contraception,2110,Emergency Contraception,EC - Counselling,00,ALL EC - COUNSELLING,Control Account - Total,145211000
+1,SRH - Family Planning,45,Emergency Contraception,2111,Emergency Contraception,EC - Counselling,19,EC - Counselling                                      ,SRH (Non Contraception) Service Specific Counselling,145211119
+1,SRH - Family Planning,45,Emergency Contraception,2119,Emergency Contraception,EC - Counselling,99,EC - Counselling - Other/Generic Services,SRH (Non Contraception) Service Specific Counselling,145211999
+1,SRH - Family Planning,45,Emergency Contraception,2120,Emergency Contraception,EC - Therapy,00,ALL EC - THERAPEUTIC,Control Account - Total,145212000
+1,SRH - Family Planning,45,Emergency Contraception,2121,Emergency Contraception,EC - Therapy,11,EC - Combined Oral Contraceptives - Yuzpe - Follow Up,Contraceptive Method - Follow up/Resupply/Training,145212111
+1,SRH - Family Planning,45,Emergency Contraception,2121,Emergency Contraception,EC - Therapy,10,EC - Combined Oral Contraceptives - Yuzpe - Contraceptive Supply (Treatment),Contraceptive Method - Initial Consultation,145212110
+1,SRH - Family Planning,45,Emergency Contraception,2122,Emergency Contraception,EC - Therapy,11,EC Progestogen Only Pills - Follow Up,Contraceptive Method - Follow up/Resupply/Training,145212211
+1,SRH - Family Planning,45,Emergency Contraception,2122,Emergency Contraception,EC - Therapy,10,EC Progestogen Only Pills - Contraceptive Supply (Treatment),Contraceptive Method - Initial Consultation,145212210
+1,SRH - Family Planning,45,Emergency Contraception,2123,Emergency Contraception,EC - Therapy,11,EC Dedicated Product - Follow Up,Contraceptive Method - Follow up/Resupply/Training,145212311
+1,SRH - Family Planning,45,Emergency Contraception,2123,Emergency Contraception,EC - Therapy,10,EC Dedicated Product - Contraceptive Supply (Treatment),Contraceptive Method - Initial Consultation,145212310
+1,SRH - Family Planning,45,Emergency Contraception,2124,Emergency Contraception,EC - Therapy,11,EC Copper releasing IUD - Follow Up,Contraceptive Method - Follow up/Resupply/Training,145212411
+1,SRH - Family Planning,45,Emergency Contraception,2124,Emergency Contraception,EC - Therapy,10,EC Copper releasing IUD - DIU Insertion (Treatment),Contraceptive Method - Initial Consultation,145212410
+1,SRH - Family Planning,45,Emergency Contraception,2129,Emergency Contraception,EC - Therapy,99,EC - Therapeutic - Other/Generic Services,Contraceptive Method - Generic Services,145212999
+2,SRH Non Family Planning,50,SRH (Non Family Planning Services,0000,Total Non-FP SRH,Total Non-FP SRH,00,ALL SRH (NON FAMILY PLANNING) SERVICES,Control Account - Total,250000000
+2,SRH Non Family Planning,52,Abortion,2200,Medical and surgical abortion,Total Abortion,00,ALL ABORTION SERVICES,Control Account - Total,252220000
+2,SRH Non Family Planning,52,Abortion,2209,Medical and surgical abortion,Total Abortion,99,Abortion Services - Other/Generic Services,Control Account - Total,252220999
+2,SRH Non Family Planning,52,Abortion,2210,"Abortion-related, not including med/surg abortion",Abortion - Counselling,00,ALL ABORTION / PRE ABORTION COUNSELLING,Control Account - Total,252221000
+2,SRH Non Family Planning,52,Abortion,2211,"Abortion-related, not including med/surg abortion",Abortion - Counselling,29,Abortion Counselling - Pre - Abortion Counseling,SRH (Non Contraception) Service Specific Counselling,252221129
+2,SRH Non Family Planning,52,Abortion,2212,"Abortion-related, not including med/surg abortion",Abortion - Counselling,29,Abortion Counselling - Counselling on HIV Testing,SRH (Non Contraception) Service Specific Counselling,252221229
+2,SRH Non Family Planning,52,Abortion,2219,"Abortion-related, not including med/surg abortion",Abortion - Counselling,99,Abortion Counselling - Other/Generic Services,SRH (Non Contraception) - Generic Services,252221999
+2,SRH Non Family Planning,52,Abortion,2220,"Abortion-related, not including med/surg abortion",Abortion - Consult,00,ALL ABORTION / PRE-ABORTION CONSULTATION (DIAGNOSTICS),Control Account - Total,252222000
+2,SRH Non Family Planning,52,Abortion,2221,"Abortion-related, not including med/surg abortion",Abortion - Consult,21,Abortion Diagnosis - Exclusion of Anaemia (Haemoglobin/Hematocrit tests),SRH (Non Contraception) - Diagnostic Test/Exam,252222121
+2,SRH Non Family Planning,52,Abortion,2222,"Abortion-related, not including med/surg abortion",Abortion - Consult,21,Abortion Diagnosis - Tests for ABO and Rhesus (Rh) blood groups typing,SRH (Non Contraception) - Diagnostic Test/Exam,252222221
+2,SRH Non Family Planning,52,Abortion,2223,"Abortion-related, not including med/surg abortion",Abortion - Consult,21,Abortion Diagnosis - Exclusion of ectopic pregnancy (through ultrasound),SRH (Non Contraception) - Diagnostic Test/Exam,252222321
+2,SRH Non Family Planning,52,Abortion,2224,"Abortion-related, not including med/surg abortion",Abortion - Consult,21,Abortion Diagnosis - Cervical cytology (Pap smear citology test),SRH (Non Contraception) - Diagnostic Test/Exam,252222421
+2,SRH Non Family Planning,52,Abortion,2225,"Abortion-related, not including med/surg abortion",Abortion - Consult,21,Abortion Diagnosis - HIV testing ,SRH (Non Contraception) - Diagnostic Test/Exam,252222521
+2,SRH Non Family Planning,52,Abortion,2229,"Abortion-related, not including med/surg abortion",Abortion - Consult,99,Abortion Diagnosis - Other/Generic Services,SRH (Non Contraception) - Generic Services,252222999
+2,SRH Non Family Planning,52,Abortion,2230,Medical and surgical abortion,Abortion - Induced,00,ALL ABORTION / INDUCED ABORTION (SURGICAL),Control Account - Total,252223000
+2,SRH Non Family Planning,52,Abortion,2231,Medical and surgical abortion,Abortion - Induced,23,Abortion Induced (Surgical) - Dilatation And Curettage (D&C)                                 ,SRH (Non Contraception) - Surgery,252223123
+2,SRH Non Family Planning,52,Abortion,2232,Medical and surgical abortion,Abortion - Induced,23,Abortion Induced (Surgical) - Dilatation And Evacuation (D&E) (2nd trimester of pregnancy),SRH (Non Contraception) - Surgery,252223223
+2,SRH Non Family Planning,52,Abortion,2233,Medical and surgical abortion,Abortion - Induced,23,Abortion Induced (Surgical) - Manual Vacuum Aspiration (MVA),SRH (Non Contraception) - Surgery,252223323
+2,SRH Non Family Planning,52,Abortion,2239,Medical and surgical abortion,Abortion - Induced,99,Abortion Induced (Surgical) - Other/Generic Services,SRH (Non Contraception) - Generic Services,252223999
+2,SRH Non Family Planning,52,Abortion,2240,"Abortion-related, not including med/surg abortion",Abortion - Therapy,00,ALL ABORTION (MEDICAL),Control Account - Total,252224000
+2,SRH Non Family Planning,52,Abortion,2241,"Abortion-related, not including med/surg abortion",Abortion - Therapy,22,Abortion Care - Induced Abortion (Medical) - Pharmaceutical/Medical,SRH (Non Contraception) - Therapy / Treatment,252224122
+2,SRH Non Family Planning,52,Abortion,2249,"Abortion-related, not including med/surg abortion",Abortion - Therapy,99,Abortion Care - Induced Abortion (Medical) - Other/Generic Services,SRH (Non Contraception) - Generic Services,252224999
+2,SRH Non Family Planning,52,Abortion,2250,"Abortion-related, not including med/surg abortion",Abortion - Incomplete,00,ALL ABORTION / INCOMPLETE ABORTION  TREATMENT (SURGICAL/MEDICAL),Control Account - Total,252225000
+2,SRH Non Family Planning,52,Abortion,2251,"Abortion-related, not including med/surg abortion",Abortion - Incomplete,23,Abortion (Incomplete Abortion) - Surgical / D&C ,SRH (Non Contraception) - Surgery,252225123
+2,SRH Non Family Planning,52,Abortion,2252,"Abortion-related, not including med/surg abortion",Abortion - Incomplete,23,Abortion (Incomplete Abortion) - Surgical / MVA,SRH (Non Contraception) - Surgery,252225223
+2,SRH Non Family Planning,52,Abortion,2257,"Abortion-related, not including med/surg abortion",Abortion - Incomplete,22,Abortion  (Incomplete Abortion) - Medical / Pharmaceutical,SRH (Non Contraception) - Therapy / Treatment,252225722
+2,SRH Non Family Planning,52,Abortion,2259,"Abortion-related, not including med/surg abortion",Abortion - Incomplete,99,Abortion (Incomplete Abortion) - Surgical/Medical Other/Generic Services,SRH (Non Contraception) - Generic Services,252225999
+2,SRH Non Family Planning,52,Abortion,2260,"Abortion-related, not including med/surg abortion",Abortion - PAC,00,ALL ABORTION / POST ABORTION CARE,Control Account - Total,252226000
+2,SRH Non Family Planning,52,Abortion,2261,"Abortion-related, not including med/surg abortion",Abortion - PAC,20,Abortion Care - Post - Follow-up including Uterine Involution Monitoring & Bimanual Pelvic Examination,SRH (Non Contraception) - Consult (Initial/Follow up),252226120
+2,SRH Non Family Planning,52,Abortion,2269,"Abortion-related, not including med/surg abortion",Abortion - PAC,99,Abortion Care - Post - Other/Generic Services,SRH (Non Contraception) - Generic Services,252226999
+2,SRH Non Family Planning,52,Abortion,2270,"Abortion-related, not including med/surg abortion",Abortion - PA Couns,00,ALL ABORTION / POST ABORTION COUNSELLING,Control Account - Total,252227000
+2,SRH Non Family Planning,52,Abortion,2271,"Abortion-related, not including med/surg abortion",Abortion - PA Couns,29,Abortion Counselling - Post Abortion Counseling - Including Family Planning,SRH (Non Contraception) Service Specific Counselling,252227129
+2,SRH Non Family Planning,52,Abortion,2279,"Abortion-related, not including med/surg abortion",Abortion - PA Couns,99,Abortion Counselling - Post Abortion Counseling - Other/Generic Services,SRH (Non Contraception) - Generic Services,252227999
+2,SRH Non Family Planning,53,HIV/AIDS,2300,HIV/AIDS,Total HIV/AIDS,00,ALL HIV/AIDS SERVICES,Control Account - Total,253230000
+2,SRH Non Family Planning,53,HIV/AIDS,2309,HIV/AIDS,Total HIV/AIDS,99,HIV/AIDS Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,253230999
+2,SRH Non Family Planning,53,HIV/AIDS,2310,HIV/AIDS,HIV/AIDS - Consult,00,ALL HIV/AIDS TREATMENT CONSULTATION,Control Account - Total,253231000
+2,SRH Non Family Planning,53,HIV/AIDS,2311,HIV/AIDS,HIV/AIDS - Consult,22,HIV/AIDS Consult - Treatment- Anti Retro Viral (ARV)                                  ,SRH (Non Contraception) - Therapy / Treatment,253231122
+2,SRH Non Family Planning,53,HIV/AIDS,2312,HIV/AIDS,HIV/AIDS - Consult,22,HIV/AIDS Consult - Treatment - Opportunistic Infection (OI)                           ,SRH (Non Contraception) - Therapy / Treatment,253231222
+2,SRH Non Family Planning,53,HIV/AIDS,2313,HIV/AIDS,HIV/AIDS - Consult,22,HIV/AIDS Consult - Treatment - Post Exposure Prophylaxis (PEP),SRH (Non Contraception) - Therapy / Treatment,253231322
+2,SRH Non Family Planning,53,HIV/AIDS,2314,HIV/AIDS,HIV/AIDS - Consult,22,HIV/AIDS Consult - Treatment - Psycho-Social Support                                  ,SRH (Non Contraception) - Therapy / Treatment,253231422
+2,SRH Non Family Planning,53,HIV/AIDS,2315,HIV/AIDS,HIV/AIDS - Consult,22,HIV/AIDS Consult - Treatment - Home Care                             ,SRH (Non Contraception) - Therapy / Treatment,253231522
+2,SRH Non Family Planning,53,HIV/AIDS,2319,HIV/AIDS,HIV/AIDS - Consult,99,HIV/AIDS Consult - Treatment - Other/Generic Services,SRH (Non Contraception) - Generic Services,253231999
+2,SRH Non Family Planning,53,HIV/AIDS,2320,HIV/AIDS,HIV/AIDS - Sero status,00,ALL HIV/AIDS SERO STATUS LAB TESTS,Control Account - Total,253232000
+2,SRH Non Family Planning,53,HIV/AIDS,2321,HIV/AIDS,HIV/AIDS - Sero status,21,HIV/AIDS Antibody Lab Tests - ELISA (Blood) Test                                        ,SRH (Non Contraception) - Diagnostic Test/Exam,253232121
+2,SRH Non Family Planning,53,HIV/AIDS,2322,HIV/AIDS,HIV/AIDS - Sero status,21,HIV/AIDS Antibody Lab Tests - Western Blot (WB) Assay,SRH (Non Contraception) - Diagnostic Test/Exam,253232221
+2,SRH Non Family Planning,53,HIV/AIDS,2323,HIV/AIDS,HIV/AIDS - Sero status,21,HIV/AIDS Antibody Lab Tests - Indirect Immunofluorescence Assay (IFA),SRH (Non Contraception) - Diagnostic Test/Exam,253232321
+2,SRH Non Family Planning,53,HIV/AIDS,2324,HIV/AIDS,HIV/AIDS - Sero status,21,HIV/AIDS Other Lab Tests - Rapid Test (Murex-SUDS),SRH (Non Contraception) - Diagnostic Test/Exam,253232421
+2,SRH Non Family Planning,53,HIV/AIDS,2329,HIV/AIDS,HIV/AIDS - Sero status,99,HIV/AIDS Other Lab Tests - Other/Generic Services,SRH (Non Contraception) - Generic Services,253232999
+2,SRH Non Family Planning,53,HIV/AIDS,2330,HIV/AIDS,HIV/AIDS - Other Lab,00,ALL HIV/AIDS LAB TESTS (OTHER),Control Account - Total,253233000
+2,SRH Non Family Planning,53,HIV/AIDS,2331,HIV/AIDS,HIV/AIDS - Other Lab,21,HIV/AIDS Other Lab Tests - Urine Test for HIV,SRH (Non Contraception) - Diagnostic Test/Exam,253233121
+2,SRH Non Family Planning,53,HIV/AIDS,2332,HIV/AIDS,HIV/AIDS - Other Lab,21,HIV/AIDS Other Lab Tests - Assessment of Immunologic Function (Viral Load)            ,,253233221
+2,SRH Non Family Planning,53,HIV/AIDS,2333,HIV/AIDS,HIV/AIDS - Other Lab,21,HIV/AIDS Other Lab Tests - Assessment of Immunologic Function (CD4 count)            ,SRH (Non Contraception) - Diagnostic Test/Exam,253233321
+2,SRH Non Family Planning,53,HIV/AIDS,2339,HIV/AIDS,HIV/AIDS - Other Lab,99,HIV/AIDS Other Lab Tests - Other/Generic Services,SRH (Non Contraception) - Diagnostic Test/Exam,253233999
+2,SRH Non Family Planning,53,HIV/AIDS,2340,HIV/AIDS,HIV/AIDS - Prevention,00,ALL HIV/AIDS PREVENTION COUNSELLING,Control Account - Total,253234000
+2,SRH Non Family Planning,53,HIV/AIDS,2341,HIV/AIDS,HIV/AIDS - Prevention,29,HIV/AIDS Prevention Counsellng,SRH (Non Contraception) Service Specific Counselling,253234129
+2,SRH Non Family Planning,53,HIV/AIDS,2349,HIV/AIDS,HIV/AIDS - Prevention,99,HIV/AIDS Prevention Counselling - Other/Generic Services,SRH (Non Contraception) - Generic Services,253234999
+2,SRH Non Family Planning,53,HIV/AIDS,2350,HIV/AIDS,HIV/AIDS - VCT,00,ALL HIV/AIDS PRE/POST TEST COUNSELLING,Control Account - Total,253235000
+2,SRH Non Family Planning,53,HIV/AIDS,2351,HIV/AIDS,HIV/AIDS - VCT,29,HIV/AIDS Counselling - PRE Voluntary Counselling & Testing (VCT),SRH (Non Contraception) Service Specific Counselling,253235129
+2,SRH Non Family Planning,53,HIV/AIDS,2352,HIV/AIDS,HIV/AIDS - VCT,29,HIV/AIDS Counselling - POST Test (Positive) - Clients Only,SRH (Non Contraception) Service Specific Counselling,253235229
+2,SRH Non Family Planning,53,HIV/AIDS,2353,HIV/AIDS,HIV/AIDS - VCT,29,HIV/AIDS Counseling - POST Test (Negative),SRH (Non Contraception) Service Specific Counselling,253235329
+2,SRH Non Family Planning,53,HIV/AIDS,2354,HIV/AIDS,HIV/AIDS - VCT,29,HIV/AIDS Counseling - POST Test (Positive) - Sexual Partners,SRH (Non Contraception) Service Specific Counselling,253235429
+2,SRH Non Family Planning,53,HIV/AIDS,2359,HIV/AIDS,HIV/AIDS - VCT,99,HIV/AIDS Counseling - Other/Generic Services,SRH (Non Contraception) - Generic Services,253235999
+2,SRH Non Family Planning,54,STI/RTI,2400,STI/RTI,Total STI/RTI,00,ALL STI/RTI SERVICES,Control Account - Total,254240000
+2,SRH Non Family Planning,54,STI/RTI,2409,STI/RTI,Total STI/RTI,99,STI/RTI Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,254240999
+2,SRH Non Family Planning,54,STI/RTI,2410,STI/RTI,STI/RTI - Counselling,00,ALL STI/RTI COUNSELLING,Control Account - Total,254241000
+2,SRH Non Family Planning,54,STI/RTI,2411,STI/RTI,STI/RTI - Counselling,29,STI/RTI Counseling - Prevention Counseling                                          ,SRH (Non Contraception) Service Specific Counselling,254241129
+2,SRH Non Family Planning,54,STI/RTI,2412,STI/RTI,STI/RTI - Counselling,29,STI/RTI Counseling - POST Test                                   ,SRH (Non Contraception) Service Specific Counselling,254241229
+2,SRH Non Family Planning,54,STI/RTI,2419,STI/RTI,STI/RTI - Counselling,99,STI/RTI Counseling - Other/Generic Services,SRH (Non Contraception) - Generic Services,254241999
+2,SRH Non Family Planning,54,STI/RTI,2420,STI/RTI,STI/RTI - Consultation,00,ALL STI/RTI CONSULTATION,Control Account - Total,254242000
+2,SRH Non Family Planning,54,STI/RTI,2421,STI/RTI,STI/RTI - Consultation,20,STI/RTI Consultation - Follow Up                               ,SRH (Non Contraception) - Consult (Initial/Follow up),254242120
+2,SRH Non Family Planning,54,STI/RTI,2429,STI/RTI,STI/RTI - Consultation,99,STI/RTI Consultation - Other/Generic Services                            ,SRH (Non Contraception) - Generic Services,254242999
+2,SRH Non Family Planning,54,STI/RTI,2430,STI/RTI,STI/RTI - Lab Tests I,00,ALL STI/RTI LAB TESTS I,Control Account - Total,254243000
+2,SRH Non Family Planning,54,STI/RTI,2431,STI/RTI,STI/RTI - Lab Tests I,21,STI/RTI Test - Bacterial Vaginosis                                                        ,SRH (Non Contraception) - Diagnostic Test/Exam,254243121
+2,SRH Non Family Planning,54,STI/RTI,2432,STI/RTI,STI/RTI - Lab Tests I,21,STI/RTI Test - Candidiasis                                                      ,SRH (Non Contraception) - Diagnostic Test/Exam,254243221
+2,SRH Non Family Planning,54,STI/RTI,2433,STI/RTI,STI/RTI - Lab Tests I,21,STI/RTI Test - Chancroid                                    ,SRH (Non Contraception) - Diagnostic Test/Exam,254243321
+2,SRH Non Family Planning,54,STI/RTI,2434,STI/RTI,STI/RTI - Lab Tests I,21,STI/RTI Test - Chlamydia                                   ,SRH (Non Contraception) - Diagnostic Test/Exam,254243421
+2,SRH Non Family Planning,54,STI/RTI,2435,STI/RTI,STI/RTI - Lab Tests I,21,STI/RTI Test - Gonorrhea                                    ,SRH (Non Contraception) - Diagnostic Test/Exam,254243521
+2,SRH Non Family Planning,54,STI/RTI,2439,STI/RTI,STI/RTI - Lab Tests I,99,STI/RTI Test - Other/Generic Services,SRH (Non Contraception) - Generic Services,254243999
+2,SRH Non Family Planning,54,STI/RTI,2440,STI/RTI,STI/RTI - Lab Tests II,00,ALL STI/RTI LAB TESTS II,Control Account - Total,254244000
+2,SRH Non Family Planning,54,STI/RTI,2441,STI/RTI,STI/RTI - Lab Tests II,21,STI/RTI Test - Herpes Simplex (HSV)                                             ,SRH (Non Contraception) - Diagnostic Test/Exam,254244121
+2,SRH Non Family Planning,54,STI/RTI,2442,STI/RTI,STI/RTI - Lab Tests II,21,STI/RTI Test - Human Papillomavirus (HPV) ,SRH (Non Contraception) - Diagnostic Test/Exam,254244221
+2,SRH Non Family Planning,54,STI/RTI,2443,STI/RTI,STI/RTI - Lab Tests II,21,STI/RTI Test - Syphilis                                 ,SRH (Non Contraception) - Diagnostic Test/Exam,254244321
+2,SRH Non Family Planning,54,STI/RTI,2444,STI/RTI,STI/RTI - Lab Tests II,21,STI/RTI Test - Trichomoniasis                                                       ,SRH (Non Contraception) - Diagnostic Test/Exam,254244421
+2,SRH Non Family Planning,54,STI/RTI,2445,STI/RTI,STI/RTI - Lab Tests II,21,STI/RTI Test - Hepatitis B,SRH (Non Contraception) - Diagnostic Test/Exam,254244521
+2,SRH Non Family Planning,54,STI/RTI,2449,STI/RTI,STI/RTI - Lab Tests II,99,STI/RTI Test - Other/Generic Services,SRH (Non Contraception) - Generic Services,254244999
+2,SRH Non Family Planning,54,STI/RTI,2450,STI/RTI,STI/RTI - Therapy,00,ALL STI/RTI TREATMENT,Control Account - Total,254245000
+2,SRH Non Family Planning,54,STI/RTI,2451,STI/RTI,STI/RTI - Therapy,22,STI/RTI Treatment - Syndromic diagnosis with clinical treatment,SRH (Non Contraception) - Therapy / Treatment,254245122
+2,SRH Non Family Planning,54,STI/RTI,2452,STI/RTI,STI/RTI - Therapy,22,STI/RTI Treatment - Etiological diagnosis with clinical treatment,SRH (Non Contraception) - Therapy / Treatment,254245222
+2,SRH Non Family Planning,54,STI/RTI,2459,STI/RTI,STI/RTI - Therapy,99,STI/RTI Treatment - Other/Generic Services,SRH (Non Contraception) - Generic Services,254245999
+2,SRH Non Family Planning,55,Gynecology,2500,Gynecological,All Gynecology,00,ALL GYNECOLOGICAL SERVICES,Control Account - Total,255250000
+2,SRH Non Family Planning,55,Gynecology,2509,Gynecological,All Gynecology,99,Gynecological Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,255250999
+2,SRH Non Family Planning,55,Gynecology,2510,Gynecological,Gyn - Diag Biopsy,00,ALL GYNECOLOGICAL BIOPSY,Control Account - Total,255251000
+2,SRH Non Family Planning,55,Gynecology,2511,Gynecological,Gyn - Diag Biopsy,23,Gynecological Biopsy - Conization,SRH (Non Contraception) - Surgery,255251123
+2,SRH Non Family Planning,55,Gynecology,2512,Gynecological,Gyn - Diag Biopsy,23,Gynecological Biopsy - Needle Biopsy,SRH (Non Contraception) - Surgery,255251223
+2,SRH Non Family Planning,55,Gynecology,2513,Gynecological,Gyn - Diag Biopsy,23,Gynecological Biopsy - Aspiration Biopsy,SRH (Non Contraception) - Surgery,255251323
+2,SRH Non Family Planning,55,Gynecology,2514,Gynecological,Gyn - Diag Biopsy,23,Gynecological Biopsy - Dilatation & Curretage (D&C),SRH (Non Contraception) - Surgery,255251423
+2,SRH Non Family Planning,55,Gynecology,2519,Gynecological,Gyn - Diag Biopsy,99,Gynecological Biopsy - Other/Generic Services,SRH (Non Contraception) - Generic Services,255251999
+2,SRH Non Family Planning,55,Gynecology,2520,Gynecological,Gyn - Diag Endoscopy,00,ALL GYNECOLOGICAL ENDOSCOPY,Control Account - Total,255252000
+2,SRH Non Family Planning,55,Gynecology,2521,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Colposcopy,SRH (Non Contraception) - Surgery,255252123
+2,SRH Non Family Planning,55,Gynecology,2522,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Laparoscopy,SRH (Non Contraception) - Surgery,255252223
+2,SRH Non Family Planning,55,Gynecology,2523,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Hysteroscopy,SRH (Non Contraception) - Surgery,255252323
+2,SRH Non Family Planning,55,Gynecology,2524,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Culdoscopy,SRH (Non Contraception) - Surgery,255252423
+2,SRH Non Family Planning,55,Gynecology,2525,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Hysteretomy,SRH (Non Contraception) - Surgery,255252523
+2,SRH Non Family Planning,55,Gynecology,2526,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Ovariectomy,SRH (Non Contraception) - Surgery,255252623
+2,SRH Non Family Planning,55,Gynecology,2527,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Mastectomy,SRH (Non Contraception) - Surgery,255252723
+2,SRH Non Family Planning,55,Gynecology,2528,Gynecological,Gyn - Diag Endoscopy,23,Gynecological Endoscopy - Lumpectomy,SRH (Non Contraception) - Surgery,255252823
+2,SRH Non Family Planning,55,Gynecology,2529,Gynecological,Gyn - Diag Endoscopy,99,Gynecological Endoscopy - Other/Generic Services,SRH (Non Contraception) - Generic Services,255252999
+2,SRH Non Family Planning,55,Gynecology,2530,Gynecological,Gyn - Diagnostic Image,00,ALL GYNECOLOGICAL DIAGNOSTIC IMAGING,Control Account - Total,255253000
+2,SRH Non Family Planning,55,Gynecology,2531,Gynecological,Gyn - Diagnostic Image,21,Gynecological Diagnostic Imaging - Radiography - Hysterosalpingography,SRH (Non Contraception) - Diagnostic Test/Exam,255253121
+2,SRH Non Family Planning,55,Gynecology,2532,Gynecological,Gyn - Diagnostic Image,21,Gynecological Diagnostic Imaging - Radiography - Mammography,SRH (Non Contraception) - Diagnostic Test/Exam,255253221
+2,SRH Non Family Planning,55,Gynecology,2533,Gynecological,Gyn - Diagnostic Image,21,Gynecological Diagnostic Imaging - Ultrasonography,SRH (Non Contraception) - Diagnostic Test/Exam,255253321
+2,SRH Non Family Planning,55,Gynecology,2534,Gynecological,Gyn - Diagnostic Image,21,Gynecological Diagnostic Imaging - Tomography,SRH (Non Contraception) - Diagnostic Test/Exam,255253421
+2,SRH Non Family Planning,55,Gynecology,2535,Gynecological,Gyn - Diagnostic Image,21,"Gynecological Diagnostic Imaging - Dexa, Bone Density Scan",SRH (Non Contraception) - Diagnostic Test/Exam,255253521
+2,SRH Non Family Planning,55,Gynecology,2539,Gynecological,Gyn - Diagnostic Image,99,Gynecological Diagnostic Imaging - Other/Generic Services,SRH (Non Contraception) - Generic Services,255253999
+2,SRH Non Family Planning,55,Gynecology,2540,Gynecological,Gyn - Diagnostic Exam,00,ALL GYNECOLOGICAL EXAM DIAGNOSIS,Control Account - Total,255254000
+2,SRH Non Family Planning,55,Gynecology,2541,Gynecological,Gyn - Diagnostic Exam,21,Gynecological Exam - Manual Pelvic Exam (includes Palpation),SRH (Non Contraception) - Diagnostic Test/Exam,255254121
+2,SRH Non Family Planning,55,Gynecology,2542,Gynecological,Gyn - Diagnostic Exam,21,Gynecological Exam - Manual Breast Exam,SRH (Non Contraception) - Diagnostic Test/Exam,255254221
+2,SRH Non Family Planning,55,Gynecology,2543,Gynecological,Gyn - Diagnostic Exam,21,Gynecological Exam - Vaginal Smears Sampling (Pap smear),SRH (Non Contraception) - Diagnostic Test/Exam,255254321
+2,SRH Non Family Planning,55,Gynecology,2544,Gynecological,Gyn - Diagnostic Exam,21,Gynecological Exam - Consultation without pelvic exam,SRH (Non Contraception) - Diagnostic Test/Exam,255254421
+2,SRH Non Family Planning,55,Gynecology,2549,Gynecological,Gyn - Diagnostic Exam,99,Gynecological Exam - Other/Generic Services,SRH (Non Contraception) - Generic Services,255254999
+2,SRH Non Family Planning,55,Gynecology,2550,Gynecological,Gyn - Diagnostic Cyt,00,ALL GYNECOLOGICAL CYTOLOGIC TESTS,Control Account - Total,255255000
+2,SRH Non Family Planning,55,Gynecology,2551,Gynecological,Gyn - Diagnostic Cyt,21,Gynecological Lab Test - Cytology Analysis,SRH (Non Contraception) - Diagnostic Test/Exam,255255121
+2,SRH Non Family Planning,55,Gynecology,2559,Gynecological,Gyn - Diagnostic Cyt,99,Gynecological Lab Test - Other/Generic Services,SRH (Non Contraception) - Generic Services,255255999
+2,SRH Non Family Planning,55,Gynecology,2560,Gynecological,Gyn - Therapy,00,ALL GYNECOLOGICAL THERAPIES,Control Account - Total,255256000
+2,SRH Non Family Planning,55,Gynecology,2561,Gynecological,Gyn - Therapy,22,"Gynecological Therapies - Menopause Consultations, Hormonal Replacement Therapy                           ",SRH (Non Contraception) - Therapy / Treatment,255256122
+2,SRH Non Family Planning,55,Gynecology,2562,Gynecological,Gyn - Therapy,22,Gynecological Therapies - Menstrual regulation,SRH (Non Contraception) - Therapy / Treatment,255256222
+2,SRH Non Family Planning,55,Gynecology,2563,Gynecological,Gyn - Therapy,22,Gynecological Therapies - Female Genital Mutilation Treatment of Complications,SRH (Non Contraception) - Therapy / Treatment,255256322
+2,SRH Non Family Planning,55,Gynecology,2569,Gynecological,Gyn - Therapy,99,Gynecological Therapies - Other/Generic Services,SRH (Non Contraception) - Generic Services,255256999
+2,SRH Non Family Planning,55,Gynecology,2570,Gynecological,Gyn - Surgery,00,ALL GYNECOLOGICAL SURGERIES,Control Account - Total,255257000
+2,SRH Non Family Planning,55,Gynecology,2571,Gynecological,Gyn - Surgery,23,Gynecological Surgeries - Cryosurgery - Cervical,SRH (Non Contraception) - Surgery,255257123
+2,SRH Non Family Planning,55,Gynecology,2572,Gynecological,Gyn - Surgery,23,Gynecological Surgeries - Cauterization (Cervical / Vaginal),SRH (Non Contraception) - Surgery,255257223
+2,SRH Non Family Planning,55,Gynecology,2573,Gynecological,Gyn - Surgery,23,Gynecological Surgeries - Female Genital Mutilation Reconstructive Surgery,SRH (Non Contraception) - Surgery,255257323
+2,SRH Non Family Planning,55,Gynecology,2579,Gynecological,Gyn - Surgery,99,Gynecological Surgeries - Other/Generic Services,SRH (Non Contraception) - Generic Services,255257999
+2,SRH Non Family Planning,55,Gynecology,2580,Gynecological,Gyn - Counselling,00,ALL GYNECOLOGICAL COUNSELLING,Control Account - Total,255258000
+2,SRH Non Family Planning,55,Gynecology,2581,Gynecological,Gyn - Counselling,29,"Gynecological Counselling - Menopause Consultations, Counseling                                             ",SRH (Non Contraception) Service Specific Counselling,255258129
+2,SRH Non Family Planning,55,Gynecology,2582,Gynecological,Gyn - Counselling,29,"Gynecological Counselling - Pap Smear, Importance (pre test guidance)                           ",SRH (Non Contraception) Service Specific Counselling,255258229
+2,SRH Non Family Planning,55,Gynecology,2583,Gynecological,Gyn - Counselling,29,"Gynecological Counselling - Pap Smear, Abnormal Results (post test follow-up guidance)                           ",SRH (Non Contraception) Service Specific Counselling,255258329
+2,SRH Non Family Planning,55,Gynecology,2584,Gynecological,Gyn - Counselling,29,"Gynecological Counselling - Breast Exam Results, Mammography/Biopsy                                    ",SRH (Non Contraception) Service Specific Counselling,255258429
+2,SRH Non Family Planning,55,Gynecology,2585,Gynecological,Gyn - Counselling,29,Gynecological Counselling - Female Genital Mutilation,SRH (Non Contraception) Service Specific Counselling,255258529
+2,SRH Non Family Planning,55,Gynecology,2589,Gynecological,Gyn - Counselling,99,Gynecological Counselling - Other/Generic Services,SRH (Non Contraception) - Generic Services,255258999
+2,SRH Non Family Planning,56,Obstetrics,2600,Obstetrics,All Obstetrics,00,ALL OBSTETRICS SERVICES,Control Account - Total,256260000
+2,SRH Non Family Planning,56,Obstetrics,2609,Obstetrics,All Obstetrics,99,Obstetric Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,256260999
+2,SRH Non Family Planning,56,Obstetrics,2610,Obstetrics,Obs - Pre Natal Diagn,00,ALL OBSTETRICS - PRE NATAL DIAGNOSTIC PROCEDURES,Control Account - Total,256261000
+2,SRH Non Family Planning,56,Obstetrics,2611,Obstetrics,Obs - Pre Natal Diagn,21,Obstetrics - Pre-Natal Diagnosis - Fetoscopy,SRH (Non Contraception) - Diagnostic Test/Exam,256261121
+2,SRH Non Family Planning,56,Obstetrics,2612,Obstetrics,Obs - Pre Natal Diagn,21,"Obstetrics - Pre-Natal Diagnosis - Ultrasonography, Pre-natal",SRH (Non Contraception) - Diagnostic Test/Exam,256261221
+2,SRH Non Family Planning,56,Obstetrics,2613,Obstetrics,Obs - Pre Natal Diagn,21,Obstetrics - Pre-Natal Diagnosis - Pelvimetry,SRH (Non Contraception) - Diagnostic Test/Exam,256261321
+2,SRH Non Family Planning,56,Obstetrics,2614,Obstetrics,Obs - Pre Natal Diagn,21,Obstetrics - Pre-Natal Diagnosis - Placental Function Tests,SRH (Non Contraception) - Diagnostic Test/Exam,256261421
+2,SRH Non Family Planning,56,Obstetrics,2619,Obstetrics,Obs - Pre Natal Diagn,99,Obstetrics - Pre-Natal Diagnosis - Other/Generic Services,SRH (Non Contraception) - Generic Services,256261999
+2,SRH Non Family Planning,56,Obstetrics,2620,Obstetrics,Obs - Pre Natal Care,00,ALL OBSTETRICS - PRE NATAL CARE,Control Account - Total,256262000
+2,SRH Non Family Planning,56,Obstetrics,2621,Obstetrics,Obs - Pre Natal Care,21,Obstetrics - Pre natal Care - Uterine Monitoring,SRH (Non Contraception) - Diagnostic Test/Exam,256262121
+2,SRH Non Family Planning,56,Obstetrics,2622,Obstetrics,Obs - Pre Natal Care,21,Obstetrics - Pre natal Care - Fetal Monitoring,SRH (Non Contraception) - Diagnostic Test/Exam,256262221
+2,SRH Non Family Planning,56,Obstetrics,2624,Obstetrics,Obs - Pre Natal Care,22,Obstetrics - Pre natal Care - Immunisations                                                    ,SRH (Non Contraception) - Therapy / Treatment,256262422
+2,SRH Non Family Planning,56,Obstetrics,2629,Obstetrics,Obs - Pre Natal Care,99,Obstetrics - Pre natal Care - Other/Generic Services,SRH (Non Contraception) - Generic Services,256262999
+2,SRH Non Family Planning,56,Obstetrics,2630,Obstetrics,Obs - Pre Natal Counsel,00,ALL OBSTETRICS - PRE NATAL COUNSELLING,Control Account - Total,256263000
+2,SRH Non Family Planning,56,Obstetrics,2631,Obstetrics,Obs - Pre Natal Counsel,29,Obstetrics - Pre natal Counselling - Pre Natal Care Info                             ,SRH (Non Contraception) Service Specific Counselling,256263129
+2,SRH Non Family Planning,56,Obstetrics,2632,Obstetrics,Obs - Pre Natal Counsel,29,Obstetrics - Pre natal Counselling - Unplanned Pregnancy                                     ,SRH (Non Contraception) Service Specific Counselling,256263229
+2,SRH Non Family Planning,56,Obstetrics,2633,Obstetrics,Obs - Pre Natal Counsel,29,Obstetrics - Pre natal Counselling - HIV Prevention and Testing                               ,SRH (Non Contraception) Service Specific Counselling,256263329
+2,SRH Non Family Planning,56,Obstetrics,2639,Obstetrics,Obs - Pre Natal Counsel,99,Obstetrics - Pre natal Counselling - Other/Generic Services,SRH (Non Contraception) - Generic Services,256263999
+2,SRH Non Family Planning,56,Obstetrics,2640,Obstetrics,Obs - Pregnancy Tests,00,ALL OBSTETRICS - PREGNANCY TESTS,Control Account - Total,256264000
+2,SRH Non Family Planning,56,Obstetrics,2641,Obstetrics,Obs - Pregnancy Tests,21,Obstetrics - Lab Tests - Pregnancy Tests - Agglutination Inhibition - Urine 1 test,SRH (Non Contraception) - Diagnostic Test/Exam,256264121
+2,SRH Non Family Planning,56,Obstetrics,2642,Obstetrics,Obs - Pregnancy Tests,21,Obstetrics - Lab Tests - Pregnancy Tests - Radioimmunoasays - Blood test,SRH (Non Contraception) - Diagnostic Test/Exam,256264221
+2,SRH Non Family Planning,56,Obstetrics,2649,Obstetrics,Obs - Pregnancy Tests,99,Obstetrics - Lab Tests - Pregnancy Tests - Other/Generic Services,SRH (Non Contraception) - Generic Services,256264999
+2,SRH Non Family Planning,56,Obstetrics,2650,Obstetrics,Obs - Pre Natal Tests,00,ALL OBSTETRICS - PRE NATAL LAB TESTS,Control Account - Total,256265000
+2,SRH Non Family Planning,56,Obstetrics,2651,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Urine 1,SRH (Non Contraception) - Diagnostic Test/Exam,256265121
+2,SRH Non Family Planning,56,Obstetrics,2652,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Glicemia de Jejum,SRH (Non Contraception) - Diagnostic Test/Exam,256265221
+2,SRH Non Family Planning,56,Obstetrics,2653,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Hemoglobin (HB),SRH (Non Contraception) - Diagnostic Test/Exam,256265321
+2,SRH Non Family Planning,56,Obstetrics,2654,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Blood Type,SRH (Non Contraception) - Diagnostic Test/Exam,256265421
+2,SRH Non Family Planning,56,Obstetrics,2655,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - VDRL,SRH (Non Contraception) - Diagnostic Test/Exam,256265521
+2,SRH Non Family Planning,56,Obstetrics,2656,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - HIV,SRH (Non Contraception) - Diagnostic Test/Exam,256265621
+2,SRH Non Family Planning,56,Obstetrics,2657,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Amniocentesis,SRH (Non Contraception) - Diagnostic Test/Exam,256265721
+2,SRH Non Family Planning,56,Obstetrics,2658,Obstetrics,Obs - Pre Natal Tests,21,Obstetrics - Pre-Natal Lab Tests - Chorionic Villi Sampling,SRH (Non Contraception) - Diagnostic Test/Exam,256265821
+2,SRH Non Family Planning,56,Obstetrics,2659,Obstetrics,Obs - Pre Natal Tests,99,Obstetrics - Pre-Natal Lab Tests - Other/Generic Services,SRH (Non Contraception) - Generic Services,256265999
+2,SRH Non Family Planning,56,Obstetrics,2670,Obstetrics,Obs - Childbirth Surgery,00,ALL OBSTETRICS - SURGERY CHILD BIRTH,Control Account - Total,256267000
+2,SRH Non Family Planning,56,Obstetrics,2671,Obstetrics,Obs - Childbirth Surgery,23,"Obstetrics - Surgery - Child Birth, Vaginal Delivery",SRH (Non Contraception) - Surgery,256267123
+2,SRH Non Family Planning,56,Obstetrics,2672,Obstetrics,Obs - Childbirth Surgery,23,"Obstetrics - Surgery - Child Birth, Cesarean Delivery ",SRH (Non Contraception) - Surgery,256267223
+2,SRH Non Family Planning,56,Obstetrics,2673,Obstetrics,Obs - Childbirth Surgery,23,Obstetrics - Surgery - Emergency Obstetric Care (EmOC),SRH (Non Contraception) - Surgery,256267323
+2,SRH Non Family Planning,56,Obstetrics,2679,Obstetrics,Obs - Childbirth Surgery,99,Obstetrics - Surgery - Other/Generic Services,SRH (Non Contraception) - Generic Services,256267999
+2,SRH Non Family Planning,56,Obstetrics,2680,Obstetrics,Obs - Post Natal Care,00,ALL OBSTETRICS - POST NATAL CARE,Control Account - Total,256268000
+2,SRH Non Family Planning,56,Obstetrics,2681,Obstetrics,Obs - Post Natal Care,20,Obstetrics - Post natal Care - Consultation including Uterine Involution Monitoring,SRH (Non Contraception) - Consult (Initial/Follow up),256268120
+2,SRH Non Family Planning,56,Obstetrics,2689,Obstetrics,Obs - Post Natal Care,99,Obstetrics - Post natal Care - Other/Generic Services,SRH (Non Contraception) - Generic Services,256268999
+2,SRH Non Family Planning,56,Obstetrics,2690,Obstetrics,Obs - Post Natal Counsel,00,ALL OBSTETRICS - POST NATAL COUNSELLING,Control Account - Total,256269000
+2,SRH Non Family Planning,56,Obstetrics,2691,Obstetrics,Obs - Post Natal Counsel,29,Obstetrics - Post-Natal Counselling - FP Methods                                                     ,SRH (Non Contraception) Service Specific Counselling,256269129
+2,SRH Non Family Planning,56,Obstetrics,2692,Obstetrics,Obs - Post Natal Counsel,29,Obstetrics - Post-Natal Counselling - Breastfeeding Advice                                                ,SRH (Non Contraception) Service Specific Counselling,256269229
+2,SRH Non Family Planning,56,Obstetrics,2693,Obstetrics,Obs - Post Natal Counsel,29,Obstetrics - Post-Natal Counselling - HIV Counselling                                             ,SRH (Non Contraception) Service Specific Counselling,256269329
+2,SRH Non Family Planning,56,Obstetrics,2699,Obstetrics,Obs - Post Natal Counsel,99,Obstetrics - Post-Natal Counselling - Other/Generic Services,SRH (Non Contraception) - Generic Services,256269999
+2,SRH Non Family Planning,57,Urology,2700,Urological,All Urological,00,ALL UROLOGICAL SERVICES,Control Account - Total,257270000
+2,SRH Non Family Planning,57,Urology,2709,Urological,All Urological,99,Urological Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,257270999
+2,SRH Non Family Planning,57,Urology,2710,Urological,Urol - Diag/Therapy Endoscopy,00,ALL UROLOGICAL ENDOSCOPY,Control Account - Total,257271000
+2,SRH Non Family Planning,57,Urology,2711,Urological,Urol - Diag/Therapy Endoscopy,23,Urological Endoscopy - Cystoscopy,SRH (Non Contraception) - Surgery,257271123
+2,SRH Non Family Planning,57,Urology,2712,Urological,Urol - Diag/Therapy Endoscopy,23,Urological Endoscopy - Ureteroscopy,SRH (Non Contraception) - Surgery,257271223
+2,SRH Non Family Planning,57,Urology,2719,Urological,Urol - Diag/Therapy Endoscopy,99,Urological Endoscopy - Other/Generic Services,SRH (Non Contraception) - Generic Services,257271999
+2,SRH Non Family Planning,57,Urology,2720,Urological,Urol - Diag/Therapy Imaging,00,ALL UROLOGICAL DIAGNOSTIC IMAGING,Control Account - Total,257272000
+2,SRH Non Family Planning,57,Urology,2721,Urological,Urol - Diag/Therapy Imaging,21,Urological Diagnostic Imaging - Urography,SRH (Non Contraception) - Diagnostic Test/Exam,257272121
+2,SRH Non Family Planning,57,Urology,2729,Urological,Urol - Diag/Therapy Imaging,99,Urological Diagnostic Imaging - Other/Generic Services,SRH (Non Contraception) - Generic Services,257272999
+2,SRH Non Family Planning,57,Urology,2730,Urological,Urol - Diagnostic Other,00,ALL UROLOGICAL DIAGNOSIS (OTHER ),Control Account - Total,257273000
+2,SRH Non Family Planning,57,Urology,2731,Urological,Urol - Diagnostic Other,21,Urological Diagnosis Other - Exam                                   ,SRH (Non Contraception) - Diagnostic Test/Exam,257273121
+2,SRH Non Family Planning,57,Urology,2732,Urological,Urol - Diagnostic Other,21,Urological Diagnosis Other - Prostate Cancer Screening                                    ,SRH (Non Contraception) - Diagnostic Test/Exam,257273221
+2,SRH Non Family Planning,57,Urology,2733,Urological,Urol - Diagnostic Other,21,Urological Diagnosis Other - Peniscopy,SRH (Non Contraception) - Diagnostic Test/Exam,257273321
+2,SRH Non Family Planning,57,Urology,2734,Urological,Urol - Diagnostic Other,21,Urological Diagnosis Other - Other Urogenital Services,SRH (Non Contraception) - Diagnostic Test/Exam,257273421
+2,SRH Non Family Planning,57,Urology,2739,Urological,Urol - Diagnostic Other,99,Urological Diagnosis Other - Other/Generic Services,SRH (Non Contraception) - Generic Services,257273999
+2,SRH Non Family Planning,57,Urology,2740,Urological,Urol - Surgery,00,ALL UROLOGICAL SURGERY,Control Account - Total,257274000
+2,SRH Non Family Planning,57,Urology,2741,Urological,Urol - Surgery,23,Urological Male Surgery - Biopsy,SRH (Non Contraception) - Surgery,257274123
+2,SRH Non Family Planning,57,Urology,2742,Urological,Urol - Surgery,23,Urological Male Surgery - Circumcision,SRH (Non Contraception) - Surgery,257274223
+2,SRH Non Family Planning,57,Urology,2743,Urological,Urol - Surgery,23,Urological Male Surgery - Other Surgical Services,SRH (Non Contraception) - Surgery,257274323
+2,SRH Non Family Planning,57,Urology,2749,Urological,Urol - Surgery,99,Urological Male Surgery - Other/Generic Services,SRH (Non Contraception) - Generic Services,257274999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2800,Infertility,All Infertility,00,ALL INFERTILITY SERVICES,Control Account - Total,258280000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2809,Infertility,All Infertility,99,Intertility - Other/Generic Services,SRH (Non Contraception) - Generic Services,258280999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2810,Infertility,Inf - Diag/Therapy Biopsy,00,ALL INFERTILITY BIOPSY,Control Account - Total,258281000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2811,Infertility,Inf - Diag/Therapy Biopsy,23,Infertility Biopsy - Endometrial biopsy,SRH (Non Contraception) - Surgery,258281123
+2,SRH Non Family Planning,58,Infertility / Subfertility,2812,Infertility,Inf - Diag/Therapy Biopsy,23,Infertility Biopsy - Testicular biopsy,,258281223
+2,SRH Non Family Planning,58,Infertility / Subfertility,2819,Infertility,Inf - Diag/Therapy Biopsy,99,Infertility Biopsy - Other/Generic Services,SRH (Non Contraception) - Generic Services,258281999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2820,Infertility,Inf - Diag/Therapy Endoscopy,00,ALL INFERTILITY ENDOSCOPY,Control Account - Total,258282000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2821,Infertility,Inf - Diag/Therapy Endoscopy,23,Infertility Endoscopy - Laparoscopy,SRH (Non Contraception) - Surgery,258282123
+2,SRH Non Family Planning,58,Infertility / Subfertility,2822,Infertility,Inf - Diag/Therapy Endoscopy,23,Infertility Endoscopy - Histeroscopy,SRH (Non Contraception) - Surgery,258282223
+2,SRH Non Family Planning,58,Infertility / Subfertility,2829,Infertility,Inf - Diag/Therapy Endoscopy,99,Infertility Endoscopy - Other/Generic Services,SRH (Non Contraception) - Generic Services,258282999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2830,Infertility,Inf - Diagnostic Imaging,00,ALL INFERTILITY DIAGNOSTIC IMAGING,Control Account - Total,258283000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2831,Infertility,Inf - Diagnostic Imaging,21,Infertility Diagnostic Imaging - Histerosalpingography,SRH (Non Contraception) - Diagnostic Test/Exam,258283121
+2,SRH Non Family Planning,58,Infertility / Subfertility,2832,Infertility,Inf - Diagnostic Imaging,21,Infertility Diagnostic Imaging - Ovarian ultrasound,SRH (Non Contraception) - Diagnostic Test/Exam,258283221
+2,SRH Non Family Planning,58,Infertility / Subfertility,2833,Infertility,Inf - Diagnostic Imaging,21,Infertility Diagnostic Imaging - Transvaginal ecography,SRH (Non Contraception) - Diagnostic Test/Exam,258283321
+2,SRH Non Family Planning,58,Infertility / Subfertility,2839,Infertility,Inf - Diagnostic Imaging,99,Infertility Diagnostic Imaging - Other/Generic Services,SRH (Non Contraception) - Generic Services,258283999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2840,Infertility,Inf - Laboratory tests,00,ALL INFERTILITY LAB TESTS,Control Account - Total,258284000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2841,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Post-coital test or Sims-Huhner test,SRH (Non Contraception) - Diagnostic Test/Exam,258284121
+2,SRH Non Family Planning,58,Infertility / Subfertility,2842,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Fallopian Tube Patency Tests,SRH (Non Contraception) - Diagnostic Test/Exam,258284221
+2,SRH Non Family Planning,58,Infertility / Subfertility,2843,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Clomiphene citrate challenge test (CCCT) ,SRH (Non Contraception) - Diagnostic Test/Exam,258284321
+2,SRH Non Family Planning,58,Infertility / Subfertility,2844,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Semen analysis ,SRH (Non Contraception) - Diagnostic Test/Exam,258284421
+2,SRH Non Family Planning,58,Infertility / Subfertility,2845,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Basal Temperature,SRH (Non Contraception) - Diagnostic Test/Exam,258284521
+2,SRH Non Family Planning,58,Infertility / Subfertility,2846,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Mucose Analysis,SRH (Non Contraception) - Diagnostic Test/Exam,258284621
+2,SRH Non Family Planning,58,Infertility / Subfertility,2847,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Sperm Count,SRH (Non Contraception) - Diagnostic Test/Exam,258284721
+2,SRH Non Family Planning,58,Infertility / Subfertility,2848,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Spermiogram,SRH (Non Contraception) - Diagnostic Test/Exam,258284821
+2,SRH Non Family Planning,58,Infertility / Subfertility,2849,Infertility,Inf - Laboratory tests,21,Infertility Lab Test - Hormonal analysis,SRH (Non Contraception) - Diagnostic Test/Exam,258284921
+2,SRH Non Family Planning,58,Infertility / Subfertility,2849,Infertility,Inf - Laboratory tests,99,Infertility Lab Test - Other/Generic Services,SRH (Non Contraception) - Generic Services,258284999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2860,Infertility,Inf - Therapy,00,ALL INFERTILITY TREATMENT,Control Account - Total,258286000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2861,Infertility,Inf - Therapy,22,Infertility Treatment - Ovulation Induction,SRH (Non Contraception) - Therapy / Treatment,258286122
+2,SRH Non Family Planning,58,Infertility / Subfertility,2862,Infertility,Inf - Therapy,22,Infertility Treatment - Embryo Transfer,SRH (Non Contraception) - Therapy / Treatment,258286222
+2,SRH Non Family Planning,58,Infertility / Subfertility,2863,Infertility,Inf - Therapy,22,Infertility Treatment - Fertilization in Vitro,SRH (Non Contraception) - Therapy / Treatment,258286322
+2,SRH Non Family Planning,58,Infertility / Subfertility,2864,Infertility,Inf - Therapy,22,Infertility Treatment - Gamete Intrafallopian Transfer,SRH (Non Contraception) - Therapy / Treatment,258286422
+2,SRH Non Family Planning,58,Infertility / Subfertility,2865,Infertility,Inf - Therapy,22,Infertility Treatment - Artificial Insemination,SRH (Non Contraception) - Therapy / Treatment,258286522
+2,SRH Non Family Planning,58,Infertility / Subfertility,2866,Infertility,Inf - Therapy,22,Infertility Treatment - Oocyte Donation,SRH (Non Contraception) - Therapy / Treatment,258286622
+2,SRH Non Family Planning,58,Infertility / Subfertility,2867,Infertility,Inf - Therapy,22,Infertility Treatment - Zygote Intrafallopian Transfer,SRH (Non Contraception) - Therapy / Treatment,258286722
+2,SRH Non Family Planning,58,Infertility / Subfertility,2869,Infertility,Inf - Therapy,99,Infertility Treatment - Other/Generic Services,SRH (Non Contraception) - Generic Services,258286999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2880,Infertility,Inf - Consultation,00,ALL INFERTILITY CONSULTATION,Control Account - Total,258288000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2881,Infertility,Inf - Consultation,20,Infertility/Subfertility Consultation                                 ,SRH (Non Contraception) - Consult (Initial/Follow up),258288120
+2,SRH Non Family Planning,58,Infertility / Subfertility,2889,Infertility,Inf - Consultation,99,Infertility/Subfertility Consultation - Other/Generic Services                                ,SRH (Non Contraception) - Generic Services,258288999
+2,SRH Non Family Planning,58,Infertility / Subfertility,2890,Infertility,Inf - Counselling,00,ALL INFERTILITY COUNSELLING,Control Account - Total,258289000
+2,SRH Non Family Planning,58,Infertility / Subfertility,2891,Infertility,Inf - Counselling,29,Infertility/Subfertility  Counseling                                   ,SRH (Non Contraception) Service Specific Counselling,258289129
+2,SRH Non Family Planning,58,Infertility / Subfertility,2899,Infertility,Inf - Counselling,99,Infertility/Subfertility  Counseling - Other/Generic Services                                  ,SRH (Non Contraception) - Generic Services,258289999
+2,SRH Non Family Planning,60,Other Specialized Counselling ,2900,Other SRH counseling,Total Other Counselling,00,ALL OTHER SPECIALIZED COUNSELLING SERVICES,Control Account - Total,260290000
+2,SRH Non Family Planning,60,Other Specialized Counselling ,2909,Other SRH counseling,Total Other Counselling,99,Other Specialized Counselling Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,260290999
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2910,Other SRH counseling,Counselling - GBV,00,ALL COUNSELLING - GBV ,Control Account - Total,261291000
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2911,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Individual Counseling,SRH (Non Contraception) Service Specific Counselling,261291129
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2912,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Support Groups for Survivors,SRH (Non Contraception) Service Specific Counselling,261291229
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2913,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Legal Counseling,SRH (Non Contraception) Service Specific Counselling,261291329
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2914,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Intimate Partner Sexual Abuse                                     ,SRH (Non Contraception) Service Specific Counselling,261291429
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2915,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Intimate Partner Physical  Abuse                                ,SRH (Non Contraception) Service Specific Counselling,261291529
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2916,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Intimate Partner Emotional Abuse                              ,SRH (Non Contraception) Service Specific Counselling,261291629
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2917,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - NonIntimate Partner Sexual Assault/Rape                       ,SRH (Non Contraception) Service Specific Counselling,261291729
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2918,Other SRH counseling,Counselling - GBV,29,Counselling - GBV - Screening Only  - Gender Based Violence (GBV)                       ,SRH (Non Contraception) Service Specific Counselling,261291829
+2,SRH Non Family Planning,61,Other Specialized Counselling - Gender Based Violence,2919,Other SRH counseling,Counselling - GBV,99,Counselling - GBV - Other/Generic Services                    ,SRH (Non Contraception) - Generic Services,261291999
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2920,Other SRH counseling,Counselling - Domestic Violence,00,ALL COUNSELLING - DOMESTIC VIOLENCE,Control Account - Total,262292000
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2921,Other SRH counseling,Counselling - Domestic Violence,29,"Counselling - Domestic Violence, Child Abuse                                    ",SRH (Non Contraception) Service Specific Counselling,262292129
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2922,Other SRH counseling,Counselling - Domestic Violence,29,"Counselling - Domestic Violence, Screening  Only Child Abuse                                    ",SRH (Non Contraception) Service Specific Counselling,262292229
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2929,Other SRH counseling,Counselling - Domestic Violence,99,Counselling - Domestic Violence - Other/Generic Services,SRH (Non Contraception) - Generic Services,262292999
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2930,Other SRH counseling,Counselling - Family,00,ALL COUNSELLING - FAMILY ,Control Account - Total,262293000
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2931,Other SRH counseling,Counselling - Family,29,Counselling - Family - Parent/Child Relationship,SRH (Non Contraception) Service Specific Counselling,262293129
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2932,Other SRH counseling,Counselling - Family,29,Counselling - Family- Family Conflict,SRH (Non Contraception) Service Specific Counselling,262293229
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2933,Other SRH counseling,Counselling - Family,29,"Counselling - Family, Delinquency",SRH (Non Contraception) Service Specific Counselling,262293329
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2939,Other SRH counseling,Counselling - Family,99,Counselling - Family - Other/Generic Services,SRH (Non Contraception) - Generic Services,262293999
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2940,Other SRH counseling,Counselling - Pre Marital/Marital,00,ALL COUNSELLING - PRE-MARITAL / MARITAL,Control Account - Total,262294000
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2941,Other SRH counseling,Counselling - Pre Marital/Marital,29,Counselling - Pre-Marital including Pre-Marital Family Planning,SRH (Non Contraception) Service Specific Counselling,262294129
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2942,Other SRH counseling,Counselling - Pre Marital/Marital,29,"Counselling - Marital - Relationship, Partner Negotiation",SRH (Non Contraception) Service Specific Counselling,262294229
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2943,Other SRH counseling,Counselling - Pre Marital/Marital,29,Counselling - Marital - Sexuality / Sexual Disfunction,SRH (Non Contraception) Service Specific Counselling,262294329
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2949,Other SRH counseling,Counselling - Pre Marital/Marital,99,Counselling - Marital - Other/Generic Services,SRH (Non Contraception) - Generic Services,262294999
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2950,Other SRH counseling,Counselling - Youth (<25 yr),00,ALL COUNSELLING - YOUTH (less than 25 yrs),Control Account - Total,262295000
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2951,Other SRH counseling,Counselling - Youth (<25 yr),29,Counselling - Youth - Life Skills Counseling,SRH (Non Contraception) Service Specific Counselling,262295129
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2952,Other SRH counseling,Counselling - Youth (<25 yr),29,Counselling - Youth - Sexuality,SRH (Non Contraception) Service Specific Counselling,262295229
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2953,Other SRH counseling,Counselling - Youth (<25 yr),29,Counselling - Youth - Telephone / Internet Hotline Counseling,SRH (Non Contraception) Service Specific Counselling,262295329
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2954,Other SRH counseling,Counselling - Youth (<25 yr),29,Counselling - Youth - SRH Counselling,SRH (Non Contraception) Service Specific Counselling,262295429
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2959,Other SRH counseling,Counselling - Youth (<25 yr),99,Counselling - Youth - Other/Generic Services,SRH (Non Contraception) - Generic Services,262295999
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2960,Other SRH counseling,Counselling - Male,00,ALL COUNSELLING - MALE,Control Account - Total,262296000
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2961,Other SRH counseling,Counselling - Male,29,Counselling - Male - SRH Counselling,SRH (Non Contraception) Service Specific Counselling,262296129
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2962,Other SRH counseling,Counselling - Male,29,Counselling - Male - Sexuality,SRH (Non Contraception) Service Specific Counselling,262296229
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2963,Other SRH counseling,Counselling - Male,29,Counselling - Male - GBV,SRH (Non Contraception) Service Specific Counselling,262296329
+2,SRH Non Family Planning,62,Other Specialized Counselling - Family/Marital Relationship,2969,Other SRH counseling,Counselling - Male,99,Counselling - Male - Other/Generic Services,SRH (Non Contraception) - Generic Services,262296999
+2,SRH Non Family Planning,63,Other Specialized Counselling - Other counselling services,2970,Other SRH counseling,Counselling - Other,00,ALL COUNSELLING SERVICES (OTHER),Control Account - Total,263297000
+2,SRH Non Family Planning,63,Other Specialized Counselling - Other counselling services,2971,Other SRH counseling,Counselling - Other,29,Counseling - Other - Sexuality Issues ( 25 years and over),SRH (Non Contraception) Service Specific Counselling,263297129
+2,SRH Non Family Planning,63,Other Specialized Counselling - Other counselling services,2979,Other SRH counseling,Counselling - Other,99,Counseling - Other/Generic Services,SRH (Non Contraception) - Generic Services,263297999
+2,SRH Non Family Planning,69,Other SRH Medical Services,2980,Other SRH medical,Total (All medical services),00,ALL OTHER SRH MEDICAL SERVICES,Control Account - Total,269298000
+2,SRH Non Family Planning,69,Other SRH Medical Services,2981,Other SRH medical,Total (All medical services),20,Other SRH Medical Services - Consultation,SRH Medical Specialties - Consult (Initial/Follow up ),269298120
+2,SRH Non Family Planning,69,Other SRH Medical Services,2982,Other SRH medical,Total (All medical services),21,Other SRH Medical Services - Diagnostic Test,SRH Medical Specialties - Diagnostic Test/Exam,269298221
+2,SRH Non Family Planning,69,Other SRH Medical Services,2983,Other SRH medical,Total (All medical services),22,Other SRH Medical Services - Therapy / Treatment,SRH Medical Specialties - Therapy / Treatment,269298322
+2,SRH Non Family Planning,69,Other SRH Medical Services,2984,Other SRH medical,Total (All medical services),23,Other SRH Medical Services - Surgery,SRH Medical Specialties - Surgery,269298423
+2,SRH Non Family Planning,69,Other SRH Medical Services,2989,Other SRH medical,Total (All medical services),99,Other SRH Medical Services - Other/Generic Services,SRH (Non Contraception) - Generic Services,269298999
+3,NON SRH Medical,70,Medical Specialties,0000,Other SRH medical,Total medical specialties,00,ALL MEDICAL SPECIALTY SERVICIES,Control Account - Total,370000000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3000,Other SRH medical,Total system oriented services,00,ALL MEDICAL SPECIALTIES - SYSTEM ORIENTED SERVICES,,371300000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3009,Other SRH medical,Total system oriented services,99,Medical Specialties - System Oriented Services - Other/Generic Services,,371300999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3010,Other SRH medical,SOS - Angiology,00,ALL ANGIOLOGY,Control Account - Total,371301000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3011,Other SRH medical,SOS - Angiology,30,Angiology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371301130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3012,Other SRH medical,SOS - Angiology,31,Angiology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371301231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3013,Other SRH medical,SOS - Angiology,32,Angiology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371301332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3014,Other SRH medical,SOS - Angiology,33,Angiology - Surgery,NON SRH Medical Specialties - Surgery,371301433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3019,Other SRH medical,SOS - Angiology,99,Angiology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371301999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3110,Other SRH medical,SOS - Cardiology,00,ALL CARDIOLOGY,Control Account - Total,371311000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3111,Other SRH medical,SOS - Cardiology,30,Cardiology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371311130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3112,Other SRH medical,SOS - Cardiology,31,Cardiology - Diagnostic EKG,NON SRH Medical Specialties - Diagnostic Test/Exam,371311231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3113,Other SRH medical,SOS - Cardiology,32,Cardiology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371311332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3114,Other SRH medical,SOS - Cardiology,33,Cardiology - Surgery,NON SRH Medical Specialties - Surgery,371311433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3119,Other SRH medical,SOS - Cardiology,99,Cardiology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371311999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3210,Other SRH medical,SOS - Dentistry,00,ALL DENTISTRY,Control Account - Total,371321000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3211,Other SRH medical,SOS - Dentistry,31,Dentistry - Diagnosis,NON SRH Medical Specialties - Diagnostic Test/Exam,371321131
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3212,Other SRH medical,SOS - Dentistry,32,Dentistry -Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371321232
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3213,Other SRH medical,SOS - Dentistry,32,Dentistry - Orthodontics,NON SRH Medical Specialties - Therapy / Treatment,371321332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3214,Other SRH medical,SOS - Dentistry,32,Dentistry - Periodontics,NON SRH Medical Specialties - Therapy / Treatment,371321432
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3215,Other SRH medical,SOS - Dentistry,33,Dentistry - Surgery,NON SRH Medical Specialties - Surgery,371321533
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3219,Other SRH medical,SOS - Dentistry,99,Dentistry - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371321999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3310,Other SRH medical,SOS - Dermatology,00,ALL DERMATOLOGY,Control Account - Total,371331000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3311,Other SRH medical,SOS - Dermatology,30,Dermatology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371331130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3312,Other SRH medical,SOS - Dermatology,31,Dermatology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371331231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3313,Other SRH medical,SOS - Dermatology,32,Dermatology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371331332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3314,Other SRH medical,SOS - Dermatology,33,Dermatology - Surgery,NON SRH Medical Specialties - Surgery,371331433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3319,Other SRH medical,SOS - Dermatology,99,Dermatology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371331999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3410,Other SRH medical,SOS - Endocrinology,00,ALL ENDOCRINOLOGY,Control Account - Total,371341000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3411,Other SRH medical,SOS - Endocrinology,30,Endocrinology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371341130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3412,Other SRH medical,SOS - Endocrinology,31,Endocrinology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371341231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3413,Other SRH medical,SOS - Endocrinology,32,Endocrinology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371341332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3414,Other SRH medical,SOS - Endocrinology,33,Endocrinology - Surgery,NON SRH Medical Specialties - Surgery,371341433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3419,Other SRH medical,SOS - Endocrinology,99,Endocrinology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371341999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3510,Other SRH medical,SOS - Gastroenterology,00,ALL GASTROENTEROLOGY,Control Account - Total,371351000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3511,Other SRH medical,SOS - Gastroenterology,30,Gastroenterology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371351130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3512,Other SRH medical,SOS - Gastroenterology,31,Gastroenterology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371351231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3513,Other SRH medical,SOS - Gastroenterology,32,Gastroenterology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371351332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3514,Other SRH medical,SOS - Gastroenterology,33,Gastroenterology - Surgery,NON SRH Medical Specialties - Surgery,371351433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3519,Other SRH medical,SOS - Gastroenterology,99,Gastroenterology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371351999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3610,Other SRH medical,SOS - Genetics,00,ALL GENETICS,Control Account - Total,371361000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3611,Other SRH medical,SOS - Genetics,29,Genetics - Counselling,SRH (Non Contraception) Service Specific Counselling,371361129
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3612,Other SRH medical,SOS - Genetics,30,Genetics - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371361230
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3613,Other SRH medical,SOS - Genetics,31,Genetics - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371361331
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3614,Other SRH medical,SOS - Genetics,32,Genetics - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371361432
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3619,Other SRH medical,SOS - Genetics,99,Genetics - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371361999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3710,Other SRH medical,SOS - Nephrology,00,ALL NEPHROLOGY,Control Account - Total,371371000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3711,Other SRH medical,SOS - Nephrology,30,Nephrology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371371130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3712,Other SRH medical,SOS - Nephrology,31,Nephrology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371371231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3713,Other SRH medical,SOS - Nephrology,32,Nephrology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371371332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3714,Other SRH medical,SOS - Nephrology,33,Nephrology - Surgery,NON SRH Medical Specialties - Surgery,371371433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3719,Other SRH medical,SOS - Nephrology,99,Nephrology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371371999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3810,Other SRH medical,SOS - Neumology,00,ALL NEUMOLOGY,Control Account - Total,371381000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3811,Other SRH medical,SOS - Neumology,30,Neumology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371381130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3812,Other SRH medical,SOS - Neumology,31,Neumology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,371381231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3813,Other SRH medical,SOS - Neumology,32,Neumology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371381332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3814,Other SRH medical,SOS - Neumology,33,Neumology - Surgery,NON SRH Medical Specialties - Surgery,371381433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3819,Other SRH medical,SOS - Neumology,99,Neumology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371381999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3910,Other SRH medical,SOS - Neurology,00,ALL NEUROLOGY,Control Account - Total,371391000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3911,Other SRH medical,SOS - Neurology,30,Neurology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371391130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3912,Other SRH medical,SOS - Neurology,31,Neurology - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371391231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3913,Other SRH medical,SOS - Neurology,32,Neurology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371391332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3914,Other SRH medical,SOS - Neurology,33,Neurology - Surgery,NON SRH Medical Specialties - Surgery,371391433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,3919,Other SRH medical,SOS - Neurology,99,Neurology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371391999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4010,Other SRH medical,SOS - Ophtalmology,00,ALL OPHTALMOLOGY,Control Account - Total,371401000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4011,Other SRH medical,SOS - Ophtalmology,30,Ophtalmology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371401130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4012,Other SRH medical,SOS - Ophtalmology,31,Ophtalmology - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371401231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4013,Other SRH medical,SOS - Ophtalmology,32,Ophtalmology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371401332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4014,Other SRH medical,SOS - Ophtalmology,33,Ophtalmology - Surgery,NON SRH Medical Specialties - Surgery,371401433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4019,Other SRH medical,SOS - Ophtalmology,99,Ophtalmology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371401999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4110,Other SRH medical,SOS - Orthopedics,00,ALL ORTHOPEDICS,Control Account - Total,371411000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4111,Other SRH medical,SOS - Orthopedics,30,Orthopedics - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371411130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4112,Other SRH medical,SOS - Orthopedics,31,Orthopedics - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371411231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4113,Other SRH medical,SOS - Orthopedics,32,Orthopedics - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371411332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4114,Other SRH medical,SOS - Orthopedics,33,Orthopedics - Surgery,NON SRH Medical Specialties - Surgery,371411433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4119,Other SRH medical,SOS - Orthopedics,99,Orthopedics - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371411999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4210,Other SRH medical,SOS - Othorhinolarigology,00,ALL OTHORHINOLARINGOLOGY,Control Account - Total,371421000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4211,Other SRH medical,SOS - Othorhinolarigology,30,Othorhinolaringology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371421130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4212,Other SRH medical,SOS - Othorhinolarigology,31,Othorhinolaringology - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371421231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4213,Other SRH medical,SOS - Othorhinolarigology,32,Othorhinolaringology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371421332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4214,Other SRH medical,SOS - Othorhinolarigology,33,Othorhinolaringology - Surgery,NON SRH Medical Specialties - Surgery,371421433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4219,Other SRH medical,SOS - Othorhinolarigology,99,Othorhinolaringology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371421999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4310,Other SRH medical,SOS - Podology,00,ALL PODOLOGY,Control Account - Total,371431000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4311,Other SRH medical,SOS - Podology,30,Podology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371431130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4312,Other SRH medical,SOS - Podology,31,Podology - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371431231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4313,Other SRH medical,SOS - Podology,32,Podology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371431332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4314,Other SRH medical,SOS - Podology,33,Podology - Surgery,NON SRH Medical Specialties - Surgery,371431433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4319,Other SRH medical,SOS - Podology,99,Podology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371431999
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4410,Other SRH medical,SOS - Rheumatology,00,ALL RHEUMATOLOGY,Control Account - Total,371441000
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4411,Other SRH medical,SOS - Rheumatology,30,Rheumatology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),371441130
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4412,Other SRH medical,SOS - Rheumatology,31,Rheumatology - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,371441231
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4413,Other SRH medical,SOS - Rheumatology,32,Rheumatology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,371441332
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4414,Other SRH medical,SOS - Rheumatology,33,Rheumatology - Surgery,NON SRH Medical Specialties - Surgery,371441433
+3,NON SRH Medical,71,Medical Specialties - System Oriented,4419,Other SRH medical,SOS - Rheumatology,99,Rheumatology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,371441999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5000,Other SRH medical,Total Disease Oriented Services,00,ALL MEDICAL SPECIALTIES - DISEASE ORIENTED SERVICES,Control Account - Total,372500000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5009,Other SRH medical,Total Disease Oriented Services,99,Medical Specialties - Disease Oriented Services - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372500999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5010,Other SRH medical,DOS - Optometry,00,ALL OPTOMETRY,Control Account - Total,372501000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5011,Other SRH medical,DOS - Optometry,30,Optometry - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),372501130
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5012,Other SRH medical,DOS - Optometry,31,Optometry - Diagnostic Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,372501231
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5019,Other SRH medical,DOS - Optometry,99,Optometry - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372501999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5110,Other SRH medical,DOS - Psychiatry,00,ALL PSYCHIATRY,Control Account - Total,372511000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5111,Other SRH medical,DOS - Psychiatry,31,Psychiatry - Diagnostic consultation,NON SRH Medical Specialties - Diagnostic Test/Exam,372511131
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5112,Other SRH medical,DOS - Psychiatry,32,Psychiatry - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,372511232
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5119,Other SRH medical,DOS - Psychiatry,99,Psychiatry - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372511999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5210,Other SRH medical,DOS - Psychology,00,ALL PSYCHOLOGY,Control Account - Total,372521000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5211,Other SRH medical,DOS - Psychology,31,Psychology - Diagnostic consultation,NON SRH Medical Specialties - Diagnostic Test/Exam,372521131
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5212,Other SRH medical,DOS - Psychology,32,Psychology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,372521232
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5219,Other SRH medical,DOS - Psychology,99,Psychology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372521999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5310,Other SRH medical,DOS - Radiology,00,ALL RADIOLOGY,Control Account - Total,372531000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5311,Other SRH medical,DOS - Radiology,31,Radiology - Diagnostic Imaging,NON SRH Medical Specialties - Diagnostic Test/Exam,372531131
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5312,Other SRH medical,DOS - Radiology,32,Radiology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,372531232
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5319,Other SRH medical,DOS - Radiology,99,Radiology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372531999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5410,Other SRH medical,DOS - Oncology,00,ALL ONCOLOGY,Control Account - Total,372541000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5411,Other SRH medical,DOS - Oncology,31,Oncology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,372541131
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5412,Other SRH medical,DOS - Oncology,32,Oncology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,372541232
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5413,Other SRH medical,DOS - Oncology,33,Oncology - Surgery,NON SRH Medical Specialties - Surgery,372541333
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5419,Other SRH medical,DOS - Oncology,99,Oncology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372541999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5510,Other SRH medical,DOS - Allergy,00,ALL ALLERGY,Control Account - Total,372551000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5511,Other SRH medical,DOS - Allergy,30,Allergy - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),372551130
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5512,Other SRH medical,DOS - Allergy,31,Allergy - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,372551231
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5513,Other SRH medical,DOS - Allergy,32,Allergy - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,372551332
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5519,Other SRH medical,DOS - Allergy,99,Allergy - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372551999
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5610,Other SRH medical,DOS - Immunology,00,ALL IMMUNOLOGY,Control Account - Total,372561000
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5611,Other SRH medical,DOS - Immunology,30,Immunology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),372561130
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5612,Other SRH medical,DOS - Immunology,31,Immunology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,372561231
+3,NON SRH Medical,72,Medical Specialties - Disease Oriented,5619,Other SRH medical,DOS - Immunology,99,Immunology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,372561999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6000,Other SRH medical,Total Community Oriented Serv,00,ALL MEDICAL SPECIALTIES - COMMUNITY ORIENTED SERVICES,Control Account - Total,373600000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6009,Other SRH medical,Total Community Oriented Serv,99,Medical Specialties - Community Oriented Services - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373600999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6010,Other SRH medical,COS - Family Health,00,ALL FAMILY HEALTH,Control Account - Total,373601000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6011,Other SRH medical,COS - Family Health,31,Family Health -  Hypertension Screening,NON SRH Medical Specialties - Diagnostic Test/Exam,373601131
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6012,Other SRH medical,COS - Family Health,31,Family Health -  Physical Exam,NON SRH Medical Specialties - Diagnostic Test/Exam,373601231
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6013,Other SRH medical,COS - Family Health,31,Family Health -  Weight & Vital Signs,NON SRH Medical Specialties - Diagnostic Test/Exam,373601331
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6014,Other SRH medical,COS - Family Health,31,Family Health -  Diabetes Screening,NON SRH Medical Specialties - Diagnostic Test/Exam,373601431
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6015,Other SRH medical,COS - Family Health,31,Family Health -  Urinalysis,NON SRH Medical Specialties - Diagnostic Test/Exam,373601531
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6016,Other SRH medical,COS - Family Health,31,Family Health -  Cholesterol screening,NON SRH Medical Specialties - Diagnostic Test/Exam,373601631
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6017,Other SRH medical,COS - Family Health,29,Family Health -  Nutrition Counseling,SRH (Non Contraception) Service Specific Counselling,373601729
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6018,Other SRH medical,COS - Family Health,29,Family Health -  Diet/Weight Control Counseling,SRH (Non Contraception) Service Specific Counselling,373601829
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6019,Other SRH medical,COS - Family Health,99,Family Health - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373601999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6210,Other SRH medical,COS - Geriatrics,00,ALL GERIATRICS,Control Account - Total,373621000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6211,Other SRH medical,COS - Geriatrics,30,Geriatrics - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),373621130
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6212,Other SRH medical,COS - Geriatrics,31,Geriatrics - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,373621231
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6213,Other SRH medical,COS - Geriatrics,32,Geriatrics - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,373621332
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6319,Other SRH medical,COS - Geriatrics,99,Geriatrics - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373631999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6410,Other SRH medical,COS - Pediatrics,00,ALL PEDIATRICS,Control Account - Total,373641000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6411,Other SRH medical,COS - Pediatrics,30,Pediatrics - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),373641130
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6412,Other SRH medical,COS - Pediatrics,31,Pediatrics - Diagnostic - Neonatal Screening (at Birth),NON SRH Medical Specialties - Diagnostic Test/Exam,373641231
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6413,Other SRH medical,COS - Pediatrics,31,Pediatrics - Diagnostic - Well Baby Care / Infant Health Check,NON SRH Medical Specialties - Diagnostic Test/Exam,373641331
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6414,Other SRH medical,COS - Pediatrics,32,Pediatrics - Therapy / Treatment - Nutrition,NON SRH Medical Specialties - Therapy / Treatment,373641432
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6415,Other SRH medical,COS - Pediatrics,32,Pediatrics - Therapy / Treatment - Immunization,NON SRH Medical Specialties - Therapy / Treatment,373641532
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6416,Other SRH medical,COS - Pediatrics,32,Pediatrics - Therapy / Treatment - Oral rehydration (ORT/ORS),NON SRH Medical Specialties - Therapy / Treatment,373641632
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6417,Other SRH medical,COS - Pediatrics,32,Pediatrics - Therapy / Treatment - Neonatal Intensive Care,NON SRH Medical Specialties - Therapy / Treatment,373641732
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6418,Other SRH medical,COS - Pediatrics,33,Pediatrics - Surgery - Circumcision,NON SRH Medical Specialties - Surgery,373641833
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6419,Other SRH medical,COS - Pediatrics,99,Pediatrics - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373641999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6610,Other SRH medical,COS - Physical Med & Rehab,00,ALL PHYSICAL MEDICINE & REHABILITATION,Control Account - Total,373661000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6611,Other SRH medical,COS - Physical Med & Rehab,30,Physical Medicine & Rehabilitation - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),373661130
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6612,Other SRH medical,COS - Physical Med & Rehab,31,Physical Medicine & Rehabilitation - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,373661231
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6613,Other SRH medical,COS - Physical Med & Rehab,32,Physical Medicine & Rehabilitation - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,373661332
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6614,Other SRH medical,COS - Physical Med & Rehab,33,Physical Medicine & Rehabilitation - Surgery,NON SRH Medical Specialties - Surgery,373661433
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6619,Other SRH medical,COS - Physical Med & Rehab,99,Physical Medicine & Rehabilitation - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373661999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6710,Other SRH medical,COS - Preventive Medicine,00,ALL PREVENTIVE MEDICINE,Control Account - Total,373671000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6711,Other SRH medical,COS - Preventive Medicine,30,Preventive Medicine - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),373671130
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6712,Other SRH medical,COS - Preventive Medicine,31,Preventive Medicine - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,373671231
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6719,Other SRH medical,COS - Preventive Medicine,99,Preventive Medicine - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373671999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6810,Other SRH medical,COS - Emergency Medicine,00,ALL EMERGENCY MEDICINE,Control Account - Total,373681000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6811,Other SRH medical,COS - Emergency Medicine,31,Emergency Medicine - Evaluation,NON SRH Medical Specialties - Diagnostic Test/Exam,373681131
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6812,Other SRH medical,COS - Emergency Medicine,32,Emergency Medicine - Initial Treatment,NON SRH Medical Specialties - Therapy / Treatment,373681232
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6813,Other SRH medical,COS - Emergency Medicine,33,Emergency Medicine - Emergency Surgery,NON SRH Medical Specialties - Surgery,373681333
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6819,Other SRH medical,COS - Emergency Medicine,99,Emergency Medicine - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373681999
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6910,Other SRH medical,COS - Hospitalization,00,ALL HOSPITALIZATION,Control Account - Total,373691000
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6911,Other SRH medical,COS - Hospitalization,40,Hospitalization - Ambulatory (1 day),Hospitalization - Ambulatory,373691140
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6912,Other SRH medical,COS - Hospitalization,41,Hospitalization - Extended (>1day),Hospitalization - Extended,373691241
+3,NON SRH Medical,73,Medical Specialties - Community Oriented,6919,Other SRH medical,COS - Hospitalization,99,Hospitalization - Other/Generic Services,NON SRH Medical Specialties - Generic Services,373691999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7000,Other SRH medical,Total Diag/Therapeutic Proced,00,ALL MEDICAL SPECIALTIES DIAGNOSTIC/THERAPEUTIC PROCEDURES,Control Account - Total,374700000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7009,Other SRH medical,Total Diag/Therapeutic Proced,99,Medical Specialties - Diagnostic/Therapeutic Procedures - Other/Generic Services - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374700999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7010,Other SRH medical,DTP - Hematology,00,ALL HEMATOLOGY,Control Account - Total,374701000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7011,Other SRH medical,DTP - Hematology,30,Hematology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),374701130
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7012,Other SRH medical,DTP - Hematology,31,Hematology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,374701231
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7013,Other SRH medical,DTP - Hematology,32,Hematology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,374701332
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7119,Other SRH medical,DTP - Hematology,99,Hematology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374711999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7210,Other SRH medical,DTP - Toxicology,00,ALL TOXICOLOGY,Control Account - Total,374721000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7211,Other SRH medical,DTP - Toxicology,30,Toxicology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),374721130
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7212,Other SRH medical,DTP - Toxicology,31,Toxicology - Diagnostic tests,NON SRH Medical Specialties - Diagnostic Test/Exam,374721231
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7213,Other SRH medical,DTP - Toxicology,32,Toxicology - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,374721332
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7319,Other SRH medical,DTP - Toxicology,99,Toxicology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374731999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7410,Other SRH medical,DTP - Chemical Pathology,00,ALL CHEMICAL PATHOLOGY LAB TESTS,Control Account - Total,374741000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7411,Other SRH medical,DTP - Chemical Pathology,30,Chemical Patology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),374741130
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7412,Other SRH medical,DTP - Chemical Pathology,31,Chemical Patology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,374741231
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7519,Other SRH medical,DTP - Chemical Pathology,99,Chemical Patology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374751999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7610,Other SRH medical,DTP - Pathology,00,ALL PATHOLOGY LAB TESTS,Control Account - Total,374761000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7611,Other SRH medical,DTP - Pathology,30,Pathology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),374761130
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7612,Other SRH medical,DTP - Pathology,31,Pathology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,374761231
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7719,Other SRH medical,DTP - Pathology,99,Pathology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374771999
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7810,Other SRH medical,DTP - Microbiology,00,ALL MICROBIOLOGY,Control Account - Total,374781000
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7811,Other SRH medical,DTP - Microbiology,30,Microbiology - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),374781130
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7812,Other SRH medical,DTP - Microbiology,31,Microbiology - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,374781231
+3,NON SRH Medical,74,Medical Specialties - Diagnostic/Therapeutic Procedures,7919,Other SRH medical,DTP - Microbiology,99,Microbiology - Other/Generic Services,NON SRH Medical Specialties - Generic Services,374791999
+3,NON SRH Medical,75,Medical Specialties - Other,8000,Other SRH medical,Total Other Medical Specialties,00,ALL MEDICAL SPECIALTIES - OTHER SERVICES,Control Account - Total,375800000
+3,NON SRH Medical,75,Medical Specialties - Other,8009,Other SRH medical,Total Other Medical Specialties,99,Medical Specialties - Other Services - Other/Generic Services,NON SRH Medical Specialties - Generic Services,375800999
+3,NON SRH Medical,75,Medical Specialties - Other,8010,Other SRH medical,OMS - Chiropractice,00,ALL CHIROPRACTICE,Control Account - Total,375801000
+3,NON SRH Medical,75,Medical Specialties - Other,8011,Other SRH medical,OMS - Chiropractice,30,Chiropractice - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),375801130
+3,NON SRH Medical,75,Medical Specialties - Other,8012,Other SRH medical,OMS - Chiropractice,32,Chiropractice - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,375801232
+3,NON SRH Medical,75,Medical Specialties - Other,8019,Other SRH medical,OMS - Chiropractice,99,Chiropractice - Other/Generic Services,NON SRH Medical Specialties - Generic Services,375801999
+3,NON SRH Medical,75,Medical Specialties - Other,8110,Other SRH medical,OMS - Osteophaty,00,ALL OSTEOPHATY,Control Account - Total,375811000
+3,NON SRH Medical,75,Medical Specialties - Other,8111,Other SRH medical,OMS - Osteophaty,30,Osteophaty - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),375811130
+3,NON SRH Medical,75,Medical Specialties - Other,8112,Other SRH medical,OMS - Osteophaty,32,Osteophaty - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,375811232
+3,NON SRH Medical,75,Medical Specialties - Other,8113,Other SRH medical,OMS - Osteophaty,31,Osteophaty - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,375811331
+3,NON SRH Medical,75,Medical Specialties - Other,8119,Other SRH medical,OMS - Osteophaty,99,Osteophaty - Other/Generic Services,NON SRH Medical Specialties - Generic Services,375811999
+3,NON SRH Medical,75,Medical Specialties - Other,8210,Other SRH medical,OMS - Plastic Surgery,00,ALL PLASTIC SURGERY,Control Account - Total,375821000
+3,NON SRH Medical,75,Medical Specialties - Other,8211,Other SRH medical,OMS - Plastic Surgery,30,Plastic Surgery - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),375821130
+3,NON SRH Medical,75,Medical Specialties - Other,8212,Other SRH medical,OMS - Plastic Surgery,32,Plastic Surgery - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,375821232
+3,NON SRH Medical,75,Medical Specialties - Other,8213,Other SRH medical,OMS - Plastic Surgery,33,Plastic Surgery - Surgery,NON SRH Medical Specialties - Surgery,375821333
+3,NON SRH Medical,75,Medical Specialties - Other,8219,Other SRH medical,OMS - Plastic Surgery,99,Plastic Surgery - Other/Generic Services,NON SRH Medical Specialties - Generic Services,375821999
+3,NON SRH Medical,75,Medical Specialties - Other,8310,Other SRH medical,OMS - Other Non SRH Med,00,ALL OTHER NON SRH MEDICAL SERVICES,Control Account - Total,375831000
+3,NON SRH Medical,75,Medical Specialties - Other,8311,Other SRH medical,OMS - Other Non SRH Med,30,Other Non SRH Medical Services - Consultation,NON SRH Medical Specialties - Consult (Initial/Follow up ),375831130
+3,NON SRH Medical,75,Medical Specialties - Other,8312,Other SRH medical,OMS - Other Non SRH Med,31,Other Non SRH Medical Services - Diagnostic Test,NON SRH Medical Specialties - Diagnostic Test/Exam,375831231
+3,NON SRH Medical,75,Medical Specialties - Other,8313,Other SRH medical,OMS - Other Non SRH Med,32,Other Non SRH Medical Services - Therapy / Treatment,NON SRH Medical Specialties - Therapy / Treatment,375831332
+3,NON SRH Medical,75,Medical Specialties - Other,8314,Other SRH medical,OMS - Other Non SRH Med,33,Other Non SRH Medical Services - Surgery,NON SRH Medical Specialties - Surgery,375831433
+3,NON SRH Medical,75,Medical Specialties - Other,8315,Other SRH medical,OMS - Other Non SRH Med,39,Other Non SRH Medical Services - Counselling,NON SRH Medical Specialties - Service Specific Counselling,375831539
+3,NON SRH Medical,75,Medical Specialties - Other,8319,Other SRH medical,OMS - Other Non SRH Med,99,Other Non SRH Medical Services - Other/Generic Services,NON SRH Medical Specialties - Generic Services,375831999
+3,NON SRH Medical,80,Other NON SRH Services,9100,Other SRH medical,Total Other Non SRH Services,00,ALL OTHER NON SRH SERVICES,Control Account - Total,380910000
+3,NON SRH Medical,80,Other NON SRH Services,9109,Other SRH medical,Total Other Non SRH Services,99,ALL OTHER NON SRH SERVICES - Other/Generic Services,All Other Non SRH Services - Generic Services,380910999
+3,NON SRH Medical,80,Other NON SRH Services,9110,Other SRH medical,Total Sales & Rentals,00,ALL SALES & RENTALS,Control Account - Total,380911000
+3,NON SRH Medical,80,Other NON SRH Services,9119,Other SRH medical,Total Sales & Rentals,99,Sales & Rentals - Other/Generic Services,All Other Non SRH Services - Generic Services,380911999
+3,NON SRH Medical,81,Other NON SRH Services - Sales,9120,Other SRH medical,"Sales of Medicines, Supplies & Equipment",00,"ALL SALES OF MEDICINES, SUPPLIES AND EQUIPMENT",Sales,381912000
+3,NON SRH Medical,81,Other NON SRH Services - Sales,9121,Other SRH medical,"Sales of Medicines, Supplies & Equipment",50,Sales of Medicines,Sales,381912150
+3,NON SRH Medical,81,Other NON SRH Services - Sales,9122,Other SRH medical,"Sales of Medicines, Supplies & Equipment",50,Sales Medical Supplies,Sales,381912250
+3,NON SRH Medical,81,Other NON SRH Services - Sales,9123,Other SRH medical,"Sales of Medicines, Supplies & Equipment",50,Sales Medical Equipment,Sales,381912350
+3,NON SRH Medical,81,Other NON SRH Services - Sales,9139,Other SRH medical,"Sales of Medicines, Supplies & Equipment",99,Sales - Other/Generic Services,All Other Non SRH Services - Generic Services,381913999
+3,NON SRH Medical,82,Other NON SRH Services - Rentals,9140,Other SRH medical,Rental Equipment & Infrastructure,00,ALL RENTAL OF MEDICAL EQUIPMENT / INFRASTRUCTURE,Rentals,382914000
+3,NON SRH Medical,82,Other NON SRH Services - Rentals,9144,Other SRH medical,Rental Equipment & Infrastructure,50,Rental Medical Equipment ,Rentals,382914450
+3,NON SRH Medical,82,Other NON SRH Services - Rentals,9145,Other SRH medical,Rental Equipment & Infrastructure,50,Rental Medical Infrastructure,Rentals,382914550
+3,NON SRH Medical,82,Other NON SRH Services - Rentals,9159,Other SRH medical,Rental Equipment & Infrastructure,99,Rental Medical Equipment / Infrastructure - Other/Generic Services,Rentals,382915999
+4,NON SRH Non-Medical,90,Non-Medical Products & Services,0000,Other SRH non-medical,,00,ALL NON-MEDICAL PRODUCTS AND SERVICES,Control Account - Total,490000000
+4,NON SRH Non-Medical,91,Non-Medical Products & Services,9900,Other SRH non-medical,Total Other Non Medical,00,ALL OTHER NON MEDICAL PRODUCTS & SERVICES,Control Account - Total,491990000
+4,NON SRH Non-Medical,91,Non-Medical Products & Services,9901,Other SRH non-medical,Total Other Non Medical,90,Other Non Medical Products & Services - Sales of IEC Materials,Other Non-Medical ,491990190
+4,NON SRH Non-Medical,91,Non-Medical Products & Services,9909,Other SRH non-medical,Total Other Non Medical,99,Other Non Medical Products & Services - Other Generic Products,,491990999
+4,NON SRH Non-Medical,92,Non-Medical Products & Services,9920,Other SRH non-medical,Total Other Non Medical,90,Other Non Medical Products & Services - Sales of IEC Services,,492992090
+4,NON SRH Non-Medical,92,Non-Medical Products & Services,9929,Other SRH non-medical,Total Other Non Medical,99,Other Non Medical Products & Services - Other/Generic Services,All Other Non SRH Services - Generic Services,492992999
